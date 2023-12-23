@@ -64,7 +64,37 @@ int type() {
     cout << "6) Baby Shower" << endl;
     return 0;
 }
-
-bool authenticateLogin(const login& user, string password2) {
-    return user.password == password2;
+// create the organization menu
+int menu() {
+    cout << endl;
+    cout << "1. Food Menu" << endl;
+    cout << "2. Cake Menu" << endl;
+    return 0;
+}
+// create the organization color type
+int color() {
+    cout << endl;
+    cout << "1. Pink and Blue\n";
+    cout << "2. Red and Black\n";
+    cout << "3. Cream color and Brown\n";
+    cout << "4. White and Black\n";
+    return 0;
+}
+// create the organization place
+int venue() {
+    cout << endl;
+    cout << "1. Indoor event hall\n";
+    cout << "2. Beach Side\n";
+    cout << "3. Countryside Organization\n";
+    return 0;
+}
+// List the user's choice
+int userPlan() {
+    choose create;
+    cout << endl;
+    cout << "Your type: " << create.type << endl;
+    cout << "Your venue: " << create.venue << endl;
+    cout << "Your color type: " << create.color << endl;
+    cout << "Your menu: " << create.menu << endl;
+    return 0;
 }
