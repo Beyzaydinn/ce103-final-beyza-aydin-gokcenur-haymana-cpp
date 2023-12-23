@@ -139,6 +139,37 @@ int main() {
             }
             break;
         } 
+        case 3: {
+            int attendees;
+            taskAssignment();
+            cout << "Make your choice: ";
+            cin >> attendees;
+            switch (attendees) {
+            case 1: {
+                int count;
+                cout << "Please enter the attendees number: ";
+                cin >> count;
+
+                // Consume the newline character left in the buffer
+                cin.ignore();
+
+                for (int i = 0; i < count; i++) {
+                    string fullname; // Change the variable type to string
+                    cout << "\n  Enter attendee's name and surname: ";
+                    getline(cin, fullname);
+                }
+                break;
+            }
+            case 2: {
+
+
+                break;
+            }
+            default:
+                cout << "Invalid choice. Please try again." << endl;
+            }
+            break;
+        }
 
 
 }
