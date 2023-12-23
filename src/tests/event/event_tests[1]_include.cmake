@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Useres/Desktop/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_tests[1]_tests.cmake")
+  include("C:/Users/Useres/Desktop/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_tests[1]_tests.cmake")
+else()
+  add_test(event_tests_NOT_BUILT event_tests_NOT_BUILT)
+endif()

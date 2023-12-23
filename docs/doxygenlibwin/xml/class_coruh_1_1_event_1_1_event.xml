@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_coruh_1_1_event_1_1_event" kind="class" language="C++" prot="public">
+    <compoundname>Coruh::Event::Event</compoundname>
+    <includes refid="event_8h" local="no">event.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_coruh_1_1_event_1_1_event_1a6289651d80a3c41554743f3b0a7889b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Event::add</definition>
+        <argsstring>(double a, double b)</argsstring>
+        <name>add</name>
+        <qualifiedname>Coruh::Event::Event::add</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds two numbers. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>First operand. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Second operand. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The sum of a and b. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/header/event.h" line="29" column="27" bodyfile="src/event/src/event.cpp" bodystart="6" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_coruh_1_1_event_1_1_event_1ab59ee540ee4e61c220b90fba97e900ac" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Event::subtract</definition>
+        <argsstring>(double a, double b)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>Coruh::Event::Event::subtract</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Subtracts the second number from the first. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Minuend. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Subtrahend. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The result of a - b. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/header/event.h" line="37" column="27" bodyfile="src/event/src/event.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_coruh_1_1_event_1_1_event_1a6a4e1fce5f8711e983c77bd9ab4344e1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Event::multiply</definition>
+        <argsstring>(double a, double b)</argsstring>
+        <name>multiply</name>
+        <qualifiedname>Coruh::Event::Event::multiply</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Multiplies two numbers. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>First operand. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Second operand. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The product of a and b. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/header/event.h" line="45" column="27" bodyfile="src/event/src/event.cpp" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_coruh_1_1_event_1_1_event_1a348222dea7abd1dc189222b27c7f0c5e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Event::divide</definition>
+        <argsstring>(double a, double b)</argsstring>
+        <name>divide</name>
+        <qualifiedname>Coruh::Event::Event::divide</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Divides the first number by the second. Throws std::invalid_argument if the second number is zero. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dividend. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Divisor. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The result of a / b. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::invalid_argument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If b is zero. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/header/event.h" line="55" column="27" bodyfile="src/event/src/event.cpp" bodystart="18" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides Basic functions for various operations. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Coruh::Event::Event</label>
+        <link refid="class_coruh_1_1_event_1_1_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/event/header/event.h" line="20" column="9" bodyfile="src/event/header/event.h" bodystart="21" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_coruh_1_1_event_1_1_event_1a6289651d80a3c41554743f3b0a7889b2" prot="public" virt="non-virtual"><scope>Coruh::Event::Event</scope><name>add</name></member>
+      <member refid="class_coruh_1_1_event_1_1_event_1a348222dea7abd1dc189222b27c7f0c5e" prot="public" virt="non-virtual"><scope>Coruh::Event::Event</scope><name>divide</name></member>
+      <member refid="class_coruh_1_1_event_1_1_event_1a6a4e1fce5f8711e983c77bd9ab4344e1" prot="public" virt="non-virtual"><scope>Coruh::Event::Event</scope><name>multiply</name></member>
+      <member refid="class_coruh_1_1_event_1_1_event_1ab59ee540ee4e61c220b90fba97e900ac" prot="public" virt="non-virtual"><scope>Coruh::Event::Event</scope><name>subtract</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

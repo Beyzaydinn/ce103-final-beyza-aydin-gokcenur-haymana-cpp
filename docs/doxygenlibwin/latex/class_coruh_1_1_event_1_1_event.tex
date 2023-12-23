@@ -1,0 +1,113 @@
+\doxysection{Coruh\+::Event\+::Event Class Reference}
+\hypertarget{class_coruh_1_1_event_1_1_event}{}\label{class_coruh_1_1_event_1_1_event}\index{Coruh::Event::Event@{Coruh::Event::Event}}
+
+
+Provides Basic functions for various operations.  
+
+
+
+
+{\ttfamily \#include $<$event.\+h$>$}
+
+
+
+Collaboration diagram for Coruh\+::Event\+::Event\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{class_coruh_1_1_event_1_1_event__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \mbox{\hyperlink{class_coruh_1_1_event_1_1_event_a6289651d80a3c41554743f3b0a7889b2}{add}} (double a, double b)
+\item 
+static double \mbox{\hyperlink{class_coruh_1_1_event_1_1_event_ab59ee540ee4e61c220b90fba97e900ac}{subtract}} (double a, double b)
+\item 
+static double \mbox{\hyperlink{class_coruh_1_1_event_1_1_event_a6a4e1fce5f8711e983c77bd9ab4344e1}{multiply}} (double a, double b)
+\item 
+static double \mbox{\hyperlink{class_coruh_1_1_event_1_1_event_a348222dea7abd1dc189222b27c7f0c5e}{divide}} (double a, double b)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides Basic functions for various operations. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_coruh_1_1_event_1_1_event_a6289651d80a3c41554743f3b0a7889b2}\label{class_coruh_1_1_event_1_1_event_a6289651d80a3c41554743f3b0a7889b2} 
+\index{Coruh::Event::Event@{Coruh::Event::Event}!add@{add}}
+\index{add@{add}!Coruh::Event::Event@{Coruh::Event::Event}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily double Event\+::add (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Adds two numbers. 
+\begin{DoxyParams}{Parameters}
+{\em a} & First operand. \\
+\hline
+{\em b} & Second operand. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The sum of a and b. 
+\end{DoxyReturn}
+\Hypertarget{class_coruh_1_1_event_1_1_event_a348222dea7abd1dc189222b27c7f0c5e}\label{class_coruh_1_1_event_1_1_event_a348222dea7abd1dc189222b27c7f0c5e} 
+\index{Coruh::Event::Event@{Coruh::Event::Event}!divide@{divide}}
+\index{divide@{divide}!Coruh::Event::Event@{Coruh::Event::Event}}
+\doxysubsubsection{\texorpdfstring{divide()}{divide()}}
+{\footnotesize\ttfamily double Event\+::divide (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Divides the first number by the second. Throws std\+::invalid\+\_\+argument if the second number is zero. 
+\begin{DoxyParams}{Parameters}
+{\em a} & Dividend. \\
+\hline
+{\em b} & Divisor. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The result of a / b. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::invalid\+\_\+argument} & If b is zero. \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_coruh_1_1_event_1_1_event_a6a4e1fce5f8711e983c77bd9ab4344e1}\label{class_coruh_1_1_event_1_1_event_a6a4e1fce5f8711e983c77bd9ab4344e1} 
+\index{Coruh::Event::Event@{Coruh::Event::Event}!multiply@{multiply}}
+\index{multiply@{multiply}!Coruh::Event::Event@{Coruh::Event::Event}}
+\doxysubsubsection{\texorpdfstring{multiply()}{multiply()}}
+{\footnotesize\ttfamily double Event\+::multiply (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Multiplies two numbers. 
+\begin{DoxyParams}{Parameters}
+{\em a} & First operand. \\
+\hline
+{\em b} & Second operand. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The product of a and b. 
+\end{DoxyReturn}
+\Hypertarget{class_coruh_1_1_event_1_1_event_ab59ee540ee4e61c220b90fba97e900ac}\label{class_coruh_1_1_event_1_1_event_ab59ee540ee4e61c220b90fba97e900ac} 
+\index{Coruh::Event::Event@{Coruh::Event::Event}!subtract@{subtract}}
+\index{subtract@{subtract}!Coruh::Event::Event@{Coruh::Event::Event}}
+\doxysubsubsection{\texorpdfstring{subtract()}{subtract()}}
+{\footnotesize\ttfamily double Event\+::subtract (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Subtracts the second number from the first. 
+\begin{DoxyParams}{Parameters}
+{\em a} & Minuend. \\
+\hline
+{\em b} & Subtrahend. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The result of a -\/ b. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/event/header/\mbox{\hyperlink{event_8h}{event.\+h}}\item 
+src/event/src/\mbox{\hyperlink{event_8cpp}{event.\+cpp}}\end{DoxyCompactItemize}

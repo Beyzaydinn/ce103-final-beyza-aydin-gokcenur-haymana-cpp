@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="event__test_8cpp" kind="file" language="C++">
+    <compoundname>event_test.cpp</compoundname>
+    <includes local="yes">gtest/gtest.h</includes>
+    <includes local="yes">../../event/header/event.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>../../event/header/event.h</label>
+      </node>
+      <node id="1">
+        <label>src/tests/event/event_test.cpp</label>
+        <link refid="event__test_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gtest/gtest.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_event_test" prot="public">EventTest</innerclass>
+    <innernamespace refid="namespace_coruh_1_1_event">Coruh::Event</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="event__test_8cpp_1a3a315c3a657bf4d268991269d3f53947" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_F</definition>
+        <argsstring>(EventTest, TestAdd)</argsstring>
+        <name>TEST_F</name>
+        <param>
+          <type><ref refid="class_event_test" kindref="compound">EventTest</ref></type>
+        </param>
+        <param>
+          <type>TestAdd</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="19" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a0fc249a02ac8915d9698212c05b1180e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_F</definition>
+        <argsstring>(EventTest, TestSubtract)</argsstring>
+        <name>TEST_F</name>
+        <param>
+          <type><ref refid="class_event_test" kindref="compound">EventTest</ref></type>
+        </param>
+        <param>
+          <type>TestSubtract</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="24" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1acdbb275e4a1df2ba45691fd2ec91af42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_F</definition>
+        <argsstring>(EventTest, TestMultiply)</argsstring>
+        <name>TEST_F</name>
+        <param>
+          <type><ref refid="class_event_test" kindref="compound">EventTest</ref></type>
+        </param>
+        <param>
+          <type>TestMultiply</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="29" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a1ca48a151933f9da1b8ef2379771f320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_F</definition>
+        <argsstring>(EventTest, TestDivide)</argsstring>
+        <name>TEST_F</name>
+        <param>
+          <type><ref refid="class_event_test" kindref="compound">EventTest</ref></type>
+        </param>
+        <param>
+          <type>TestDivide</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="34" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a2b16febd49b806007c1978705380cf72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_F</definition>
+        <argsstring>(EventTest, TestDivideByZero)</argsstring>
+        <name>TEST_F</name>
+        <param>
+          <type><ref refid="class_event_test" kindref="compound">EventTest</ref></type>
+        </param>
+        <param>
+          <type>TestDivideByZero</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="39" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+<para>The main function of the test program. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>argc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of command-line arguments. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>argv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of command-line argument strings. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The exit status of the program. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="50" column="5" bodyfile="src/tests/event/event_test.cpp" bodystart="50" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//#define<sp/>ENABLE_EVENT_TEST<sp/><sp/>//<sp/>Uncomment<sp/>this<sp/>line<sp/>to<sp/>enable<sp/>the<sp/>Event<sp/>tests</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gtest/gtest.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../../event/header/event.h&quot;</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Adjust<sp/>this<sp/>include<sp/>path<sp/>based<sp/>on<sp/>your<sp/>project<sp/>structure</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Coruh::Event;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_event_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_event_test" kindref="compound">EventTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10" refid="class_event_test_1ab0a512cec17355012c7841b87bce0d19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_event_test_1ab0a512cec17355012c7841b87bce0d19" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Setup<sp/>test<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_event_test_1abb096431aacbda05cf34bf2f2a8bbfa9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_event_test_1abb096431aacbda05cf34bf2f2a8bbfa9" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clean<sp/>up<sp/>test<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="event__test_8cpp_1a3a315c3a657bf4d268991269d3f53947" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a3a315c3a657bf4d268991269d3f53947" kindref="member">TEST_F</ref>(<ref refid="class_event_test" kindref="compound">EventTest</ref>,<sp/>TestAdd)<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>result<sp/>=<sp/>Event::add(5.0,<sp/>3.0);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(result,<sp/>8.0);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="event__test_8cpp_1a0fc249a02ac8915d9698212c05b1180e" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a3a315c3a657bf4d268991269d3f53947" kindref="member">TEST_F</ref>(<ref refid="class_event_test" kindref="compound">EventTest</ref>,<sp/>TestSubtract)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>result<sp/>=<sp/>Event::subtract(5.0,<sp/>3.0);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(result,<sp/>2.0);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="event__test_8cpp_1acdbb275e4a1df2ba45691fd2ec91af42" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a3a315c3a657bf4d268991269d3f53947" kindref="member">TEST_F</ref>(<ref refid="class_event_test" kindref="compound">EventTest</ref>,<sp/>TestMultiply)<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>result<sp/>=<sp/>Event::multiply(5.0,<sp/>3.0);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(result,<sp/>15.0);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="event__test_8cpp_1a1ca48a151933f9da1b8ef2379771f320" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a3a315c3a657bf4d268991269d3f53947" kindref="member">TEST_F</ref>(<ref refid="class_event_test" kindref="compound">EventTest</ref>,<sp/>TestDivide)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>result<sp/>=<sp/>Event::divide(6.0,<sp/>3.0);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(result,<sp/>2.0);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="event__test_8cpp_1a2b16febd49b806007c1978705380cf72" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a3a315c3a657bf4d268991269d3f53947" kindref="member">TEST_F</ref>(<ref refid="class_event_test" kindref="compound">EventTest</ref>,<sp/>TestDivideByZero)<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_THROW(Event::divide(5.0,<sp/>0.0),<sp/>std::invalid_argument);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>argv)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>ENABLE_EVENT_TEST</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>::testing::InitGoogleTest(&amp;argc,<sp/>argv);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RUN_ALL_TESTS();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/tests/event/event_test.cpp"/>
+  </compounddef>
+</doxygen>
