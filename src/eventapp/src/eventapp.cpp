@@ -170,6 +170,53 @@ int main() {
             }
             break;
         }
+        case 4: {
+            int trackingChoice;
+            progressTracking();
+            cout << "Make your choice: ";
+            cin >> trackingChoice;
 
+            switch (trackingChoice) {
+            case 1: {
+                planTimelines();
+                cout << "You selected an event time. Is there anything special you would like to add?" << endl;
+                cin.ignore(); // clear spaces and newlines
+                getline(cin, plan.timelines);
+                break;
+            }
+            case 2: {
+                string organize;
+                cout << "Is there anything you would like to change? If so, please specify." << endl;
+                cin.ignore();  // clear spaces and newlines
+                getline(cin, organize);
+                break;
+            }
+            default:
+                cout << "Invalid choice. Please try again." << endl;
+            }
+            break;
+        }
+        case 5: {
+            // the users writing a feedback about this application
+            string feed;
+            feedback();
+            cout << "Please leave feedback if you are satisfied with the service we provide." << endl;
+            cout << "Thank you for choosing us. Have a good day!" << endl;
+            getline(cin, feed);
+            break;
+        }
+        case 6: {
+            // exiting the program
+            cout << "Exiting..." << endl;
+            return 0;
+            break;
+        }
+        default:
+            cout << "Invalid choice. Please try again." << endl;
+
+        }
+    }
+    return 0;
+}
 
 }
