@@ -21,7 +21,90 @@ int main() {
             cout << "Unable to open the file." << endl;
             return 1;
         }
+        while (choice != 6);
+        mainMenu();
+        cout << "Make your choice: ";
+        cin >> choice;
 
+        login user;
+        recording store;
+        choose create;
+        tracking plan;
+
+        switch (choice) {
+        case 1: {
+            int loginChoice;
+            userAuthentication();
+            cout << "Make your choice: ";
+            cin >> loginChoice;
+
+            switch (loginChoice) {
+            case 1: {
+                // the users are making login
+                cout << "User Name: ";
+                cin >> user.username;
+                cout << "Password: ";
+                cin >> user.password;
+
+                if (authenticateLogin(user, user.password)) {
+                    // If the registered information and the entered information are equal
+                    cout << "Login is successful!" << endl;
+                    if (file.is_open()) {
+                        file << "USER INFORMATION" << endl;
+                        file << "Username: " << user.username << endl;
+                        file << "Password: " << user.password << endl; // Fix here, removed extra character "Ý"
+                        file << "------------------------" << endl;
+                        file.close();
+                        cout << "This file is private." << endl;
+                        return 0;
+                    }
+                    else {
+                        cout << "Unable to open the file." << endl;
+                        return 0;
+                    }
+                }
+                else {
+                    // If the registered information and the entered information are not equal
+                    cout << "Login failed. Please try again." << endl;
+                    break;
+                }
+            }
+            case 2: {
+                // the users are making register
+                cout << "\nYour user name: ";
+                cin >> store.nameSurname;
+                cout << "\nYour password: ";
+                cin >> store.password2;
+                cout << "\nYour phone number: ";
+                cin >> store.phoneNumber;
+                cout << "\nYour e-mail: ";
+                cin >> store.email;
+                cout << "\n Your information is saved. Please login." << endl;
+
+                if (file.is_open()) {
+                    file << "USER REGISTER" << endl;
+                    file << "Username: " << store.nameSurname << endl;
+                    file << "Password: " << store.password2 << endl;
+                    file << "Phone number: " << store.phoneNumber << endl;
+                    file << "Email: " << store.email << endl;
+                    file << "------------------------------" << endl;
+                    file.close();  // Close the file after writing
+                }
+                else {
+                    cout << "Unable to open the file." << endl;
+                }
+                break;
+            }
+            case 3: {
+                // you are in the guest mode.
+                cout << "You are in guest mode." << endl;
+                break;
+            }
+            default:
+                cout << "Invalid choice. Please try again." << endl;
+            }
+            break;
+        }
 
 
 
