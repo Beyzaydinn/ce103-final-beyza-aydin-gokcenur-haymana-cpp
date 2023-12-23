@@ -98,3 +98,36 @@ int userPlan() {
     cout << "Your menu: " << create.menu << endl;
     return 0;
 }
+// planning about attendees 
+int taskAssignment() {
+    cout << endl;
+    cout << "1. Register Attendees: \n";
+    cout << "2. Track Attendees: \n";
+    return 0;
+}
+// organization time
+int progressTracking() {
+    cout << endl;
+    cout << "1. Plan Timelines\n";
+    cout << "2. Organize Activities\n";
+    return 0;
+}
+// plan timelines
+int planTimelines() {
+    cout << endl;
+    cout << "1. Morning Event (09.00-13.00) " << endl;
+    cout << "2. Noon Event (13.00-18.00) " << endl;
+    cout << "3. Evening Event (18.00-22.00) " << endl;
+    return 0;
+}
+
+// make a feedback
+int feedback() {
+    cout << endl;
+    cout << "Gather Feedback" << endl;
+    return 0;
+}
+// check the user login
+bool authenticateLogin(const login& user, string password2) {
+    return user.password == password2;
+}

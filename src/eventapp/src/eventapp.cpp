@@ -54,7 +54,6 @@ int main() {
                         file << "Username: " << user.username << endl;
                         file << "Password: " << user.password << endl; // Fix here, removed extra character "Ý"
                         file << "------------------------" << endl;
-                        file.close();
                         cout << "This file is private." << endl;
                         return 0;
                     }
@@ -88,7 +87,6 @@ int main() {
                     file << "Phone number: " << store.phoneNumber << endl;
                     file << "Email: " << store.email << endl;
                     file << "------------------------------" << endl;
-                    file.close();  // Close the file after writing
                 }
                 else {
                     cout << "Unable to open the file." << endl;
@@ -216,6 +214,7 @@ int main() {
 
         }
     }
+    file.close();  // Close the file after writing
     return 0;
 }
 
