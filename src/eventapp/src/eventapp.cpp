@@ -8,6 +8,7 @@
 #include "../../event/header/event.h"  
 #include "../../event/src/event.cpp"
 
+
 using namespace std;
 
 int main() {
@@ -56,7 +57,7 @@ int main() {
                       file << "Password: " << user.password << endl; // Fix here, removed extra character "İ"
                       file << "------------------------" << endl;
                       cout << "This file is private." << endl;
-                      return 0;
+                      break;
                   }
                   else {
                       cout << "Unable to open the file." << endl;
@@ -88,9 +89,11 @@ int main() {
                   file << "Phone number: " << store.phoneNumber << endl;
                   file << "Email: " << store.email << endl;
                   file << "------------------------------" << endl;
+                  break;
               }
               else {
                   cout << "Unable to open the file." << endl;
+                  return 0;
               }
               break;
           }
