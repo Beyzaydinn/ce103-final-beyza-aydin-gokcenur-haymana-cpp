@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Event Windows Library API Documentation: src/eventapp/src/eventapp.cpp File Reference</title>
+<title>Event Windows Library API Documentation: C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/eventapp/src/eventapp.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -71,7 +71,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_d60d15327772e9b4f09f3578e964ae79.html">eventapp</a></li><li class="navelem"><a class="el" href="dir_2f7810e9849ce0aa8f1471535d73e015.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_1558c0580cc4494c41dce25fb5478ffa.html">Vıctus</a></li><li class="navelem"><a class="el" href="dir_5e84d8ee370b93bf48934eda8d0d6fc8.html">Desktop</a></li><li class="navelem"><a class="el" href="dir_c8194bb546b96a345d10105b907c5860.html">ce103-final</a></li><li class="navelem"><a class="el" href="dir_0e4c9c7d20644d9ff972b994289d93d2.html">ce103-final-beyza-aydin-gokcenur-haymana-cpp</a></li><li class="navelem"><a class="el" href="dir_e4cc4e4800a765bf27f242a08d1bc8de.html">src</a></li><li class="navelem"><a class="el" href="dir_cba2bab1258b509d745056805a98183a.html">eventapp</a></li><li class="navelem"><a class="el" href="dir_36d9a4c6f86486f35bcce0246f394d9f.html">src</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -80,92 +80,26 @@ $(function() {
   <div class="headertitle"><div class="title">eventapp.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>A simple program to demonstrate the usage of the event model class.  
-<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;stack&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;sstream&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
 <code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &quot;<a class="el" href="event_8h_source.html">../../event/header/event.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="event_8cpp_source.html">../../event/src/event.cpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for eventapp.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="eventapp_8cpp__incl.svg" width="527" height="294"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="eventapp_8cpp__incl.svg" width="619" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac792f08ed5f8708833ac64a61310dd03"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventapp_8cpp.html#ac792f08ed5f8708833ac64a61310dd03">isOperator</a> (char c)</td></tr>
-<tr class="separator:ac792f08ed5f8708833ac64a61310dd03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3f55e40ed8f0a2cde99d2b36e919cbf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventapp_8cpp.html#ae3f55e40ed8f0a2cde99d2b36e919cbf">precedence</a> (char c)</td></tr>
-<tr class="separator:ae3f55e40ed8f0a2cde99d2b36e919cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a897077446c75caaf157031854034ac9f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventapp_8cpp.html#a897077446c75caaf157031854034ac9f">infixToPostfix</a> (const std::string &amp;infix)</td></tr>
-<tr class="separator:a897077446c75caaf157031854034ac9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af347a06ef4464029cd26e699842332cb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventapp_8cpp.html#af347a06ef4464029cd26e699842332cb">evaluatePostfix</a> (const std::string &amp;postfix)</td></tr>
-<tr class="separator:af347a06ef4464029cd26e699842332cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventapp_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A simple program to demonstrate the usage of the event model class. </p>
-<p>This program process infix notations and calculate operations </p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="af347a06ef4464029cd26e699842332cb" name="af347a06ef4464029cd26e699842332cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af347a06ef4464029cd26e699842332cb">&#9670;&#160;</a></span>evaluatePostfix()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double evaluatePostfix </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>postfix</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a897077446c75caaf157031854034ac9f" name="a897077446c75caaf157031854034ac9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a897077446c75caaf157031854034ac9f">&#9670;&#160;</a></span>infixToPostfix()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string infixToPostfix </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>infix</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac792f08ed5f8708833ac64a61310dd03" name="ac792f08ed5f8708833ac64a61310dd03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac792f08ed5f8708833ac64a61310dd03">&#9670;&#160;</a></span>isOperator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool isOperator </td>
-          <td>(</td>
-          <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&#160;</a></span>main()</h2>
 
@@ -176,24 +110,6 @@ Functions</h2></td></tr>
           <td class="memname">int main </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae3f55e40ed8f0a2cde99d2b36e919cbf" name="ae3f55e40ed8f0a2cde99d2b36e919cbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3f55e40ed8f0a2cde99d2b36e919cbf">&#9670;&#160;</a></span>precedence()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int precedence </td>
-          <td>(</td>
-          <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

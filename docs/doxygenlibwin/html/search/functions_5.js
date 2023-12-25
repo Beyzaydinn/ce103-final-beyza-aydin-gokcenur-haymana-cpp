@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['main_0',['main',['../eventapp_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'eventapp.cpp']]],
-  ['multiply_1',['multiply',['../class_coruh_1_1_event_1_1_event.html#a6a4e1fce5f8711e983c77bd9ab4344e1',1,'Coruh::Event::Event']]]
+  ['taskassignment_0',['taskAssignment',['../event_8h.html#a1f8765795206d43d02d91bde681a0dff',1,'taskAssignment():&#160;event.cpp'],['../event_8cpp.html#a1f8765795206d43d02d91bde681a0dff',1,'taskAssignment():&#160;event.cpp']]],
+  ['type_1',['type',['../event_8h.html#ae3775081dae5d62a47eee5c62fa49995',1,'type():&#160;event.cpp'],['../event_8cpp.html#ae3775081dae5d62a47eee5c62fa49995',1,'type():&#160;event.cpp']]]
 ];

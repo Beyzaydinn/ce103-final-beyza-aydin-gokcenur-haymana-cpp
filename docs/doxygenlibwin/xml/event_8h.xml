@@ -3,11 +3,11 @@
   <compounddef id="event_8h" kind="file" language="C++">
     <compoundname>event.h</compoundname>
     <includes refid="common_types_8h" local="yes">../../utility/header/commonTypes.h</includes>
-    <includedby refid="event_8cpp" local="yes">src/event/src/event.cpp</includedby>
-    <includedby refid="eventapp_8cpp" local="yes">src/eventapp/src/eventapp.cpp</includedby>
+    <includedby refid="event_8cpp" local="yes">C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp</includedby>
+    <includedby refid="eventapp_8cpp" local="yes">C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/eventapp/src/eventapp.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>src/event/header/event.h</label>
+        <label>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h</label>
         <link refid="event_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -24,7 +24,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>src/event/header/event.h</label>
+        <label>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h</label>
         <link refid="event_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -32,17 +32,174 @@
         </childnode>
       </node>
       <node id="2">
-        <label>src/event/src/event.cpp</label>
+        <label>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp</label>
         <link refid="event_8cpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
       </node>
       <node id="3">
-        <label>src/eventapp/src/eventapp.cpp</label>
+        <label>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/eventapp/src/eventapp.cpp</label>
         <link refid="eventapp_8cpp"/>
       </node>
     </invincdepgraph>
-    <innerclass refid="class_coruh_1_1_event_1_1_event" prot="public">Coruh::Event::Event</innerclass>
-    <innernamespace refid="namespace_coruh">Coruh</innernamespace>
-    <innernamespace refid="namespace_coruh_1_1_event">Coruh::Event</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="event_8h_1a8396c50bf544009fb2fc4907b00cbad3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mainMenu</definition>
+        <argsstring>()</argsstring>
+        <name>mainMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" line="11" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="31" bodyend="41" declfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" declline="11" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8h_1a892642c57b48071fa94b5441913757f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int userAuthentication</definition>
+        <argsstring>()</argsstring>
+        <name>userAuthentication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" line="12" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="43" bodyend="49" declfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" declline="12" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8h_1a1946984079378a7832b7bd12b0db8ab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int projectSetup</definition>
+        <argsstring>()</argsstring>
+        <name>projectSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" line="13" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="51" bodyend="56" declfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" declline="13" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8h_1ae3775081dae5d62a47eee5c62fa49995" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int type</definition>
+        <argsstring>()</argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" line="14" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="58" bodyend="67" declfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" declline="14" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8h_1ae83fcdbeb2b6757fc741ae953b633ee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int menu</definition>
+        <argsstring>()</argsstring>
+        <name>menu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" line="15" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="69" bodyend="74" declfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" declline="15" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8h_1a28ad5e680af333d6c151de38eec62b2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int color</definition>
+        <argsstring>()</argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" line="16" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="76" bodyend="83" declfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" declline="16" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8h_1ac5449ac02f64be365bf5c26935f6492c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int venue</definition>
+        <argsstring>()</argsstring>
+        <name>venue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" line="17" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="85" bodyend="91" declfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" declline="17" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8h_1ac243716905eb772dbe20d2d6eea748f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int userPlan</definition>
+        <argsstring>()</argsstring>
+        <name>userPlan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" line="18" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="93" bodyend="101" declfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" declline="18" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8h_1a1f8765795206d43d02d91bde681a0dff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int taskAssignment</definition>
+        <argsstring>()</argsstring>
+        <name>taskAssignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" line="19" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="103" bodyend="108" declfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" declline="19" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8h_1a356c9a49b0641afca235a98ca1ba8619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int progressTracking</definition>
+        <argsstring>()</argsstring>
+        <name>progressTracking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" line="20" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="110" bodyend="115" declfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" declline="20" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8h_1a576c35a3aa64f49e8f495fe5e33e29e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int planTimelines</definition>
+        <argsstring>()</argsstring>
+        <name>planTimelines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" line="21" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="117" bodyend="123" declfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" declline="21" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8h_1a6181497f68d6cb585303909e9ad34754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int feedback</definition>
+        <argsstring>()</argsstring>
+        <name>feedback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" line="22" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="126" bodyend="130" declfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h" declline="22" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
     <briefdescription>
 <para>Provides functions for math. utilities. </para>
     </briefdescription>
@@ -54,29 +211,21 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EVENT_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../../utility/header/commonTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="namespace_coruh" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_coruh" kindref="compound">Coruh</ref></highlight></codeline>
-<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14" refid="namespace_coruh_1_1_event" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="class_coruh_1_1_event_1_1_event" kindref="compound">Event</ref></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="20" refid="class_coruh_1_1_event_1_1_event" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_coruh_1_1_event_1_1_event" kindref="compound">Event</ref></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_coruh_1_1_event_1_1_event_1a6289651d80a3c41554743f3b0a7889b2" kindref="member">add</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_coruh_1_1_event_1_1_event_1ab59ee540ee4e61c220b90fba97e900ac" kindref="member">subtract</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_coruh_1_1_event_1_1_event_1a6a4e1fce5f8711e983c77bd9ab4344e1" kindref="member">multiply</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_coruh_1_1_event_1_1_event_1a348222dea7abd1dc189222b27c7f0c5e" kindref="member">divide</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>EVENT_H</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8h_1a8396c50bf544009fb2fc4907b00cbad3" kindref="member">mainMenu</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8h_1a892642c57b48071fa94b5441913757f7" kindref="member">userAuthentication</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8h_1a1946984079378a7832b7bd12b0db8ab1" kindref="member">projectSetup</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8h_1ae3775081dae5d62a47eee5c62fa49995" kindref="member">type</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8h_1ae83fcdbeb2b6757fc741ae953b633ee1" kindref="member">menu</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8h_1a28ad5e680af333d6c151de38eec62b2f" kindref="member">color</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8h_1ac5449ac02f64be365bf5c26935f6492c" kindref="member">venue</ref>();<sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8h_1ac243716905eb772dbe20d2d6eea748f3" kindref="member">userPlan</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8h_1a1f8765795206d43d02d91bde681a0dff" kindref="member">taskAssignment</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8h_1a356c9a49b0641afca235a98ca1ba8619" kindref="member">progressTracking</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8h_1a576c35a3aa64f49e8f495fe5e33e29e9" kindref="member">planTimelines</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8h_1a6181497f68d6cb585303909e9ad34754" kindref="member">feedback</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>EVENT_H</highlight></codeline>
     </programlisting>
-    <location file="src/event/header/event.h"/>
+    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header/event.h"/>
   </compounddef>
 </doxygen>

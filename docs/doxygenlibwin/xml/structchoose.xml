@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="structchoose" kind="struct" language="C++" prot="public">
+    <compoundname>choose</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structchoose_1a40a6c6e3a60704447208b1bfadaf1b79" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string choose::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>choose::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="20" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchoose_1af4a19f4eda9475c8f6ad8c63cc025d8e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string choose::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <qualifiedname>choose::color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="21" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchoose_1ae1fbdfbbceb385c9ccbab481a2226283" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string choose::venue</definition>
+        <argsstring></argsstring>
+        <name>venue</name>
+        <qualifiedname>choose::venue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="22" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchoose_1a27bc5ed0d2df16a22ba194506ebfda6c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string choose::menu</definition>
+        <argsstring></argsstring>
+        <name>menu</name>
+        <qualifiedname>choose::menu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="23" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>choose</label>
+        <link refid="structchoose"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="19" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="19" bodyend="24"/>
+    <listofallmembers>
+      <member refid="structchoose_1af4a19f4eda9475c8f6ad8c63cc025d8e" prot="public" virt="non-virtual"><scope>choose</scope><name>color</name></member>
+      <member refid="structchoose_1a27bc5ed0d2df16a22ba194506ebfda6c" prot="public" virt="non-virtual"><scope>choose</scope><name>menu</name></member>
+      <member refid="structchoose_1a40a6c6e3a60704447208b1bfadaf1b79" prot="public" virt="non-virtual"><scope>choose</scope><name>type</name></member>
+      <member refid="structchoose_1ae1fbdfbbceb385c9ccbab481a2226283" prot="public" virt="non-virtual"><scope>choose</scope><name>venue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

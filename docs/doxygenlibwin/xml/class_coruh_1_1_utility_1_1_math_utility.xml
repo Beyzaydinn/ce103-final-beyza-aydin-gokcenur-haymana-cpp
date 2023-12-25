@@ -4,9 +4,9 @@
     <compoundname>Coruh::Utility::MathUtility</compoundname>
     <includes refid="math_utility_8h" local="no">mathUtility.h</includes>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="class_coruh_1_1_utility_1_1_math_utility_1abe3d63ed2737ae3c006bcc5732a3d01f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_coruh_1_1_utility_1_1_math_utility_1a2e7a392ac5aa8818021235d7ab26ea2b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
-        <definition>double MathUtility::calculateMean</definition>
+        <definition>static double Coruh::Utility::MathUtility::calculateMean</definition>
         <argsstring>(const double fiArray[], int fiArrayLen)</argsstring>
         <name>calculateMean</name>
         <qualifiedname>Coruh::Utility::MathUtility::calculateMean</qualifiedname>
@@ -47,11 +47,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/utility/header/mathUtility.h" line="33" column="15" bodyfile="src/utility/src/mathUtility.cpp" bodystart="14" bodyend="22"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/header/mathUtility.h" line="33" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="class_coruh_1_1_utility_1_1_math_utility_1aa5888ea1bef95e477a66c2dd8517b885" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_coruh_1_1_utility_1_1_math_utility_1a0b7806133f1c28540e1ab62acf3b1e2b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
-        <definition>double MathUtility::calculateMedian</definition>
+        <definition>static double Coruh::Utility::MathUtility::calculateMedian</definition>
         <argsstring>(const double fiArray[], int fiArrayLen)</argsstring>
         <name>calculateMedian</name>
         <qualifiedname>Coruh::Utility::MathUtility::calculateMedian</qualifiedname>
@@ -92,11 +92,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/utility/header/mathUtility.h" line="45" column="15" bodyfile="src/utility/src/mathUtility.cpp" bodystart="24" bodyend="45"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/header/mathUtility.h" line="45" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="class_coruh_1_1_utility_1_1_math_utility_1a8a30d3bb9945b043c861257596f17c30" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_coruh_1_1_utility_1_1_math_utility_1aa90aa905b98cd146bccf366cfceae116" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
-        <definition>int MathUtility::compareDouble</definition>
+        <definition>static int Coruh::Utility::MathUtility::compareDouble</definition>
         <argsstring>(const void *fiPtrLhs, const void *fiPtrRhs)</argsstring>
         <name>compareDouble</name>
         <qualifiedname>Coruh::Utility::MathUtility::compareDouble</qualifiedname>
@@ -141,11 +141,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/utility/header/mathUtility.h" line="59" column="12" bodyfile="src/utility/src/mathUtility.cpp" bodystart="47" bodyend="59"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/header/mathUtility.h" line="59" column="12"/>
       </memberdef>
-      <memberdef kind="function" id="class_coruh_1_1_utility_1_1_math_utility_1ac66a656b821b690761a1db545359508d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_coruh_1_1_utility_1_1_math_utility_1ac488d692b348070c3791ee764cfdd073" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MathUtility::calculateMinMax</definition>
+        <definition>static void Coruh::Utility::MathUtility::calculateMinMax</definition>
         <argsstring>(const double fiArray[], int fiArrayLen, double *foMin, double *foMax)</argsstring>
         <name>calculateMinMax</name>
         <qualifiedname>Coruh::Utility::MathUtility::calculateMinMax</qualifiedname>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/utility/header/mathUtility.h" line="72" column="13" bodyfile="src/utility/src/mathUtility.cpp" bodystart="61" bodyend="76"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/header/mathUtility.h" line="72" column="13"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -222,12 +222,12 @@
         <link refid="class_coruh_1_1_utility_1_1_math_utility"/>
       </node>
     </collaborationgraph>
-    <location file="src/utility/header/mathUtility.h" line="20" column="9" bodyfile="src/utility/header/mathUtility.h" bodystart="21" bodyend="74"/>
+    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/header/mathUtility.h" line="20" column="9" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/header/mathUtility.h" bodystart="21" bodyend="74"/>
     <listofallmembers>
-      <member refid="class_coruh_1_1_utility_1_1_math_utility_1abe3d63ed2737ae3c006bcc5732a3d01f" prot="public" virt="non-virtual"><scope>Coruh::Utility::MathUtility</scope><name>calculateMean</name></member>
-      <member refid="class_coruh_1_1_utility_1_1_math_utility_1aa5888ea1bef95e477a66c2dd8517b885" prot="public" virt="non-virtual"><scope>Coruh::Utility::MathUtility</scope><name>calculateMedian</name></member>
-      <member refid="class_coruh_1_1_utility_1_1_math_utility_1ac66a656b821b690761a1db545359508d" prot="public" virt="non-virtual"><scope>Coruh::Utility::MathUtility</scope><name>calculateMinMax</name></member>
-      <member refid="class_coruh_1_1_utility_1_1_math_utility_1a8a30d3bb9945b043c861257596f17c30" prot="public" virt="non-virtual"><scope>Coruh::Utility::MathUtility</scope><name>compareDouble</name></member>
+      <member refid="class_coruh_1_1_utility_1_1_math_utility_1a2e7a392ac5aa8818021235d7ab26ea2b" prot="public" virt="non-virtual"><scope>Coruh::Utility::MathUtility</scope><name>calculateMean</name></member>
+      <member refid="class_coruh_1_1_utility_1_1_math_utility_1a0b7806133f1c28540e1ab62acf3b1e2b" prot="public" virt="non-virtual"><scope>Coruh::Utility::MathUtility</scope><name>calculateMedian</name></member>
+      <member refid="class_coruh_1_1_utility_1_1_math_utility_1ac488d692b348070c3791ee764cfdd073" prot="public" virt="non-virtual"><scope>Coruh::Utility::MathUtility</scope><name>calculateMinMax</name></member>
+      <member refid="class_coruh_1_1_utility_1_1_math_utility_1aa90aa905b98cd146bccf366cfceae116" prot="public" virt="non-virtual"><scope>Coruh::Utility::MathUtility</scope><name>compareDouble</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

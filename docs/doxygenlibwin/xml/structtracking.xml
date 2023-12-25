@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="structtracking" kind="struct" language="C++" prot="public">
+    <compoundname>tracking</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structtracking_1aa21aedaefed62fd34a198031b0669096" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string tracking::timelines</definition>
+        <argsstring></argsstring>
+        <name>timelines</name>
+        <qualifiedname>tracking::timelines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="28" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>tracking</label>
+        <link refid="structtracking"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="27" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="27" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structtracking_1aa21aedaefed62fd34a198031b0669096" prot="public" virt="non-virtual"><scope>tracking</scope><name>timelines</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

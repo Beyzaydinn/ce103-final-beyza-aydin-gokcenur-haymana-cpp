@@ -3,18 +3,12 @@
   <compounddef id="eventapp_8h" kind="file" language="C++">
     <compoundname>eventapp.h</compoundname>
     <briefdescription>
-<para>Event Application header file. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>EVENT_APP_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EVENT_APP_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>EVENT_APP_H</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/eventapp/header/eventapp.h"/>
+    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/eventapp/header/eventapp.h"/>
   </compounddef>
 </doxygen>

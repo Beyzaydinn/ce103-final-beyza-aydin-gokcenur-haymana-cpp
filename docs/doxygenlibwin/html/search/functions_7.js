@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['subtract_0',['subtract',['../class_coruh_1_1_event_1_1_event.html#ab59ee540ee4e61c220b90fba97e900ac',1,'Coruh::Event::Event']]]
+  ['venue_0',['venue',['../event_8h.html#ac5449ac02f64be365bf5c26935f6492c',1,'venue():&#160;event.cpp'],['../event_8cpp.html#ac5449ac02f64be365bf5c26935f6492c',1,'venue():&#160;event.cpp']]]
 ];

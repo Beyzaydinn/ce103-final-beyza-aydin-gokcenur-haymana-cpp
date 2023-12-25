@@ -1,36 +1,71 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.7" xml:lang="en-US">
-  <compound refid="class_coruh_1_1_event_1_1_event" kind="class"><name>Coruh::Event::Event</name>
-    <member refid="class_coruh_1_1_event_1_1_event_1a6289651d80a3c41554743f3b0a7889b2" kind="function"><name>add</name></member>
-    <member refid="class_coruh_1_1_event_1_1_event_1ab59ee540ee4e61c220b90fba97e900ac" kind="function"><name>subtract</name></member>
-    <member refid="class_coruh_1_1_event_1_1_event_1a6a4e1fce5f8711e983c77bd9ab4344e1" kind="function"><name>multiply</name></member>
-    <member refid="class_coruh_1_1_event_1_1_event_1a348222dea7abd1dc189222b27c7f0c5e" kind="function"><name>divide</name></member>
+  <compound refid="structchoose" kind="struct"><name>choose</name>
+    <member refid="structchoose_1a40a6c6e3a60704447208b1bfadaf1b79" kind="variable"><name>type</name></member>
+    <member refid="structchoose_1af4a19f4eda9475c8f6ad8c63cc025d8e" kind="variable"><name>color</name></member>
+    <member refid="structchoose_1ae1fbdfbbceb385c9ccbab481a2226283" kind="variable"><name>venue</name></member>
+    <member refid="structchoose_1a27bc5ed0d2df16a22ba194506ebfda6c" kind="variable"><name>menu</name></member>
+  </compound>
+  <compound refid="structlogin" kind="struct"><name>login</name>
+    <member refid="structlogin_1a008365db172dcbb75ecd642146bd7ff6" kind="variable"><name>username</name></member>
+    <member refid="structlogin_1a7ba1829b1d717663e81508f9730f94d4" kind="variable"><name>password</name></member>
   </compound>
   <compound refid="class_coruh_1_1_utility_1_1_math_utility" kind="class"><name>Coruh::Utility::MathUtility</name>
-    <member refid="class_coruh_1_1_utility_1_1_math_utility_1abe3d63ed2737ae3c006bcc5732a3d01f" kind="function"><name>calculateMean</name></member>
-    <member refid="class_coruh_1_1_utility_1_1_math_utility_1aa5888ea1bef95e477a66c2dd8517b885" kind="function"><name>calculateMedian</name></member>
-    <member refid="class_coruh_1_1_utility_1_1_math_utility_1a8a30d3bb9945b043c861257596f17c30" kind="function"><name>compareDouble</name></member>
-    <member refid="class_coruh_1_1_utility_1_1_math_utility_1ac66a656b821b690761a1db545359508d" kind="function"><name>calculateMinMax</name></member>
+    <member refid="class_coruh_1_1_utility_1_1_math_utility_1a2e7a392ac5aa8818021235d7ab26ea2b" kind="function"><name>calculateMean</name></member>
+    <member refid="class_coruh_1_1_utility_1_1_math_utility_1a0b7806133f1c28540e1ab62acf3b1e2b" kind="function"><name>calculateMedian</name></member>
+    <member refid="class_coruh_1_1_utility_1_1_math_utility_1aa90aa905b98cd146bccf366cfceae116" kind="function"><name>compareDouble</name></member>
+    <member refid="class_coruh_1_1_utility_1_1_math_utility_1ac488d692b348070c3791ee764cfdd073" kind="function"><name>calculateMinMax</name></member>
+  </compound>
+  <compound refid="structrecording" kind="struct"><name>recording</name>
+    <member refid="structrecording_1a3298c8333d499f38ca2b124d89d4a0e8" kind="variable"><name>nameSurname</name></member>
+    <member refid="structrecording_1a6df46f7263e262079ef73df25e1b8342" kind="variable"><name>password</name></member>
+    <member refid="structrecording_1a9f6d5745f6b6c95b107905024553aeca" kind="variable"><name>password2</name></member>
+    <member refid="structrecording_1a8f294df4b1cb83d4d16f83ee35487cc1" kind="variable"><name>phoneNumber</name></member>
+    <member refid="structrecording_1a2feef762e3f5e77ece900e2dd0d97bc2" kind="variable"><name>email</name></member>
+  </compound>
+  <compound refid="structtracking" kind="struct"><name>tracking</name>
+    <member refid="structtracking_1aa21aedaefed62fd34a198031b0669096" kind="variable"><name>timelines</name></member>
   </compound>
   <compound refid="namespace_coruh" kind="namespace"><name>Coruh</name>
   </compound>
-  <compound refid="namespace_coruh_1_1_event" kind="namespace"><name>Coruh::Event</name>
-  </compound>
   <compound refid="namespace_coruh_1_1_utility" kind="namespace"><name>Coruh::Utility</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
   </compound>
   <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
   </compound>
   <compound refid="event_8h" kind="file"><name>event.h</name>
+    <member refid="event_8h_1a8396c50bf544009fb2fc4907b00cbad3" kind="function"><name>mainMenu</name></member>
+    <member refid="event_8h_1a892642c57b48071fa94b5441913757f7" kind="function"><name>userAuthentication</name></member>
+    <member refid="event_8h_1a1946984079378a7832b7bd12b0db8ab1" kind="function"><name>projectSetup</name></member>
+    <member refid="event_8h_1ae3775081dae5d62a47eee5c62fa49995" kind="function"><name>type</name></member>
+    <member refid="event_8h_1ae83fcdbeb2b6757fc741ae953b633ee1" kind="function"><name>menu</name></member>
+    <member refid="event_8h_1a28ad5e680af333d6c151de38eec62b2f" kind="function"><name>color</name></member>
+    <member refid="event_8h_1ac5449ac02f64be365bf5c26935f6492c" kind="function"><name>venue</name></member>
+    <member refid="event_8h_1ac243716905eb772dbe20d2d6eea748f3" kind="function"><name>userPlan</name></member>
+    <member refid="event_8h_1a1f8765795206d43d02d91bde681a0dff" kind="function"><name>taskAssignment</name></member>
+    <member refid="event_8h_1a356c9a49b0641afca235a98ca1ba8619" kind="function"><name>progressTracking</name></member>
+    <member refid="event_8h_1a576c35a3aa64f49e8f495fe5e33e29e9" kind="function"><name>planTimelines</name></member>
+    <member refid="event_8h_1a6181497f68d6cb585303909e9ad34754" kind="function"><name>feedback</name></member>
   </compound>
   <compound refid="event_8cpp" kind="file"><name>event.cpp</name>
+    <member refid="event_8cpp_1a8396c50bf544009fb2fc4907b00cbad3" kind="function"><name>mainMenu</name></member>
+    <member refid="event_8cpp_1a892642c57b48071fa94b5441913757f7" kind="function"><name>userAuthentication</name></member>
+    <member refid="event_8cpp_1a1946984079378a7832b7bd12b0db8ab1" kind="function"><name>projectSetup</name></member>
+    <member refid="event_8cpp_1ae3775081dae5d62a47eee5c62fa49995" kind="function"><name>type</name></member>
+    <member refid="event_8cpp_1ae83fcdbeb2b6757fc741ae953b633ee1" kind="function"><name>menu</name></member>
+    <member refid="event_8cpp_1a28ad5e680af333d6c151de38eec62b2f" kind="function"><name>color</name></member>
+    <member refid="event_8cpp_1ac5449ac02f64be365bf5c26935f6492c" kind="function"><name>venue</name></member>
+    <member refid="event_8cpp_1ac243716905eb772dbe20d2d6eea748f3" kind="function"><name>userPlan</name></member>
+    <member refid="event_8cpp_1a1f8765795206d43d02d91bde681a0dff" kind="function"><name>taskAssignment</name></member>
+    <member refid="event_8cpp_1a356c9a49b0641afca235a98ca1ba8619" kind="function"><name>progressTracking</name></member>
+    <member refid="event_8cpp_1a576c35a3aa64f49e8f495fe5e33e29e9" kind="function"><name>planTimelines</name></member>
+    <member refid="event_8cpp_1a6181497f68d6cb585303909e9ad34754" kind="function"><name>feedback</name></member>
+    <member refid="event_8cpp_1adb11579c4d4b863e7c91c0107178b373" kind="function"><name>authenticateLogin</name></member>
   </compound>
   <compound refid="eventapp_8h" kind="file"><name>eventapp.h</name>
   </compound>
   <compound refid="eventapp_8cpp" kind="file"><name>eventapp.cpp</name>
-    <member refid="eventapp_8cpp_1ac792f08ed5f8708833ac64a61310dd03" kind="function"><name>isOperator</name></member>
-    <member refid="eventapp_8cpp_1ae3f55e40ed8f0a2cde99d2b36e919cbf" kind="function"><name>precedence</name></member>
-    <member refid="eventapp_8cpp_1a897077446c75caaf157031854034ac9f" kind="function"><name>infixToPostfix</name></member>
-    <member refid="eventapp_8cpp_1af347a06ef4464029cd26e699842332cb" kind="function"><name>evaluatePostfix</name></member>
     <member refid="eventapp_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
   </compound>
   <compound refid="common_types_8h" kind="file"><name>commonTypes.h</name>
@@ -39,25 +74,33 @@
   </compound>
   <compound refid="math_utility_8cpp" kind="file"><name>mathUtility.cpp</name>
   </compound>
-  <compound refid="dir_f278fbcf62338d746f20818c09b59427" kind="dir"><name>src/event</name>
+  <compound refid="dir_c8194bb546b96a345d10105b907c5860" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final</name>
   </compound>
-  <compound refid="dir_d60d15327772e9b4f09f3578e964ae79" kind="dir"><name>src/eventapp</name>
+  <compound refid="dir_0e4c9c7d20644d9ff972b994289d93d2" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp</name>
   </compound>
-  <compound refid="dir_7742851a14ce9c15b475facd1eca6a78" kind="dir"><name>src/event/header</name>
+  <compound refid="dir_5e84d8ee370b93bf48934eda8d0d6fc8" kind="dir"><name>C:/Users/Vıctus/Desktop</name>
   </compound>
-  <compound refid="dir_995085bce0f5c71e5ae35560b69ab0d7" kind="dir"><name>src/eventapp/header</name>
+  <compound refid="dir_6955a45b5280610801a7c6a136eab890" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event</name>
   </compound>
-  <compound refid="dir_1a3b8499b331fe4e1564b1eb295a0893" kind="dir"><name>src/utility/header</name>
+  <compound refid="dir_cba2bab1258b509d745056805a98183a" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/eventapp</name>
   </compound>
-  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  <compound refid="dir_660e8ac90bd79f2d4788400f3f99c869" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/header</name>
   </compound>
-  <compound refid="dir_95c6f9d5ea7d50f236ffab978896b0d6" kind="dir"><name>src/event/src</name>
+  <compound refid="dir_c1d6a18ad71a13d2ef419ac4b83f2ea5" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/eventapp/header</name>
   </compound>
-  <compound refid="dir_2f7810e9849ce0aa8f1471535d73e015" kind="dir"><name>src/eventapp/src</name>
+  <compound refid="dir_9ef1ef348e9ee2192c52b28ce5bbf01b" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/header</name>
   </compound>
-  <compound refid="dir_e82d5b00f3064e3249317b7e44769fc6" kind="dir"><name>src/utility/src</name>
+  <compound refid="dir_e4cc4e4800a765bf27f242a08d1bc8de" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src</name>
   </compound>
-  <compound refid="dir_0619a8f54b4fad7043a6de45be8fde0b" kind="dir"><name>src/utility</name>
+  <compound refid="dir_2313a75cc62e7e189f5b56eac629af39" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src</name>
+  </compound>
+  <compound refid="dir_36d9a4c6f86486f35bcce0246f394d9f" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/eventapp/src</name>
+  </compound>
+  <compound refid="dir_05d7ab14eb368113e327287064008898" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/src</name>
+  </compound>
+  <compound refid="dir_6ab9d2097a2a2292dcc80d3f4f5f326b" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility</name>
+  </compound>
+  <compound refid="dir_1558c0580cc4494c41dce25fb5478ffa" kind="dir"><name>C:/Users/Vıctus</name>
   </compound>
   <compound refid="indexpage" kind="page"><name>index</name>
   </compound>

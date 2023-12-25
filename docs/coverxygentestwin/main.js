@@ -221,14 +221,14 @@ var assemblies = [
   {
     "name": "Default",
     "classes": [
-      { "name": "C:\\Users\\Useres\\Desktop\\ce103-final-beyza-aydin-gokcenur-haymana-cpp\\src\\tests\\event\\event_test.cpp", "rp": "C__Users_Useres_Desktop_ce103_final_beyza_aydin_goymana_cpp_src_tests_event_event_test.cpp.html", "cl": 1, "ucl": 10, "cal": 11, "tl": 57, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [9], "bch": [], "mch": [], "hc": [{ "et": "12/20/2023 - 3:10:28 PM", "cl": 1, "ucl": 10, "cal": 11, "tl": 57, "lcq": 9, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }], "metrics": { } },
-      { "name": "C:\\Users\\Useres\\Desktop\\ce103-final-beyza-aydin-gokcenur-haymana-cpp\\src\\tests\\utility\\utility_test.cpp", "rp": "C__Users_Useres_Desktop_ce103_final_beyza_aydin_goa_cpp_src_tests_utility_utility_test.cpp.html", "cl": 1, "ucl": 13, "cal": 14, "tl": 144, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [7.1], "bch": [], "mch": [], "hc": [{ "et": "12/20/2023 - 3:10:28 PM", "cl": 1, "ucl": 13, "cal": 14, "tl": 144, "lcq": 7.1, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }], "metrics": { } },
+      { "name": "C:\\Users\\Useres\\Desktop\\ce103-final-beyza-aydin-gokcenur-haymana-cpp\\src\\tests\\event\\event_test.cpp", "rp": "C__Users_Useres_Desktop_ce103_final_beyza_aydin_goymana_cpp_src_tests_event_event_test.cpp.html", "cl": 1, "ucl": 10, "cal": 11, "tl": 0, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [9,9], "bch": [], "mch": [], "hc": [{ "et": "20.12.2023 - 15:10:28", "cl": 1, "ucl": 10, "cal": 11, "tl": 57, "lcq": 9, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }, { "et": "25.12.2023 - 14:51:28", "cl": 1, "ucl": 10, "cal": 11, "tl": 0, "lcq": 9, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }], "metrics": { } },
+      { "name": "C:\\Users\\Useres\\Desktop\\ce103-final-beyza-aydin-gokcenur-haymana-cpp\\src\\tests\\utility\\utility_test.cpp", "rp": "C__Users_Useres_Desktop_ce103_final_beyza_aydin_goa_cpp_src_tests_utility_utility_test.cpp.html", "cl": 1, "ucl": 13, "cal": 14, "tl": 0, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [7.1,7.1], "bch": [], "mch": [], "hc": [{ "et": "20.12.2023 - 15:10:28", "cl": 1, "ucl": 13, "cal": 14, "tl": 144, "lcq": 7.1, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }, { "et": "25.12.2023 - 14:51:28", "cl": 1, "ucl": 13, "cal": 14, "tl": 0, "lcq": 7.1, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }], "metrics": { } },
     ]},
 ];
 
 var metrics = [];
 
-var historicCoverageExecutionTimes = [];
+var historicCoverageExecutionTimes = ["20.12.2023 - 15:10:28"];
 
 var riskHotspotMetrics = [
 ];

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="structrecording" kind="struct" language="C++" prot="public">
+    <compoundname>recording</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structrecording_1a3298c8333d499f38ca2b124d89d4a0e8" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string recording::nameSurname</definition>
+        <argsstring></argsstring>
+        <name>nameSurname</name>
+        <qualifiedname>recording::nameSurname</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="12" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrecording_1a6df46f7263e262079ef73df25e1b8342" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string recording::password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <qualifiedname>recording::password</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="13" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrecording_1a9f6d5745f6b6c95b107905024553aeca" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string recording::password2</definition>
+        <argsstring></argsstring>
+        <name>password2</name>
+        <qualifiedname>recording::password2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="14" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrecording_1a8f294df4b1cb83d4d16f83ee35487cc1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string recording::phoneNumber</definition>
+        <argsstring></argsstring>
+        <name>phoneNumber</name>
+        <qualifiedname>recording::phoneNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="15" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrecording_1a2feef762e3f5e77ece900e2dd0d97bc2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string recording::email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <qualifiedname>recording::email</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="16" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>recording</label>
+        <link refid="structrecording"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="11" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="11" bodyend="17"/>
+    <listofallmembers>
+      <member refid="structrecording_1a2feef762e3f5e77ece900e2dd0d97bc2" prot="public" virt="non-virtual"><scope>recording</scope><name>email</name></member>
+      <member refid="structrecording_1a3298c8333d499f38ca2b124d89d4a0e8" prot="public" virt="non-virtual"><scope>recording</scope><name>nameSurname</name></member>
+      <member refid="structrecording_1a6df46f7263e262079ef73df25e1b8342" prot="public" virt="non-virtual"><scope>recording</scope><name>password</name></member>
+      <member refid="structrecording_1a9f6d5745f6b6c95b107905024553aeca" prot="public" virt="non-virtual"><scope>recording</scope><name>password2</name></member>
+      <member refid="structrecording_1a8f294df4b1cb83d4d16f83ee35487cc1" prot="public" virt="non-virtual"><scope>recording</scope><name>phoneNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
