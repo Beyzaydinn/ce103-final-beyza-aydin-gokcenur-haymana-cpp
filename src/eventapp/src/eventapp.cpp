@@ -32,7 +32,7 @@ int main() {
       recording store;
       choose create;
       tracking plan;
-
+      const char* outputFileName = "event_organization.dat";
       switch (choice) {
       case 1: {
           int loginChoice;
@@ -56,7 +56,13 @@ int main() {
                       file << "Username: " << user.username << endl;
                       file << "Password: " << user.password << endl; // Fix here, removed extra character "Ý"
                       file << "------------------------" << endl;
-                      cout << "This file is private." << endl;
+                      if (writeUserInfoToFile(user, outputFileName)) {
+                        cout << "The file is private." << endl;
+                      }
+                      else {
+                        cerr << "The file isn't private." << endl;
+                      }
+
                       break;
                   }
                   else {
@@ -89,6 +95,12 @@ int main() {
                   file << "Phone number: " << store.phoneNumber << endl;
                   file << "Email: " << store.email << endl;
                   file << "------------------------------" << endl;
+                  if (userRecord(store, outputFileName)) {
+                      cout << "The file is private." << endl;
+                  }
+                  else {
+                      cerr << "The file isn't private." << endl;
+                  }
                   break;
               }
               else {
@@ -118,18 +130,16 @@ int main() {
               type();
               cout << "Make your choice: ";
               cin >> create.type;
-
               menu();
               cout << "Make your choice: ";
               cin >> create.menu;
-
               color();
               cout << "Make your choice: ";
               cin >> create.color;
-
               venue();
               cout << "Make your choice: ";
               cin >> create.venue;
+            
               break;
           }
           case 2: {
@@ -151,14 +161,11 @@ int main() {
               int count;
               cout << "Please enter the attendees number: ";
               cin >> count;
-
               // Consume the newline character left in the buffer
               cin.ignore();
 
               for (int i = 0; i < count; i++) {
-                  string fullname; // Change the variable type to string
-                  cout << "\n  Enter attendee's name and surname: ";
-                  getline(cin, fullname);
+                 
               }
               break;
           }
@@ -215,10 +222,8 @@ int main() {
       }
       default:
           cout << "Invalid choice. Please try again." << endl;
-
       }
   }
   file.close();  // Close the file after writing
-
       return 0;
 }

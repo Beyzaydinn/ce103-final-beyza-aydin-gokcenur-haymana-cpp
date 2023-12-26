@@ -6,6 +6,7 @@ using namespace std;
 struct login {
     string username;
     string password;
+    string fullname;
 };
 
 struct recording {
@@ -22,7 +23,41 @@ struct choose {
     string venue;
     string menu;
 };
+// check the user login
+bool authenticateLogin(const login& user, string password2) {
+    return user.password == password2;
+}
 
+bool writeUserInfoToFile(const login& user, const char* organization) {
+    FILE* file = fopen(organization, "ab"); // ab: binary
+    if (!file) {
+        cerr << "File is unopen. " << organization <<endl;
+        return false; 
+    }
+    if (fwrite(&user, sizeof(login), 1, file) != 1) {
+        cerr << "Error writing to file." << endl;
+        fclose(file);
+        return false;
+    }
+
+    fclose(file);
+    return true;
+}
+bool userRecord(const recording& store, const char*organization) {
+    FILE* file = fopen(organization, "ab" ); // ab: binary
+    if (!file) {
+        cerr << "File is unopen. " << organization << endl;
+        return false;
+    }
+    if (fwrite(&store, sizeof(recording), 1, file) != 1) {
+        cerr << "Error writing to file." << endl;
+        fclose(file);
+        return false;
+    }
+
+    fclose(file);
+    return true;
+}
 
 struct tracking {
     string timelines;
@@ -127,8 +162,4 @@ int feedback() {
     cout << endl;
     cout << "Gather Feedback" << endl;
     return 0;
-}
-// check the user login
-bool authenticateLogin(const login& user, string password2) {
-    return user.password == password2;
 }
