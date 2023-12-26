@@ -139,7 +139,25 @@ int main() {
               venue();
               cout << "Make your choice: ";
               cin >> create.venue;
-            
+              if (file.is_open()) {
+                  file << "USER CHOICE" << endl;
+                  file << "Type: " << create.type << endl;
+                  file << "Menu: " << create.menu << endl;
+                  file << "Color: " << create.color << endl;
+                  file << "Venue: " << create.venue << endl;
+                  file << "------------------------------" << endl;
+                  if (userChoice(create, outputFileName)) {
+                      cout << "The file is private." << endl;
+                  }
+                  else {
+                      cerr << "The file isn't private." << endl;
+                  }
+                  break;
+              }
+              else {
+                  cout << "Unable to open the file." << endl;
+                  return 0;
+              }
               break;
           }
           case 2: {
@@ -165,7 +183,16 @@ int main() {
               cin.ignore();
 
               for (int i = 0; i < count; i++) {
-                 
+                  string fullname; // Change the variable type to string
+                  cout << "\n  Enter attendee's name and surname: ";
+                  getline(cin, user.fullname);
+                  if (file.is_open()) {
+                      file << "Attendee name: " << user.fullname << endl;
+                  }
+                  else {
+                      cout << "Unable to open the file." << endl;
+                      return 0;
+                  }
               }
               break;
           }

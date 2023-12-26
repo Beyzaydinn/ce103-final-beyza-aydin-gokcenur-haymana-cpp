@@ -58,7 +58,36 @@ bool userRecord(const recording& store, const char*organization) {
     fclose(file);
     return true;
 }
+bool userChoice(const choose& create, const char* organization) {
+    FILE* file = fopen(organization, "ab"); // ab: binary
+    if (!file) {
+        cerr << "File is unopen. " << organization << endl;
+        return false;
+    }
+    if (fwrite(&create, sizeof(choose), 1, file) != 1) {
+        cerr << "Error writing to file." << endl;
+        fclose(file);
+        return false;
+    }
+    fclose(file);
+    return true;
+}
 
+bool attendeesLogin(const login& user, const char* organization) {
+    FILE* file = fopen(organization, "ab"); // ab: binary
+    if (!file) {
+        cerr << "File is unopen. " << organization << endl;
+        return false;
+    }
+    if (fwrite(&user, sizeof(login), 1, file) != 1) {
+        cerr << "Error writing to file." << endl;
+        fclose(file);
+        return false;
+    }
+
+    fclose(file);
+    return true;
+}
 struct tracking {
     string timelines;
 };
