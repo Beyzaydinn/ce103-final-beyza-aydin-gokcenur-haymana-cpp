@@ -228,7 +228,51 @@ TEST(TaskAssignmentTest, DisplayMenu) {
     string expected_output = "\n1. Register Attendees: \n2. Track Attendees: \n";
     ASSERT_EQ(output, expected_output);
 }
+class ProgressTrackingTest : public ::testing::Test {
+protected:
+    void SetUp() override {
+    }
+    void TearDown() override {
+    }
+};
 
+TEST(ProgressTrackingTest, DisplayMenu) {
+    testing::internal::CaptureStdout();
+    progressTracking();
+    string output = testing::internal::GetCapturedStdout();
+    string expected_output = "\n1. Plan Timelines\n2. Organize Activities\n";
+    ASSERT_EQ(output, expected_output);
+}
+class PlanTimelinesTest : public ::testing::Test {
+protected:
+    void SetUp() override {
+    }
+    void TearDown() override {
+    }
+};
+
+TEST(PlanTimelinesTest, DisplayMenu) {
+    testing::internal::CaptureStdout();
+    planTimelines();
+    string output = testing::internal::GetCapturedStdout();
+    string expected_output = "\n1. Morning Event (09.00-13.00) \n2. Noon Event (13.00-18.00) \n3. Evening Event (18.00-22.00) \n";
+    ASSERT_EQ(output, expected_output);
+}
+class FeedbackTest : public ::testing::Test {
+protected:
+    void SetUp() override {
+    }
+    void TearDown() override {
+    }
+};
+
+TEST(FeedbackTest, DisplayMenu) {
+    testing::internal::CaptureStdout();
+    feedback();
+    string output = testing::internal::GetCapturedStdout();
+    string expected_output = "\nGather Feedback\n";
+    ASSERT_EQ(output, expected_output);
+}
 
 int main(int argc, char** argv) {
     ::testing::InitGoogleTest(&argc, argv);

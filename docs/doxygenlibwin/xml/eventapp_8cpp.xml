@@ -28,7 +28,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/eventapp/src/eventapp.cpp</label>
+        <label>src/eventapp/src/eventapp.cpp</label>
         <link refid="eventapp_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/eventapp/src/eventapp.cpp" line="14" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/eventapp/src/eventapp.cpp" bodystart="14" bodyend="256"/>
+        <location file="src/eventapp/src/eventapp.cpp" line="14" column="5" bodyfile="src/eventapp/src/eventapp.cpp" bodystart="14" bodyend="256"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -349,6 +349,6 @@
 <codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
 <codeline lineno="256"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/eventapp/src/eventapp.cpp"/>
+    <location file="src/eventapp/src/eventapp.cpp"/>
   </compounddef>
 </doxygen>

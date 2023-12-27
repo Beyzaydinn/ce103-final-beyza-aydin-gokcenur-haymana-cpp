@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['projectsetuptest_0',['ProjectSetupTest',['../class_project_setup_test.html',1,'']]]
+  ['mainmenutest_0',['MainMenuTest',['../class_main_menu_test.html',1,'']]],
+  ['menutest_1',['MenuTest',['../class_menu_test.html',1,'']]]
 ];

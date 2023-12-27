@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="75" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="75" bodyend="76"/>
+        <location file="src/tests/event/event_test.cpp" line="75" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="75" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="classattendees_login_test_1a72ff9c52169b4a870c65799d2283fa6e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="77" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="77" bodyend="78"/>
+        <location file="src/tests/event/event_test.cpp" line="77" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="77" bodyend="78"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -59,7 +59,7 @@
         <label>testing::Test</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="73" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="73" bodyend="79"/>
+    <location file="src/tests/event/event_test.cpp" line="73" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="73" bodyend="79"/>
     <listofallmembers>
       <member refid="classattendees_login_test_1a0cffdfd22fd6f47966f1a43a8fc35ad0" prot="protected" virt="non-virtual"><scope>attendeesLoginTest</scope><name>SetUp</name></member>
       <member refid="classattendees_login_test_1a72ff9c52169b4a870c65799d2283fa6e" prot="protected" virt="non-virtual"><scope>attendeesLoginTest</scope><name>TearDown</name></member>

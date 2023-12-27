@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_progress_tracking_test" kind="class" language="C++" prot="public">
+    <compoundname>ProgressTrackingTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">testing::Test</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_progress_tracking_test_1a4b2d150550c98d4fa9a7b190157d8665" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProgressTrackingTest::SetUp</definition>
+        <argsstring>() override</argsstring>
+        <name>SetUp</name>
+        <qualifiedname>ProgressTrackingTest::SetUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="233" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="233" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="class_progress_tracking_test_1a68cba7873d0b9dc69dddfbf75fbac8a7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProgressTrackingTest::TearDown</definition>
+        <argsstring>() override</argsstring>
+        <name>TearDown</name>
+        <qualifiedname>ProgressTrackingTest::TearDown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="235" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="235" bodyend="236"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ProgressTrackingTest</label>
+        <link refid="class_progress_tracking_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>testing::Test</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ProgressTrackingTest</label>
+        <link refid="class_progress_tracking_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>testing::Test</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/tests/event/event_test.cpp" line="231" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="231" bodyend="237"/>
+    <listofallmembers>
+      <member refid="class_progress_tracking_test_1a4b2d150550c98d4fa9a7b190157d8665" prot="protected" virt="non-virtual"><scope>ProgressTrackingTest</scope><name>SetUp</name></member>
+      <member refid="class_progress_tracking_test_1a68cba7873d0b9dc69dddfbf75fbac8a7" prot="protected" virt="non-virtual"><scope>ProgressTrackingTest</scope><name>TearDown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

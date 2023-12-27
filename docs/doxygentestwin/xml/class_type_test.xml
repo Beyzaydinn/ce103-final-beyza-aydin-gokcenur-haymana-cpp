@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="137" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="137" bodyend="138"/>
+        <location file="src/tests/event/event_test.cpp" line="137" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="137" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="class_type_test_1a6f7d321b4eb20de336093ec98d8ab2d9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="139" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="139" bodyend="140"/>
+        <location file="src/tests/event/event_test.cpp" line="139" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="139" bodyend="140"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -59,7 +59,7 @@
         <label>testing::Test</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="135" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="135" bodyend="141"/>
+    <location file="src/tests/event/event_test.cpp" line="135" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="135" bodyend="141"/>
     <listofallmembers>
       <member refid="class_type_test_1a326e53e1f6b18e1a2cdbe53f687e7583" prot="protected" virt="non-virtual"><scope>TypeTest</scope><name>SetUp</name></member>
       <member refid="class_type_test_1a6f7d321b4eb20de336093ec98d8ab2d9" prot="protected" virt="non-virtual"><scope>TypeTest</scope><name>TearDown</name></member>

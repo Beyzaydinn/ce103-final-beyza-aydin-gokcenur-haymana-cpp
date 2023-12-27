@@ -13,7 +13,7 @@
         <label>../../event/src/event.cpp</label>
       </node>
       <node id="1">
-        <label>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp</label>
+        <label>src/tests/event/event_test.cpp</label>
         <link refid="event__test_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -40,6 +40,9 @@
     <innerclass refid="class_venue_test" prot="public">VenueTest</innerclass>
     <innerclass refid="class_user_plan_test" prot="public">UserPlanTest</innerclass>
     <innerclass refid="class_task_assignment_test" prot="public">TaskAssignmentTest</innerclass>
+    <innerclass refid="class_progress_tracking_test" prot="public">ProgressTrackingTest</innerclass>
+    <innerclass refid="class_plan_timelines_test" prot="public">PlanTimelinesTest</innerclass>
+    <innerclass refid="class_feedback_test" prot="public">FeedbackTest</innerclass>
       <sectiondef kind="func">
       <memberdef kind="function" id="event__test_8cpp_1ab3ae7239453c98c658dd3e2088931a11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -58,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="12" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="12" bodyend="20"/>
+        <location file="src/tests/event/event_test.cpp" line="12" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="12" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a45ed07d10e08253adf1a7f1ff569151b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -77,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="22" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="22" bodyend="30"/>
+        <location file="src/tests/event/event_test.cpp" line="22" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="22" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1ae5ff1eaf025a50607f0dc9d11b3c9d84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -96,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="40" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="40" bodyend="45"/>
+        <location file="src/tests/event/event_test.cpp" line="40" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="40" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a7fa3ffffd37181ecdd594183f40968ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -115,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="54" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="54" bodyend="59"/>
+        <location file="src/tests/event/event_test.cpp" line="54" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="54" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a397b3a4c567339d938ca8c74d81a53e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -134,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="67" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="67" bodyend="72"/>
+        <location file="src/tests/event/event_test.cpp" line="67" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="67" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a59c39ac3815f9b4b96c1b532345a8066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -153,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="80" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="80" bodyend="85"/>
+        <location file="src/tests/event/event_test.cpp" line="80" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="80" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -172,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="95" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="95" bodyend="101"/>
+        <location file="src/tests/event/event_test.cpp" line="95" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="95" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a677676c9e32c342db874f765f4dccf14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -191,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="111" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="111" bodyend="117"/>
+        <location file="src/tests/event/event_test.cpp" line="111" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="111" bodyend="117"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a628096eb339654c89997e8e50d2542e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -210,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="127" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="127" bodyend="133"/>
+        <location file="src/tests/event/event_test.cpp" line="127" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="127" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a5730544432af9121333edd742e6a0c4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -229,7 +232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="143" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="143" bodyend="149"/>
+        <location file="src/tests/event/event_test.cpp" line="143" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="143" bodyend="149"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a6b25dca132326cc69a2694a1ae9a389b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -248,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="159" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="159" bodyend="165"/>
+        <location file="src/tests/event/event_test.cpp" line="159" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="159" bodyend="165"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a2bdfe28baa0378d71850c7ade51fbd2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -267,7 +270,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="175" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="175" bodyend="181"/>
+        <location file="src/tests/event/event_test.cpp" line="175" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="175" bodyend="181"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a329e2dc5c1cbf666b95413e947dfb060" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -286,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="192" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="192" bodyend="198"/>
+        <location file="src/tests/event/event_test.cpp" line="192" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="192" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a63f18e013a3d511d8f7e998cdb5fb57c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -305,7 +308,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="208" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="208" bodyend="214"/>
+        <location file="src/tests/event/event_test.cpp" line="208" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="208" bodyend="214"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a593da78e3b0f25ade26fd834fad64dfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -324,7 +327,64 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="224" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="224" bodyend="230"/>
+        <location file="src/tests/event/event_test.cpp" line="224" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="224" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a543ea6af36595f5c29369c7587224f06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(ProgressTrackingTest, DisplayMenu)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type><ref refid="class_progress_tracking_test" kindref="compound">ProgressTrackingTest</ref></type>
+        </param>
+        <param>
+          <type>DisplayMenu</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="239" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="239" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a4b6d70568aef4508735bd02dd3d6b691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(PlanTimelinesTest, DisplayMenu)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type><ref refid="class_plan_timelines_test" kindref="compound">PlanTimelinesTest</ref></type>
+        </param>
+        <param>
+          <type>DisplayMenu</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="254" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="254" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1ab168550f8dbbcb116c61e4929a49ca6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(FeedbackTest, DisplayMenu)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type><ref refid="class_feedback_test" kindref="compound">FeedbackTest</ref></type>
+        </param>
+        <param>
+          <type>DisplayMenu</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="269" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="269" bodyend="275"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -345,7 +405,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="233" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="233" bodyend="236"/>
+        <location file="src/tests/event/event_test.cpp" line="277" column="5" bodyfile="src/tests/event/event_test.cpp" bodystart="277" bodyend="280"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -583,13 +643,57 @@
 <codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>expected_output<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\n1.<sp/>Register<sp/>Attendees:<sp/>\n2.<sp/>Track<sp/>Attendees:<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ(output,<sp/>expected_output);</highlight></codeline>
 <codeline lineno="230"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232"><highlight class="normal"></highlight></codeline>
-<codeline lineno="233" refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>argv)<sp/>{</highlight></codeline>
-<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>::testing::InitGoogleTest(&amp;argc,<sp/>argv);</highlight></codeline>
-<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RUN_ALL_TESTS();</highlight></codeline>
-<codeline lineno="236"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="231" refid="class_progress_tracking_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_progress_tracking_test" kindref="compound">ProgressTrackingTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="233" refid="class_progress_tracking_test_1a4b2d150550c98d4fa9a7b190157d8665" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_progress_tracking_test_1a4b2d150550c98d4fa9a7b190157d8665" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235" refid="class_progress_tracking_test_1a68cba7873d0b9dc69dddfbf75fbac8a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_progress_tracking_test_1a68cba7873d0b9dc69dddfbf75fbac8a7" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="event__test_8cpp_1a543ea6af36595f5c29369c7587224f06" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" kindref="member">TEST</ref>(<ref refid="class_progress_tracking_test" kindref="compound">ProgressTrackingTest</ref>,<sp/>DisplayMenu)<sp/>{</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>testing::internal::CaptureStdout();</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>progressTracking();</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output<sp/>=<sp/>testing::internal::GetCapturedStdout();</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>expected_output<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\n1.<sp/>Plan<sp/>Timelines\n2.<sp/>Organize<sp/>Activities\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ(output,<sp/>expected_output);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="246" refid="class_plan_timelines_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_plan_timelines_test" kindref="compound">PlanTimelinesTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="248" refid="class_plan_timelines_test_1ab4a1e5c253aa531a4e9936031410fa2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_plan_timelines_test_1ab4a1e5c253aa531a4e9936031410fa2f" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="250" refid="class_plan_timelines_test_1abf65f7f5b2439bd16c290a6efc1d1c49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_plan_timelines_test_1abf65f7f5b2439bd16c290a6efc1d1c49" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="252"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="event__test_8cpp_1a4b6d70568aef4508735bd02dd3d6b691" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" kindref="member">TEST</ref>(<ref refid="class_plan_timelines_test" kindref="compound">PlanTimelinesTest</ref>,<sp/>DisplayMenu)<sp/>{</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>testing::internal::CaptureStdout();</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/>planTimelines();</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output<sp/>=<sp/>testing::internal::GetCapturedStdout();</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>expected_output<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\n1.<sp/>Morning<sp/>Event<sp/>(09.00-13.00)<sp/>\n2.<sp/>Noon<sp/>Event<sp/>(13.00-18.00)<sp/>\n3.<sp/>Evening<sp/>Event<sp/>(18.00-22.00)<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ(output,<sp/>expected_output);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="261" refid="class_feedback_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_feedback_test" kindref="compound">FeedbackTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="263" refid="class_feedback_test_1af59f574fded56ff5e0e3f274bcf67611" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_feedback_test_1af59f574fded56ff5e0e3f274bcf67611" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="265" refid="class_feedback_test_1a94b370130730acc87e607602477b0fa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_feedback_test_1a94b370130730acc87e607602477b0fa2" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="event__test_8cpp_1ab168550f8dbbcb116c61e4929a49ca6b" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" kindref="member">TEST</ref>(<ref refid="class_feedback_test" kindref="compound">FeedbackTest</ref>,<sp/>DisplayMenu)<sp/>{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>testing::internal::CaptureStdout();</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>feedback();</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output<sp/>=<sp/>testing::internal::GetCapturedStdout();</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>expected_output<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\nGather<sp/>Feedback\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ(output,<sp/>expected_output);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>argv)<sp/>{</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>::testing::InitGoogleTest(&amp;argc,<sp/>argv);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RUN_ALL_TESTS();</highlight></codeline>
+<codeline lineno="280"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp"/>
+    <location file="src/tests/event/event_test.cpp"/>
   </compounddef>
 </doxygen>

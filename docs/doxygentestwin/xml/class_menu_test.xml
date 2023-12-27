@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="153" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="153" bodyend="154"/>
+        <location file="src/tests/event/event_test.cpp" line="153" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="153" bodyend="154"/>
       </memberdef>
       <memberdef kind="function" id="class_menu_test_1abd52649b73044ba095593b0f2cd81723" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="155" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="155" bodyend="156"/>
+        <location file="src/tests/event/event_test.cpp" line="155" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="155" bodyend="156"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -59,7 +59,7 @@
         <label>testing::Test</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="151" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="151" bodyend="157"/>
+    <location file="src/tests/event/event_test.cpp" line="151" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="151" bodyend="157"/>
     <listofallmembers>
       <member refid="class_menu_test_1a263f8fbc794c56ff76aa4d2d7a4d626a" prot="protected" virt="non-virtual"><scope>MenuTest</scope><name>SetUp</name></member>
       <member refid="class_menu_test_1abd52649b73044ba095593b0f2cd81723" prot="protected" virt="non-virtual"><scope>MenuTest</scope><name>TearDown</name></member>

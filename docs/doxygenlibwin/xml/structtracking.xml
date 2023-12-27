@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="92" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="92" bodyend="-1"/>
+        <location file="src/event/src/event.cpp" line="92" column="12" bodyfile="src/event/src/event.cpp" bodystart="92" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -28,7 +28,7 @@
         <link refid="structtracking"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="91" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="91" bodyend="93"/>
+    <location file="src/event/src/event.cpp" line="91" column="1" bodyfile="src/event/src/event.cpp" bodystart="91" bodyend="93"/>
     <listofallmembers>
       <member refid="structtracking_1aa21aedaefed62fd34a198031b0669096" prot="public" virt="non-virtual"><scope>tracking</scope><name>timelines</name></member>
     </listofallmembers>

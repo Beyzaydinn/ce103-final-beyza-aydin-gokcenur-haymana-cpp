@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="34" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="34" bodyend="35"/>
+        <location file="src/tests/event/event_test.cpp" line="34" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="34" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="class_write_user_info_to_file_test_1a3659eeaa8793685b21e084f8e9537d8e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="36" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="36" bodyend="37"/>
+        <location file="src/tests/event/event_test.cpp" line="36" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="36" bodyend="37"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -59,7 +59,7 @@
         <label>testing::Test</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="32" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="32" bodyend="38"/>
+    <location file="src/tests/event/event_test.cpp" line="32" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="32" bodyend="38"/>
     <listofallmembers>
       <member refid="class_write_user_info_to_file_test_1a8cd38d88fe2ecfb68e8f9b70b80c1a05" prot="protected" virt="non-virtual"><scope>WriteUserInfoToFileTest</scope><name>SetUp</name></member>
       <member refid="class_write_user_info_to_file_test_1a3659eeaa8793685b21e084f8e9537d8e" prot="protected" virt="non-virtual"><scope>WriteUserInfoToFileTest</scope><name>TearDown</name></member>

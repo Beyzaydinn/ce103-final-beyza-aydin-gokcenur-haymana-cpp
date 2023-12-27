@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/header/mathUtility.h" line="33" column="15"/>
+        <location file="src/utility/header/mathUtility.h" line="33" column="15"/>
       </memberdef>
       <memberdef kind="function" id="class_coruh_1_1_utility_1_1_math_utility_1a0b7806133f1c28540e1ab62acf3b1e2b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/header/mathUtility.h" line="45" column="15"/>
+        <location file="src/utility/header/mathUtility.h" line="45" column="15"/>
       </memberdef>
       <memberdef kind="function" id="class_coruh_1_1_utility_1_1_math_utility_1aa90aa905b98cd146bccf366cfceae116" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/header/mathUtility.h" line="59" column="12"/>
+        <location file="src/utility/header/mathUtility.h" line="59" column="12"/>
       </memberdef>
       <memberdef kind="function" id="class_coruh_1_1_utility_1_1_math_utility_1ac488d692b348070c3791ee764cfdd073" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/header/mathUtility.h" line="72" column="13"/>
+        <location file="src/utility/header/mathUtility.h" line="72" column="13"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -222,7 +222,7 @@
         <link refid="class_coruh_1_1_utility_1_1_math_utility"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/header/mathUtility.h" line="20" column="9" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/utility/header/mathUtility.h" bodystart="21" bodyend="74"/>
+    <location file="src/utility/header/mathUtility.h" line="20" column="9" bodyfile="src/utility/header/mathUtility.h" bodystart="21" bodyend="74"/>
     <listofallmembers>
       <member refid="class_coruh_1_1_utility_1_1_math_utility_1a2e7a392ac5aa8818021235d7ab26ea2b" prot="public" virt="non-virtual"><scope>Coruh::Utility::MathUtility</scope><name>calculateMean</name></member>
       <member refid="class_coruh_1_1_utility_1_1_math_utility_1a0b7806133f1c28540e1ab62acf3b1e2b" prot="public" virt="non-virtual"><scope>Coruh::Utility::MathUtility</scope><name>calculateMedian</name></member>

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="121" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="121" bodyend="122"/>
+        <location file="src/tests/event/event_test.cpp" line="121" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="121" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="class_project_setup_test_1acb4ee0fb0e930b0f812f3962f8f1cdbf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="123" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="123" bodyend="124"/>
+        <location file="src/tests/event/event_test.cpp" line="123" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="123" bodyend="124"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -59,7 +59,7 @@
         <label>testing::Test</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="119" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="119" bodyend="125"/>
+    <location file="src/tests/event/event_test.cpp" line="119" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="119" bodyend="125"/>
     <listofallmembers>
       <member refid="class_project_setup_test_1af2bbfbd3da1be83036c9675a54d6c60c" prot="protected" virt="non-virtual"><scope>ProjectSetupTest</scope><name>SetUp</name></member>
       <member refid="class_project_setup_test_1acb4ee0fb0e930b0f812f3962f8f1cdbf" prot="protected" virt="non-virtual"><scope>ProjectSetupTest</scope><name>TearDown</name></member>

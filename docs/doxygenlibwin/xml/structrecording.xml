@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="13" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="13" bodyend="-1"/>
+        <location file="src/event/src/event.cpp" line="13" column="12" bodyfile="src/event/src/event.cpp" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structrecording_1a6df46f7263e262079ef73df25e1b8342" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="14" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="14" bodyend="-1"/>
+        <location file="src/event/src/event.cpp" line="14" column="12" bodyfile="src/event/src/event.cpp" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structrecording_1a9f6d5745f6b6c95b107905024553aeca" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="15" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="15" bodyend="-1"/>
+        <location file="src/event/src/event.cpp" line="15" column="12" bodyfile="src/event/src/event.cpp" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structrecording_1a8f294df4b1cb83d4d16f83ee35487cc1" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="16" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="16" bodyend="-1"/>
+        <location file="src/event/src/event.cpp" line="16" column="12" bodyfile="src/event/src/event.cpp" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structrecording_1a2feef762e3f5e77ece900e2dd0d97bc2" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="17" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="17" bodyend="-1"/>
+        <location file="src/event/src/event.cpp" line="17" column="12" bodyfile="src/event/src/event.cpp" bodystart="17" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -84,7 +84,7 @@
         <link refid="structrecording"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="12" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="12" bodyend="18"/>
+    <location file="src/event/src/event.cpp" line="12" column="1" bodyfile="src/event/src/event.cpp" bodystart="12" bodyend="18"/>
     <listofallmembers>
       <member refid="structrecording_1a2feef762e3f5e77ece900e2dd0d97bc2" prot="public" virt="non-virtual"><scope>recording</scope><name>email</name></member>
       <member refid="structrecording_1a3298c8333d499f38ca2b124d89d4a0e8" prot="public" virt="non-virtual"><scope>recording</scope><name>nameSurname</name></member>
