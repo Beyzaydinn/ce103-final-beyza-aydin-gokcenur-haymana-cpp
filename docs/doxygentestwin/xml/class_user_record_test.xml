@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/event/event_test.cpp" line="49" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="49" bodyend="50"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="49" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="49" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="class_user_record_test_1af41553f51b4ba7339456fda8dab10376" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/event/event_test.cpp" line="51" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="51" bodyend="52"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="51" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="51" bodyend="52"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -59,7 +59,7 @@
         <label>testing::Test</label>
       </node>
     </collaborationgraph>
-    <location file="src/tests/event/event_test.cpp" line="47" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="47" bodyend="53"/>
+    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="47" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="47" bodyend="53"/>
     <listofallmembers>
       <member refid="class_user_record_test_1afc43d108fe05ddf9acb32999db04fe8a" prot="protected" virt="non-virtual"><scope>UserRecordTest</scope><name>SetUp</name></member>
       <member refid="class_user_record_test_1af41553f51b4ba7339456fda8dab10376" prot="protected" virt="non-virtual"><scope>UserRecordTest</scope><name>TearDown</name></member>

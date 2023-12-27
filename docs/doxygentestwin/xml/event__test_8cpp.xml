@@ -13,7 +13,7 @@
         <label>../../event/src/event.cpp</label>
       </node>
       <node id="1">
-        <label>src/tests/event/event_test.cpp</label>
+        <label>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp</label>
         <link refid="event__test_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -31,6 +31,15 @@
     <innerclass refid="class_user_record_test" prot="public">UserRecordTest</innerclass>
     <innerclass refid="class_user_choice_test" prot="public">UserChoiceTest</innerclass>
     <innerclass refid="classattendees_login_test" prot="public">attendeesLoginTest</innerclass>
+    <innerclass refid="class_main_menu_test" prot="public">MainMenuTest</innerclass>
+    <innerclass refid="classuser_authentication_test" prot="public">userAuthenticationTest</innerclass>
+    <innerclass refid="class_project_setup_test" prot="public">ProjectSetupTest</innerclass>
+    <innerclass refid="class_type_test" prot="public">TypeTest</innerclass>
+    <innerclass refid="class_menu_test" prot="public">MenuTest</innerclass>
+    <innerclass refid="class_color_test" prot="public">ColorTest</innerclass>
+    <innerclass refid="class_venue_test" prot="public">VenueTest</innerclass>
+    <innerclass refid="class_user_plan_test" prot="public">UserPlanTest</innerclass>
+    <innerclass refid="class_task_assignment_test" prot="public">TaskAssignmentTest</innerclass>
       <sectiondef kind="func">
       <memberdef kind="function" id="event__test_8cpp_1ab3ae7239453c98c658dd3e2088931a11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -49,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/event/event_test.cpp" line="12" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="12" bodyend="20"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="12" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="12" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a45ed07d10e08253adf1a7f1ff569151b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -68,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/event/event_test.cpp" line="22" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="22" bodyend="30"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="22" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="22" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1ae5ff1eaf025a50607f0dc9d11b3c9d84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -87,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/event/event_test.cpp" line="40" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="40" bodyend="45"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="40" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="40" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a7fa3ffffd37181ecdd594183f40968ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -106,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/event/event_test.cpp" line="54" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="54" bodyend="59"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="54" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="54" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a397b3a4c567339d938ca8c74d81a53e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -125,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/event/event_test.cpp" line="67" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="67" bodyend="72"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="67" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="67" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a59c39ac3815f9b4b96c1b532345a8066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -144,7 +153,178 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/event/event_test.cpp" line="80" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="80" bodyend="85"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="80" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="80" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(MainMenuTest, DisplayMenu)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type><ref refid="class_main_menu_test" kindref="compound">MainMenuTest</ref></type>
+        </param>
+        <param>
+          <type>DisplayMenu</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="95" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="95" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a677676c9e32c342db874f765f4dccf14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(userAuthenticationTest, DisplayMenu)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type><ref refid="classuser_authentication_test" kindref="compound">userAuthenticationTest</ref></type>
+        </param>
+        <param>
+          <type>DisplayMenu</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="111" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="111" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a628096eb339654c89997e8e50d2542e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(ProjectSetupTest, DisplayMenu)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type><ref refid="class_project_setup_test" kindref="compound">ProjectSetupTest</ref></type>
+        </param>
+        <param>
+          <type>DisplayMenu</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="127" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="127" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a5730544432af9121333edd742e6a0c4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(TypeTest, DisplayMenu)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type><ref refid="class_type_test" kindref="compound">TypeTest</ref></type>
+        </param>
+        <param>
+          <type>DisplayMenu</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="143" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="143" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a6b25dca132326cc69a2694a1ae9a389b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(MenuTest, DisplayMenu)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type><ref refid="class_menu_test" kindref="compound">MenuTest</ref></type>
+        </param>
+        <param>
+          <type>DisplayMenu</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="159" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="159" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a2bdfe28baa0378d71850c7ade51fbd2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(ColorTest, DisplayMenu)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type><ref refid="class_color_test" kindref="compound">ColorTest</ref></type>
+        </param>
+        <param>
+          <type>DisplayMenu</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="175" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="175" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a329e2dc5c1cbf666b95413e947dfb060" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(VenueTest, DisplayMenu)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type><ref refid="class_venue_test" kindref="compound">VenueTest</ref></type>
+        </param>
+        <param>
+          <type>DisplayMenu</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="192" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="192" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a63f18e013a3d511d8f7e998cdb5fb57c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(UserPlanTest, DisplayMenu)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type><ref refid="class_user_plan_test" kindref="compound">UserPlanTest</ref></type>
+        </param>
+        <param>
+          <type>DisplayMenu</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="208" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="208" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a593da78e3b0f25ade26fd834fad64dfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(TaskAssignmentTest, DisplayMenu)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type><ref refid="class_task_assignment_test" kindref="compound">TaskAssignmentTest</ref></type>
+        </param>
+        <param>
+          <type>DisplayMenu</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="224" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="224" bodyend="230"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -165,7 +345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/event/event_test.cpp" line="88" column="5" bodyfile="src/tests/event/event_test.cpp" bodystart="88" bodyend="91"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="233" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="233" bodyend="236"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -259,12 +439,157 @@
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_TRUE(result)<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Write<sp/>to<sp/>file<sp/>should<sp/>be<sp/>successful&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="85"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>argv)<sp/>{</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>::testing::InitGoogleTest(&amp;argc,<sp/>argv);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RUN_ALL_TESTS();</highlight></codeline>
-<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87" refid="class_main_menu_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_main_menu_test" kindref="compound">MainMenuTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="89" refid="class_main_menu_test_1ac0ccdf17b99d4719c80e741de81feab1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_main_menu_test_1ac0ccdf17b99d4719c80e741de81feab1" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91" refid="class_main_menu_test_1a46cd5bd7354f6ff97b95cc55d5309a53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_main_menu_test_1a46cd5bd7354f6ff97b95cc55d5309a53" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" kindref="member">TEST</ref>(<ref refid="class_main_menu_test" kindref="compound">MainMenuTest</ref>,<sp/>DisplayMenu)<sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>testing::internal::CaptureStdout();<sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>mainMenu();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output<sp/>=<sp/>testing::internal::GetCapturedStdout();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>expected_output<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\nMain<sp/>Menu:\n1.<sp/>User<sp/>Authentication\n2.<sp/>Project<sp/>Setup\n3.<sp/>Task<sp/>Assignment\n4.<sp/>Progress<sp/>Tracking\n5.<sp/>Reporting\n6.<sp/>Exit\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ(output,<sp/>expected_output);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="classuser_authentication_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_authentication_test" kindref="compound">userAuthenticationTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="105" refid="classuser_authentication_test_1a267779053e18d94c471740ace5bb98e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classuser_authentication_test_1a267779053e18d94c471740ace5bb98e4" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107" refid="classuser_authentication_test_1a37db0dbe104a3ba8c0c7720164bfcad4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classuser_authentication_test_1a37db0dbe104a3ba8c0c7720164bfcad4" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="event__test_8cpp_1a677676c9e32c342db874f765f4dccf14" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" kindref="member">TEST</ref>(<ref refid="classuser_authentication_test" kindref="compound">userAuthenticationTest</ref>,<sp/>DisplayMenu)<sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>testing::internal::CaptureStdout();</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>userAuthentication();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output<sp/>=<sp/>testing::internal::GetCapturedStdout();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>expected_output<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\n1.<sp/>Login<sp/>\n2.<sp/>Register<sp/>\n3.<sp/>Guest<sp/>Mode<sp/>\n&quot;</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ(output,<sp/>expected_output);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="class_project_setup_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_project_setup_test" kindref="compound">ProjectSetupTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="121" refid="class_project_setup_test_1af2bbfbd3da1be83036c9675a54d6c60c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_project_setup_test_1af2bbfbd3da1be83036c9675a54d6c60c" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123" refid="class_project_setup_test_1acb4ee0fb0e930b0f812f3962f8f1cdbf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_project_setup_test_1acb4ee0fb0e930b0f812f3962f8f1cdbf" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="event__test_8cpp_1a628096eb339654c89997e8e50d2542e5" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" kindref="member">TEST</ref>(<ref refid="class_project_setup_test" kindref="compound">ProjectSetupTest</ref>,<sp/>DisplayMenu)<sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>testing::internal::CaptureStdout();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>projectSetup();<sp/></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output<sp/>=<sp/>testing::internal::GetCapturedStdout();</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>expected_output<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\n1.<sp/>Create<sp/>Event:\n2.<sp/>Manage<sp/>Event:\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ(output,<sp/>expected_output);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="class_type_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_type_test" kindref="compound">TypeTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="137" refid="class_type_test_1a326e53e1f6b18e1a2cdbe53f687e7583" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_type_test_1a326e53e1f6b18e1a2cdbe53f687e7583" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139" refid="class_type_test_1a6f7d321b4eb20de336093ec98d8ab2d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_type_test_1a6f7d321b4eb20de336093ec98d8ab2d9" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="event__test_8cpp_1a5730544432af9121333edd742e6a0c4f" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" kindref="member">TEST</ref>(<ref refid="class_type_test" kindref="compound">TypeTest</ref>,<sp/>DisplayMenu)<sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>testing::internal::CaptureStdout();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>type();</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output<sp/>=<sp/>testing::internal::GetCapturedStdout();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>expected_output<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\n1)<sp/>Wedding\n2)<sp/>Birthday\n3)<sp/>Bride\n4)<sp/>Circumcision\n5)<sp/>Engagement\n6)<sp/>Baby<sp/>Shower\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ(output,<sp/>expected_output);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="class_menu_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_menu_test" kindref="compound">MenuTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="153" refid="class_menu_test_1a263f8fbc794c56ff76aa4d2d7a4d626a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_menu_test_1a263f8fbc794c56ff76aa4d2d7a4d626a" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155" refid="class_menu_test_1abd52649b73044ba095593b0f2cd81723" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_menu_test_1abd52649b73044ba095593b0f2cd81723" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="event__test_8cpp_1a6b25dca132326cc69a2694a1ae9a389b" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" kindref="member">TEST</ref>(<ref refid="class_menu_test" kindref="compound">MenuTest</ref>,<sp/>DisplayMenu)<sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>testing::internal::CaptureStdout();</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>menu();<sp/></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output<sp/>=<sp/>testing::internal::GetCapturedStdout();</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>expected_output<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\n1.<sp/>Food<sp/>Menu\n2.<sp/>Cake<sp/>Menu\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ(output,<sp/>expected_output);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="class_color_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_color_test" kindref="compound">ColorTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="169" refid="class_color_test_1afb14be5f437977c20edc87f4685283c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_color_test_1afb14be5f437977c20edc87f4685283c7" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="171" refid="class_color_test_1a2fa2980b9c212204c36284aed29399ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_color_test_1a2fa2980b9c212204c36284aed29399ef" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="175" refid="event__test_8cpp_1a2bdfe28baa0378d71850c7ade51fbd2a" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" kindref="member">TEST</ref>(<sp/><ref refid="class_color_test" kindref="compound">ColorTest</ref>,<sp/>DisplayMenu)<sp/>{<sp/><sp/></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>testing::internal::CaptureStdout();</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>color();</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output<sp/>=<sp/>testing::internal::GetCapturedStdout();</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>expected_output<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\n1.<sp/>Pink<sp/>and<sp/>Blue\n2.<sp/>Red<sp/>and<sp/>Black\n3.<sp/>Cream<sp/>color<sp/>and<sp/>Brown\n4.<sp/>White<sp/>and<sp/>Black\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ(output,<sp/>expected_output);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="class_venue_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_venue_test" kindref="compound">VenueTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="186" refid="class_venue_test_1ac4a2ff98e2bb57c1e3fc0dd38d785feb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_venue_test_1ac4a2ff98e2bb57c1e3fc0dd38d785feb" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="188" refid="class_venue_test_1a896c70b514cca576911eddc58a6675a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_venue_test_1a896c70b514cca576911eddc58a6675a4" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="event__test_8cpp_1a329e2dc5c1cbf666b95413e947dfb060" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" kindref="member">TEST</ref>(<sp/><ref refid="class_venue_test" kindref="compound">VenueTest</ref>,<sp/>DisplayMenu)<sp/>{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>testing::internal::CaptureStdout();</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>venue();</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output<sp/>=<sp/>testing::internal::GetCapturedStdout();</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>expected_output<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\n1.<sp/>Indoor<sp/>event<sp/>hall\n2.<sp/>Beach<sp/>Side\n3.<sp/>Countryside<sp/>Organization\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ(output,<sp/>expected_output);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="class_user_plan_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_user_plan_test" kindref="compound">UserPlanTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="202" refid="class_user_plan_test_1abffe40c9426f5996cfadf12f490fb951" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_plan_test_1abffe40c9426f5996cfadf12f490fb951" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204" refid="class_user_plan_test_1a7f6aa46202b91626b07325a3a8197d99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_plan_test_1a7f6aa46202b91626b07325a3a8197d99" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="event__test_8cpp_1a63f18e013a3d511d8f7e998cdb5fb57c" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" kindref="member">TEST</ref>(<ref refid="class_user_plan_test" kindref="compound">UserPlanTest</ref>,<sp/>DisplayMenu)<sp/>{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>testing::internal::CaptureStdout();</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>userPlan();</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output<sp/>=<sp/>testing::internal::GetCapturedStdout();</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>expected_output<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\nYour<sp/>type:<sp/>\nYour<sp/>venue:<sp/>\nYour<sp/>color<sp/>type:<sp/>\nYour<sp/>menu:<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ(output,<sp/>expected_output);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="class_task_assignment_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_task_assignment_test" kindref="compound">TaskAssignmentTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="218" refid="class_task_assignment_test_1a9272f9972ec48d9896074626a19b8e7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_task_assignment_test_1a9272f9972ec48d9896074626a19b8e7d" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="220" refid="class_task_assignment_test_1a2624348584cc15b3b9f1cbc260e72991" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_task_assignment_test_1a2624348584cc15b3b9f1cbc260e72991" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="event__test_8cpp_1a593da78e3b0f25ade26fd834fad64dfd" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" kindref="member">TEST</ref>(<ref refid="class_task_assignment_test" kindref="compound">TaskAssignmentTest</ref>,<sp/>DisplayMenu)<sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>testing::internal::CaptureStdout();</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>taskAssignment();<sp/></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>output<sp/>=<sp/>testing::internal::GetCapturedStdout();</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>expected_output<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\n1.<sp/>Register<sp/>Attendees:<sp/>\n2.<sp/>Track<sp/>Attendees:<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_EQ(output,<sp/>expected_output);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>argv)<sp/>{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>::testing::InitGoogleTest(&amp;argc,<sp/>argv);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RUN_ALL_TESTS();</highlight></codeline>
+<codeline lineno="236"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="src/tests/event/event_test.cpp"/>
+    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp"/>
   </compounddef>
 </doxygen>

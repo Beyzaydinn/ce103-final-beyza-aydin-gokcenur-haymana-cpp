@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/event/event_test.cpp" line="7" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="7" bodyend="8"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="7" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="7" bodyend="8"/>
       </memberdef>
       <memberdef kind="function" id="class_authenticate_login_test_1a6466f1ce0628b3f7e3c547af92e1f8c1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/event/event_test.cpp" line="9" column="10" bodyfile="src/tests/event/event_test.cpp" bodystart="9" bodyend="10"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="9" column="10" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="9" bodyend="10"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -59,7 +59,7 @@
         <label>testing::Test</label>
       </node>
     </collaborationgraph>
-    <location file="src/tests/event/event_test.cpp" line="5" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="5" bodyend="11"/>
+    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="5" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="5" bodyend="11"/>
     <listofallmembers>
       <member refid="class_authenticate_login_test_1a653365321ddb36daa2d7c938078bafd4" prot="protected" virt="non-virtual"><scope>AuthenticateLoginTest</scope><name>SetUp</name></member>
       <member refid="class_authenticate_login_test_1a6466f1ce0628b3f7e3c547af92e1f8c1" prot="protected" virt="non-virtual"><scope>AuthenticateLoginTest</scope><name>TearDown</name></member>

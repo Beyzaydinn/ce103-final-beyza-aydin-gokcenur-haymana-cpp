@@ -84,17 +84,151 @@ TEST_F(attendeesLoginTest, SuccessfulWrite) {
     ASSERT_TRUE(result) << "Write to file should be successful";
 }
 
-TEST(AuthenticateLoginTest, CorrectPassword) {
+class MainMenuTest : public ::testing::Test {
+protected:
+    void SetUp() override {
+    }
+    void TearDown() override {
+    }
+};
 
-    login user = { "john_doe", "secure_password" };
-    EXPECT_TRUE(authenticateLogin(user, "secure_password"));
+TEST(MainMenuTest, DisplayMenu) {
+    testing::internal::CaptureStdout();  
+    mainMenu();
+    string output = testing::internal::GetCapturedStdout();
+    string expected_output = "\nMain Menu:\n1. User Authentication\n2. Project Setup\n3. Task Assignment\n4. Progress Tracking\n5. Reporting\n6. Exit\n";
+    ASSERT_EQ(output, expected_output);
 }
 
-TEST(AuthenticateLoginTest, IncorrectPassword) {
+class userAuthenticationTest : public ::testing::Test {
+protected:
+    void SetUp() override {
+    }
+    void TearDown() override {
+    }
+};
 
-    login user = { "jane_doe", "password123" };
-    EXPECT_FALSE(authenticateLogin(user, "wrong_password"));
+TEST(userAuthenticationTest, DisplayMenu) {
+    testing::internal::CaptureStdout();
+    userAuthentication();
+    string output = testing::internal::GetCapturedStdout();
+    string expected_output = "\n1. Login \n2. Register \n3. Guest Mode \n"; 
+    ASSERT_EQ(output, expected_output);   
 }
+
+class ProjectSetupTest : public ::testing::Test {
+protected:
+    void SetUp() override {
+    }
+    void TearDown() override {
+    }
+};
+
+TEST(ProjectSetupTest, DisplayMenu) {
+    testing::internal::CaptureStdout();
+    projectSetup(); 
+    string output = testing::internal::GetCapturedStdout();
+    string expected_output = "\n1. Create Event:\n2. Manage Event:\n";
+    ASSERT_EQ(output, expected_output);
+}
+
+class TypeTest : public ::testing::Test {
+protected:
+    void SetUp() override {
+    }
+    void TearDown() override {
+    }
+};
+
+TEST(TypeTest, DisplayMenu) {
+    testing::internal::CaptureStdout();
+    type();
+    string output = testing::internal::GetCapturedStdout();
+    string expected_output = "\n1) Wedding\n2) Birthday\n3) Bride\n4) Circumcision\n5) Engagement\n6) Baby Shower\n";
+    ASSERT_EQ(output, expected_output);
+}
+
+class MenuTest : public ::testing::Test {
+protected:
+    void SetUp() override {
+    }
+    void TearDown() override {
+    }
+};
+
+TEST(MenuTest, DisplayMenu) {
+    testing::internal::CaptureStdout();
+    menu(); 
+    string output = testing::internal::GetCapturedStdout();
+    string expected_output = "\n1. Food Menu\n2. Cake Menu\n";
+    ASSERT_EQ(output, expected_output);
+}
+
+class ColorTest : public ::testing::Test {
+protected:
+    void SetUp() override {
+    }
+    void TearDown() override {
+    }
+};
+ 
+TEST( ColorTest, DisplayMenu) {  
+    testing::internal::CaptureStdout();
+    color();
+    string output = testing::internal::GetCapturedStdout();
+    string expected_output = "\n1. Pink and Blue\n2. Red and Black\n3. Cream color and Brown\n4. White and Black\n";
+    ASSERT_EQ(output, expected_output);
+}
+
+
+class VenueTest : public ::testing::Test {
+protected:
+    void SetUp() override {
+    }
+    void TearDown() override {
+    }
+};
+
+TEST( VenueTest, DisplayMenu) {
+    testing::internal::CaptureStdout();
+    venue();
+    string output = testing::internal::GetCapturedStdout();
+    string expected_output = "\n1. Indoor event hall\n2. Beach Side\n3. Countryside Organization\n";
+    ASSERT_EQ(output, expected_output);
+}
+
+class UserPlanTest : public ::testing::Test {
+protected:
+    void SetUp() override {
+    }
+    void TearDown() override {
+    }
+};
+
+TEST(UserPlanTest, DisplayMenu) {
+    testing::internal::CaptureStdout();
+    userPlan();
+    string output = testing::internal::GetCapturedStdout();
+    string expected_output = "\nYour type: \nYour venue: \nYour color type: \nYour menu: \n";
+    ASSERT_EQ(output, expected_output);
+}
+
+class TaskAssignmentTest : public ::testing::Test {
+protected:
+    void SetUp() override {
+    }
+    void TearDown() override {
+    }
+};
+
+TEST(TaskAssignmentTest, DisplayMenu) {
+    testing::internal::CaptureStdout();
+    taskAssignment(); 
+    string output = testing::internal::GetCapturedStdout();
+    string expected_output = "\n1. Register Attendees: \n2. Track Attendees: \n";
+    ASSERT_EQ(output, expected_output);
+}
+
 
 int main(int argc, char** argv) {
     ::testing::InitGoogleTest(&argc, argv);

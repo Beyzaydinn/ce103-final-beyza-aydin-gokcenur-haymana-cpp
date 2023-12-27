@@ -8,13 +8,49 @@
     <member refid="class_authenticate_login_test_1a653365321ddb36daa2d7c938078bafd4" kind="function"><name>SetUp</name></member>
     <member refid="class_authenticate_login_test_1a6466f1ce0628b3f7e3c547af92e1f8c1" kind="function"><name>TearDown</name></member>
   </compound>
+  <compound refid="class_color_test" kind="class"><name>ColorTest</name>
+    <member refid="class_color_test_1afb14be5f437977c20edc87f4685283c7" kind="function"><name>SetUp</name></member>
+    <member refid="class_color_test_1a2fa2980b9c212204c36284aed29399ef" kind="function"><name>TearDown</name></member>
+  </compound>
+  <compound refid="class_main_menu_test" kind="class"><name>MainMenuTest</name>
+    <member refid="class_main_menu_test_1ac0ccdf17b99d4719c80e741de81feab1" kind="function"><name>SetUp</name></member>
+    <member refid="class_main_menu_test_1a46cd5bd7354f6ff97b95cc55d5309a53" kind="function"><name>TearDown</name></member>
+  </compound>
+  <compound refid="class_menu_test" kind="class"><name>MenuTest</name>
+    <member refid="class_menu_test_1a263f8fbc794c56ff76aa4d2d7a4d626a" kind="function"><name>SetUp</name></member>
+    <member refid="class_menu_test_1abd52649b73044ba095593b0f2cd81723" kind="function"><name>TearDown</name></member>
+  </compound>
+  <compound refid="class_project_setup_test" kind="class"><name>ProjectSetupTest</name>
+    <member refid="class_project_setup_test_1af2bbfbd3da1be83036c9675a54d6c60c" kind="function"><name>SetUp</name></member>
+    <member refid="class_project_setup_test_1acb4ee0fb0e930b0f812f3962f8f1cdbf" kind="function"><name>TearDown</name></member>
+  </compound>
+  <compound refid="class_task_assignment_test" kind="class"><name>TaskAssignmentTest</name>
+    <member refid="class_task_assignment_test_1a9272f9972ec48d9896074626a19b8e7d" kind="function"><name>SetUp</name></member>
+    <member refid="class_task_assignment_test_1a2624348584cc15b3b9f1cbc260e72991" kind="function"><name>TearDown</name></member>
+  </compound>
+  <compound refid="class_type_test" kind="class"><name>TypeTest</name>
+    <member refid="class_type_test_1a326e53e1f6b18e1a2cdbe53f687e7583" kind="function"><name>SetUp</name></member>
+    <member refid="class_type_test_1a6f7d321b4eb20de336093ec98d8ab2d9" kind="function"><name>TearDown</name></member>
+  </compound>
+  <compound refid="classuser_authentication_test" kind="class"><name>userAuthenticationTest</name>
+    <member refid="classuser_authentication_test_1a267779053e18d94c471740ace5bb98e4" kind="function"><name>SetUp</name></member>
+    <member refid="classuser_authentication_test_1a37db0dbe104a3ba8c0c7720164bfcad4" kind="function"><name>TearDown</name></member>
+  </compound>
   <compound refid="class_user_choice_test" kind="class"><name>UserChoiceTest</name>
     <member refid="class_user_choice_test_1a0c3aae9613f00334b2997ce3499b636d" kind="function"><name>SetUp</name></member>
     <member refid="class_user_choice_test_1a116a01cacbaf755d265f9de075faf612" kind="function"><name>TearDown</name></member>
   </compound>
+  <compound refid="class_user_plan_test" kind="class"><name>UserPlanTest</name>
+    <member refid="class_user_plan_test_1abffe40c9426f5996cfadf12f490fb951" kind="function"><name>SetUp</name></member>
+    <member refid="class_user_plan_test_1a7f6aa46202b91626b07325a3a8197d99" kind="function"><name>TearDown</name></member>
+  </compound>
   <compound refid="class_user_record_test" kind="class"><name>UserRecordTest</name>
     <member refid="class_user_record_test_1afc43d108fe05ddf9acb32999db04fe8a" kind="function"><name>SetUp</name></member>
     <member refid="class_user_record_test_1af41553f51b4ba7339456fda8dab10376" kind="function"><name>TearDown</name></member>
+  </compound>
+  <compound refid="class_venue_test" kind="class"><name>VenueTest</name>
+    <member refid="class_venue_test_1ac4a2ff98e2bb57c1e3fc0dd38d785feb" kind="function"><name>SetUp</name></member>
+    <member refid="class_venue_test_1a896c70b514cca576911eddc58a6675a4" kind="function"><name>TearDown</name></member>
   </compound>
   <compound refid="class_write_user_info_to_file_test" kind="class"><name>WriteUserInfoToFileTest</name>
     <member refid="class_write_user_info_to_file_test_1a8cd38d88fe2ecfb68e8f9b70b80c1a05" kind="function"><name>SetUp</name></member>
@@ -31,17 +67,34 @@
     <member refid="event__test_8cpp_1a7fa3ffffd37181ecdd594183f40968ef" kind="function"><name>TEST_F</name></member>
     <member refid="event__test_8cpp_1a397b3a4c567339d938ca8c74d81a53e3" kind="function"><name>TEST_F</name></member>
     <member refid="event__test_8cpp_1a59c39ac3815f9b4b96c1b532345a8066" kind="function"><name>TEST_F</name></member>
+    <member refid="event__test_8cpp_1a1647fd139805010cc28a561a63878f2c" kind="function"><name>TEST</name></member>
+    <member refid="event__test_8cpp_1a677676c9e32c342db874f765f4dccf14" kind="function"><name>TEST</name></member>
+    <member refid="event__test_8cpp_1a628096eb339654c89997e8e50d2542e5" kind="function"><name>TEST</name></member>
+    <member refid="event__test_8cpp_1a5730544432af9121333edd742e6a0c4f" kind="function"><name>TEST</name></member>
+    <member refid="event__test_8cpp_1a6b25dca132326cc69a2694a1ae9a389b" kind="function"><name>TEST</name></member>
+    <member refid="event__test_8cpp_1a2bdfe28baa0378d71850c7ade51fbd2a" kind="function"><name>TEST</name></member>
+    <member refid="event__test_8cpp_1a329e2dc5c1cbf666b95413e947dfb060" kind="function"><name>TEST</name></member>
+    <member refid="event__test_8cpp_1a63f18e013a3d511d8f7e998cdb5fb57c" kind="function"><name>TEST</name></member>
+    <member refid="event__test_8cpp_1a593da78e3b0f25ade26fd834fad64dfd" kind="function"><name>TEST</name></member>
     <member refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
   </compound>
   <compound refid="utility__test_8cpp" kind="file"><name>utility_test.cpp</name>
   </compound>
-  <compound refid="dir_e9138b44d05cd6127860544908fc30b7" kind="dir"><name>src/tests/event</name>
+  <compound refid="dir_c8194bb546b96a345d10105b907c5860" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final</name>
   </compound>
-  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  <compound refid="dir_0e4c9c7d20644d9ff972b994289d93d2" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp</name>
   </compound>
-  <compound refid="dir_d93a1d4020dea85bb71b237545b5e722" kind="dir"><name>src/tests</name>
+  <compound refid="dir_5e84d8ee370b93bf48934eda8d0d6fc8" kind="dir"><name>C:/Users/Vıctus/Desktop</name>
   </compound>
-  <compound refid="dir_5f7dbe22ab4663025932929c1a2221ac" kind="dir"><name>src/tests/utility</name>
+  <compound refid="dir_17658a38c254ca63b9ec60c7a117605f" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event</name>
+  </compound>
+  <compound refid="dir_e4cc4e4800a765bf27f242a08d1bc8de" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src</name>
+  </compound>
+  <compound refid="dir_dc28be5d1e59a91839c4db4ceda8e3c1" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests</name>
+  </compound>
+  <compound refid="dir_b422006a201280f338d4ac492eedbe72" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/utility</name>
+  </compound>
+  <compound refid="dir_1558c0580cc4494c41dce25fb5478ffa" kind="dir"><name>C:/Users/Vıctus</name>
   </compound>
   <compound refid="indexpage" kind="page"><name>index</name>
   </compound>

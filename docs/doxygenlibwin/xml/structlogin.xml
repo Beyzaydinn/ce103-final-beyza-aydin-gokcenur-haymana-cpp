@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/event/src/event.cpp" line="7" column="12" bodyfile="src/event/src/event.cpp" bodystart="7" bodyend="-1"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="7" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="7" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structlogin_1a7ba1829b1d717663e81508f9730f94d4" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/event/src/event.cpp" line="8" column="12" bodyfile="src/event/src/event.cpp" bodystart="8" bodyend="-1"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="8" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="8" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structlogin_1a79af2a0c4e68da9e8f46fcddb8709f58" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/event/src/event.cpp" line="9" column="12" bodyfile="src/event/src/event.cpp" bodystart="9" bodyend="-1"/>
+        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="9" column="12" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="9" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -56,7 +56,7 @@
         <link refid="structlogin"/>
       </node>
     </collaborationgraph>
-    <location file="src/event/src/event.cpp" line="6" column="1" bodyfile="src/event/src/event.cpp" bodystart="6" bodyend="10"/>
+    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="6" column="1" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="6" bodyend="10"/>
     <listofallmembers>
       <member refid="structlogin_1a79af2a0c4e68da9e8f46fcddb8709f58" prot="public" virt="non-virtual"><scope>login</scope><name>fullname</name></member>
       <member refid="structlogin_1a7ba1829b1d717663e81508f9730f94d4" prot="public" virt="non-virtual"><scope>login</scope><name>password</name></member>
