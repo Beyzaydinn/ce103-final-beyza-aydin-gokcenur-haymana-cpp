@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Event Windows  Library API Unit Test Documentation: C:/Users/VÄ±ctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp Source File</title>
+<title>Event Windows  Library API Unit Test Documentation: src/tests/event/event_test.cpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -71,56 +71,121 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_1558c0580cc4494c41dce25fb5478ffa.html">VÄ±ctus</a></li><li class="navelem"><a class="el" href="dir_5e84d8ee370b93bf48934eda8d0d6fc8.html">Desktop</a></li><li class="navelem"><a class="el" href="dir_c8194bb546b96a345d10105b907c5860.html">ce103-final</a></li><li class="navelem"><a class="el" href="dir_0e4c9c7d20644d9ff972b994289d93d2.html">ce103-final-beyza-aydin-gokcenur-haymana-cpp</a></li><li class="navelem"><a class="el" href="dir_e4cc4e4800a765bf27f242a08d1bc8de.html">src</a></li><li class="navelem"><a class="el" href="dir_dc28be5d1e59a91839c4db4ceda8e3c1.html">tests</a></li><li class="navelem"><a class="el" href="dir_17658a38c254ca63b9ec60c7a117605f.html">event</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_d93a1d4020dea85bb71b237545b5e722.html">tests</a></li><li class="navelem"><a class="el" href="dir_e9138b44d05cd6127860544908fc30b7.html">event</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">event_test.cpp</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="event__test_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;gtest/gtest.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../../event/header/event.h&quot;</span>  <span class="comment">// Adjust this include path based on your project structure</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">// mainMenu&#39;yu bir dizeye yazan fonksiyon</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="event__test_8cpp.html#a482c78132635aee78ba873baf6d15091">    8</a></span>std::string <a class="code hl_function" href="event__test_8cpp.html#a482c78132635aee78ba873baf6d15091">getMenuOutput</a>() {</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    std::ostringstream oss;</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    oss &lt;&lt; <span class="stringliteral">&quot;\nMain Menu:\n&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <span class="stringliteral">&quot;1. User Authentication\n&quot;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="stringliteral">&quot;2. Project Setup\n&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="stringliteral">&quot;3. Task Assignment\n&quot;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        <span class="stringliteral">&quot;4. Progress Tracking\n&quot;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="stringliteral">&quot;5. Reporting\n&quot;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        <span class="stringliteral">&quot;6. Exit\n&quot;</span>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordflow">return</span> oss.str();</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>}</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="event__test_8cpp.html#a40b6113e3811b4152e4f6193f88109d1">   20</a></span><a class="code hl_function" href="event__test_8cpp.html#a40b6113e3811b4152e4f6193f88109d1">TEST</a>(MainMenuTest, OutputCheck) {</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="comment">// getMenuOutput fonksiyonunu çaðýrarak beklenen çýktýyý al</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    std::string expectedOutput = <a class="code hl_function" href="event__test_8cpp.html#a482c78132635aee78ba873baf6d15091">getMenuOutput</a>();</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="comment">// mainMenu&#39;yu çaðýrarak gerçek çýktýyý al</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    std::ostringstream realOutput;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    std::streambuf* oldCoutBuffer = std::cout.rdbuf(realOutput.rdbuf());</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    mainMenu();</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    std::cout.rdbuf(oldCoutBuffer);</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="comment">// Beklenen çýktý ile gerçek çýktýyý karþýlaþtýr</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    EXPECT_EQ(realOutput.str(), expectedOutput);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="event__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">   34</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="event__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>** argv) {</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    ::testing::InitGoogleTest(&amp;argc, argv);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">return</span> RUN_ALL_TESTS();</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<a href="event__test_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &lt;gtest/gtest.h&gt;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;../../event/header/event.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;../../event/src/event.cpp&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="class_authenticate_login_test.html">    5</a></span><span class="keyword">class </span><a class="code hl_class" href="class_authenticate_login_test.html">AuthenticateLoginTest</a> : <span class="keyword">public</span> ::testing::Test {</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="class_authenticate_login_test.html#a653365321ddb36daa2d7c938078bafd4">    7</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_authenticate_login_test.html#a653365321ddb36daa2d7c938078bafd4">SetUp</a>()<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    }</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_authenticate_login_test.html#a6466f1ce0628b3f7e3c547af92e1f8c1">    9</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_authenticate_login_test.html#a6466f1ce0628b3f7e3c547af92e1f8c1">TearDown</a>()<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    }</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>};</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="event__test_8cpp.html#ab3ae7239453c98c658dd3e2088931a11">   12</a></span><a class="code hl_function" href="event__test_8cpp.html#ab3ae7239453c98c658dd3e2088931a11">TEST_F</a>(<a class="code hl_class" href="class_authenticate_login_test.html">AuthenticateLoginTest</a>, CorrectPassword) {</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    login user;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    user.password = <span class="stringliteral">&quot;correct_password&quot;</span>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">string</span> enteredPassword = <span class="stringliteral">&quot;correct_password&quot;</span>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">bool</span> result = authenticateLogin(user, enteredPassword);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    ASSERT_TRUE(result) &lt;&lt; <span class="stringliteral">&quot;Authentication should be successful for correct password&quot;</span>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>}</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="event__test_8cpp.html#a45ed07d10e08253adf1a7f1ff569151b">   22</a></span><a class="code hl_function" href="event__test_8cpp.html#ab3ae7239453c98c658dd3e2088931a11">TEST_F</a>(<a class="code hl_class" href="class_authenticate_login_test.html">AuthenticateLoginTest</a>, IncorrectPassword) {</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    login user;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    user.password = <span class="stringliteral">&quot;correct_password&quot;</span>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">string</span> enteredPassword = <span class="stringliteral">&quot;incorrect_password&quot;</span>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">bool</span> result = authenticateLogin(user, enteredPassword);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    ASSERT_FALSE(result) &lt;&lt; <span class="stringliteral">&quot;Authentication should fail for incorrect password&quot;</span>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>}</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_write_user_info_to_file_test.html">   32</a></span><span class="keyword">class </span><a class="code hl_class" href="class_write_user_info_to_file_test.html">WriteUserInfoToFileTest</a> : <span class="keyword">public</span> ::testing::Test {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_write_user_info_to_file_test.html#a8cd38d88fe2ecfb68e8f9b70b80c1a05">   34</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_write_user_info_to_file_test.html#a8cd38d88fe2ecfb68e8f9b70b80c1a05">SetUp</a>()<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_write_user_info_to_file_test.html#a3659eeaa8793685b21e084f8e9537d8e">   36</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_write_user_info_to_file_test.html#a3659eeaa8793685b21e084f8e9537d8e">TearDown</a>()<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="ttc" id="aevent__test_8cpp_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="event__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00034">event_test.cpp:34</a></div></div>
-<div class="ttc" id="aevent__test_8cpp_html_a40b6113e3811b4152e4f6193f88109d1"><div class="ttname"><a href="event__test_8cpp.html#a40b6113e3811b4152e4f6193f88109d1">TEST</a></div><div class="ttdeci">TEST(MainMenuTest, OutputCheck)</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00020">event_test.cpp:20</a></div></div>
-<div class="ttc" id="aevent__test_8cpp_html_a482c78132635aee78ba873baf6d15091"><div class="ttname"><a href="event__test_8cpp.html#a482c78132635aee78ba873baf6d15091">getMenuOutput</a></div><div class="ttdeci">std::string getMenuOutput()</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00008">event_test.cpp:8</a></div></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="event__test_8cpp.html#ae5ff1eaf025a50607f0dc9d11b3c9d84">   40</a></span><a class="code hl_function" href="event__test_8cpp.html#ab3ae7239453c98c658dd3e2088931a11">TEST_F</a>(<a class="code hl_class" href="class_write_user_info_to_file_test.html">WriteUserInfoToFileTest</a>, SuccessfulWrite) {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    login user;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* organization = <span class="stringliteral">&quot;event_organization.bin&quot;</span>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">bool</span> result = writeUserInfoToFile(user, organization);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    ASSERT_TRUE(result) &lt;&lt; <span class="stringliteral">&quot;Write to file should be successful&quot;</span>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>}</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_user_record_test.html">   47</a></span><span class="keyword">class </span><a class="code hl_class" href="class_user_record_test.html">UserRecordTest</a> : <span class="keyword">public</span> ::testing::Test {</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="class_user_record_test.html#afc43d108fe05ddf9acb32999db04fe8a">   49</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_user_record_test.html#afc43d108fe05ddf9acb32999db04fe8a">SetUp</a>()<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    }</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="class_user_record_test.html#af41553f51b4ba7339456fda8dab10376">   51</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_user_record_test.html#af41553f51b4ba7339456fda8dab10376">TearDown</a>()<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    }</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>};</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="event__test_8cpp.html#a7fa3ffffd37181ecdd594183f40968ef">   54</a></span><a class="code hl_function" href="event__test_8cpp.html#ab3ae7239453c98c658dd3e2088931a11">TEST_F</a>(<a class="code hl_class" href="class_user_record_test.html">UserRecordTest</a>, SuccessfulWrite) {</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    recording store;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* organization = <span class="stringliteral">&quot;event_organization.bin&quot;</span>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">bool</span> result = userRecord(store, organization);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    ASSERT_TRUE(result) &lt;&lt; <span class="stringliteral">&quot;Write to file should be successful&quot;</span>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>}</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="class_user_choice_test.html">   60</a></span><span class="keyword">class </span><a class="code hl_class" href="class_user_choice_test.html">UserChoiceTest</a> : <span class="keyword">public</span> ::testing::Test {</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="class_user_choice_test.html#a0c3aae9613f00334b2997ce3499b636d">   62</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_user_choice_test.html#a0c3aae9613f00334b2997ce3499b636d">SetUp</a>()<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    }</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="class_user_choice_test.html#a116a01cacbaf755d265f9de075faf612">   64</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_user_choice_test.html#a116a01cacbaf755d265f9de075faf612">TearDown</a>()<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    }</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}; </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="event__test_8cpp.html#a397b3a4c567339d938ca8c74d81a53e3">   67</a></span><a class="code hl_function" href="event__test_8cpp.html#ab3ae7239453c98c658dd3e2088931a11">TEST_F</a>(<a class="code hl_class" href="class_user_choice_test.html">UserChoiceTest</a>, SuccessfulWrite) {</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    choose create;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* organization = <span class="stringliteral">&quot;event_organization.bin&quot;</span>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">bool</span> result = userChoice(create, organization);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    ASSERT_TRUE(result) &lt;&lt; <span class="stringliteral">&quot;Write to file should be successful&quot;</span>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>}</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="classattendees_login_test.html">   73</a></span><span class="keyword">class </span><a class="code hl_class" href="classattendees_login_test.html">attendeesLoginTest</a> : <span class="keyword">public</span> ::testing::Test {</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classattendees_login_test.html#a0cffdfd22fd6f47966f1a43a8fc35ad0">   75</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classattendees_login_test.html#a0cffdfd22fd6f47966f1a43a8fc35ad0">SetUp</a>()<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    }</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="classattendees_login_test.html#a72ff9c52169b4a870c65799d2283fa6e">   77</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classattendees_login_test.html#a72ff9c52169b4a870c65799d2283fa6e">TearDown</a>()<span class="keyword"> override </span>{</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    }</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>};</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="event__test_8cpp.html#a59c39ac3815f9b4b96c1b532345a8066">   80</a></span><a class="code hl_function" href="event__test_8cpp.html#ab3ae7239453c98c658dd3e2088931a11">TEST_F</a>(<a class="code hl_class" href="classattendees_login_test.html">attendeesLoginTest</a>, SuccessfulWrite) {</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    login user;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* organization = <span class="stringliteral">&quot;event_organization.bin&quot;</span>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordtype">bool</span> result = attendeesLogin(user, organization);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    ASSERT_TRUE(result) &lt;&lt; <span class="stringliteral">&quot;Write to file should be successful&quot;</span>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>}</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="event__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">   88</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="event__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>** argv) {</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    ::testing::InitGoogleTest(&amp;argc, argv);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keywordflow">return</span> RUN_ALL_TESTS();</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>}</div>
+<div class="ttc" id="aclass_authenticate_login_test_html"><div class="ttname"><a href="class_authenticate_login_test.html">AuthenticateLoginTest</a></div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00005">event_test.cpp:5</a></div></div>
+<div class="ttc" id="aclass_authenticate_login_test_html_a6466f1ce0628b3f7e3c547af92e1f8c1"><div class="ttname"><a href="class_authenticate_login_test.html#a6466f1ce0628b3f7e3c547af92e1f8c1">AuthenticateLoginTest::TearDown</a></div><div class="ttdeci">void TearDown() override</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00009">event_test.cpp:9</a></div></div>
+<div class="ttc" id="aclass_authenticate_login_test_html_a653365321ddb36daa2d7c938078bafd4"><div class="ttname"><a href="class_authenticate_login_test.html#a653365321ddb36daa2d7c938078bafd4">AuthenticateLoginTest::SetUp</a></div><div class="ttdeci">void SetUp() override</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00007">event_test.cpp:7</a></div></div>
+<div class="ttc" id="aclass_user_choice_test_html"><div class="ttname"><a href="class_user_choice_test.html">UserChoiceTest</a></div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00060">event_test.cpp:60</a></div></div>
+<div class="ttc" id="aclass_user_choice_test_html_a0c3aae9613f00334b2997ce3499b636d"><div class="ttname"><a href="class_user_choice_test.html#a0c3aae9613f00334b2997ce3499b636d">UserChoiceTest::SetUp</a></div><div class="ttdeci">void SetUp() override</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00062">event_test.cpp:62</a></div></div>
+<div class="ttc" id="aclass_user_choice_test_html_a116a01cacbaf755d265f9de075faf612"><div class="ttname"><a href="class_user_choice_test.html#a116a01cacbaf755d265f9de075faf612">UserChoiceTest::TearDown</a></div><div class="ttdeci">void TearDown() override</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00064">event_test.cpp:64</a></div></div>
+<div class="ttc" id="aclass_user_record_test_html"><div class="ttname"><a href="class_user_record_test.html">UserRecordTest</a></div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00047">event_test.cpp:47</a></div></div>
+<div class="ttc" id="aclass_user_record_test_html_af41553f51b4ba7339456fda8dab10376"><div class="ttname"><a href="class_user_record_test.html#af41553f51b4ba7339456fda8dab10376">UserRecordTest::TearDown</a></div><div class="ttdeci">void TearDown() override</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00051">event_test.cpp:51</a></div></div>
+<div class="ttc" id="aclass_user_record_test_html_afc43d108fe05ddf9acb32999db04fe8a"><div class="ttname"><a href="class_user_record_test.html#afc43d108fe05ddf9acb32999db04fe8a">UserRecordTest::SetUp</a></div><div class="ttdeci">void SetUp() override</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00049">event_test.cpp:49</a></div></div>
+<div class="ttc" id="aclass_write_user_info_to_file_test_html"><div class="ttname"><a href="class_write_user_info_to_file_test.html">WriteUserInfoToFileTest</a></div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00032">event_test.cpp:32</a></div></div>
+<div class="ttc" id="aclass_write_user_info_to_file_test_html_a3659eeaa8793685b21e084f8e9537d8e"><div class="ttname"><a href="class_write_user_info_to_file_test.html#a3659eeaa8793685b21e084f8e9537d8e">WriteUserInfoToFileTest::TearDown</a></div><div class="ttdeci">void TearDown() override</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00036">event_test.cpp:36</a></div></div>
+<div class="ttc" id="aclass_write_user_info_to_file_test_html_a8cd38d88fe2ecfb68e8f9b70b80c1a05"><div class="ttname"><a href="class_write_user_info_to_file_test.html#a8cd38d88fe2ecfb68e8f9b70b80c1a05">WriteUserInfoToFileTest::SetUp</a></div><div class="ttdeci">void SetUp() override</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00034">event_test.cpp:34</a></div></div>
+<div class="ttc" id="aclassattendees_login_test_html"><div class="ttname"><a href="classattendees_login_test.html">attendeesLoginTest</a></div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00073">event_test.cpp:73</a></div></div>
+<div class="ttc" id="aclassattendees_login_test_html_a0cffdfd22fd6f47966f1a43a8fc35ad0"><div class="ttname"><a href="classattendees_login_test.html#a0cffdfd22fd6f47966f1a43a8fc35ad0">attendeesLoginTest::SetUp</a></div><div class="ttdeci">void SetUp() override</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00075">event_test.cpp:75</a></div></div>
+<div class="ttc" id="aclassattendees_login_test_html_a72ff9c52169b4a870c65799d2283fa6e"><div class="ttname"><a href="classattendees_login_test.html#a72ff9c52169b4a870c65799d2283fa6e">attendeesLoginTest::TearDown</a></div><div class="ttdeci">void TearDown() override</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00077">event_test.cpp:77</a></div></div>
+<div class="ttc" id="aevent__test_8cpp_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="event__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00088">event_test.cpp:88</a></div></div>
+<div class="ttc" id="aevent__test_8cpp_html_ab3ae7239453c98c658dd3e2088931a11"><div class="ttname"><a href="event__test_8cpp.html#ab3ae7239453c98c658dd3e2088931a11">TEST_F</a></div><div class="ttdeci">TEST_F(AuthenticateLoginTest, CorrectPassword)</div><div class="ttdef"><b>Definition</b> <a href="event__test_8cpp_source.html#l00012">event_test.cpp:12</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

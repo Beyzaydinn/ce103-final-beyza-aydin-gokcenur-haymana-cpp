@@ -1,29 +1,47 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.7" xml:lang="en-US">
+  <compound refid="classattendees_login_test" kind="class"><name>attendeesLoginTest</name>
+    <member refid="classattendees_login_test_1a0cffdfd22fd6f47966f1a43a8fc35ad0" kind="function"><name>SetUp</name></member>
+    <member refid="classattendees_login_test_1a72ff9c52169b4a870c65799d2283fa6e" kind="function"><name>TearDown</name></member>
+  </compound>
+  <compound refid="class_authenticate_login_test" kind="class"><name>AuthenticateLoginTest</name>
+    <member refid="class_authenticate_login_test_1a653365321ddb36daa2d7c938078bafd4" kind="function"><name>SetUp</name></member>
+    <member refid="class_authenticate_login_test_1a6466f1ce0628b3f7e3c547af92e1f8c1" kind="function"><name>TearDown</name></member>
+  </compound>
+  <compound refid="class_user_choice_test" kind="class"><name>UserChoiceTest</name>
+    <member refid="class_user_choice_test_1a0c3aae9613f00334b2997ce3499b636d" kind="function"><name>SetUp</name></member>
+    <member refid="class_user_choice_test_1a116a01cacbaf755d265f9de075faf612" kind="function"><name>TearDown</name></member>
+  </compound>
+  <compound refid="class_user_record_test" kind="class"><name>UserRecordTest</name>
+    <member refid="class_user_record_test_1afc43d108fe05ddf9acb32999db04fe8a" kind="function"><name>SetUp</name></member>
+    <member refid="class_user_record_test_1af41553f51b4ba7339456fda8dab10376" kind="function"><name>TearDown</name></member>
+  </compound>
+  <compound refid="class_write_user_info_to_file_test" kind="class"><name>WriteUserInfoToFileTest</name>
+    <member refid="class_write_user_info_to_file_test_1a8cd38d88fe2ecfb68e8f9b70b80c1a05" kind="function"><name>SetUp</name></member>
+    <member refid="class_write_user_info_to_file_test_1a3659eeaa8793685b21e084f8e9537d8e" kind="function"><name>TearDown</name></member>
+  </compound>
+  <compound refid="namespacetesting" kind="namespace"><name>testing</name>
+  </compound>
   <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
   </compound>
   <compound refid="event__test_8cpp" kind="file"><name>event_test.cpp</name>
-    <member refid="event__test_8cpp_1a482c78132635aee78ba873baf6d15091" kind="function"><name>getMenuOutput</name></member>
-    <member refid="event__test_8cpp_1a40b6113e3811b4152e4f6193f88109d1" kind="function"><name>TEST</name></member>
+    <member refid="event__test_8cpp_1ab3ae7239453c98c658dd3e2088931a11" kind="function"><name>TEST_F</name></member>
+    <member refid="event__test_8cpp_1a45ed07d10e08253adf1a7f1ff569151b" kind="function"><name>TEST_F</name></member>
+    <member refid="event__test_8cpp_1ae5ff1eaf025a50607f0dc9d11b3c9d84" kind="function"><name>TEST_F</name></member>
+    <member refid="event__test_8cpp_1a7fa3ffffd37181ecdd594183f40968ef" kind="function"><name>TEST_F</name></member>
+    <member refid="event__test_8cpp_1a397b3a4c567339d938ca8c74d81a53e3" kind="function"><name>TEST_F</name></member>
+    <member refid="event__test_8cpp_1a59c39ac3815f9b4b96c1b532345a8066" kind="function"><name>TEST_F</name></member>
     <member refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
   </compound>
   <compound refid="utility__test_8cpp" kind="file"><name>utility_test.cpp</name>
   </compound>
-  <compound refid="dir_c8194bb546b96a345d10105b907c5860" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final</name>
+  <compound refid="dir_e9138b44d05cd6127860544908fc30b7" kind="dir"><name>src/tests/event</name>
   </compound>
-  <compound refid="dir_0e4c9c7d20644d9ff972b994289d93d2" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp</name>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
   </compound>
-  <compound refid="dir_5e84d8ee370b93bf48934eda8d0d6fc8" kind="dir"><name>C:/Users/Vıctus/Desktop</name>
+  <compound refid="dir_d93a1d4020dea85bb71b237545b5e722" kind="dir"><name>src/tests</name>
   </compound>
-  <compound refid="dir_17658a38c254ca63b9ec60c7a117605f" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event</name>
-  </compound>
-  <compound refid="dir_e4cc4e4800a765bf27f242a08d1bc8de" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src</name>
-  </compound>
-  <compound refid="dir_dc28be5d1e59a91839c4db4ceda8e3c1" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests</name>
-  </compound>
-  <compound refid="dir_b422006a201280f338d4ac492eedbe72" kind="dir"><name>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/utility</name>
-  </compound>
-  <compound refid="dir_1558c0580cc4494c41dce25fb5478ffa" kind="dir"><name>C:/Users/Vıctus</name>
+  <compound refid="dir_5f7dbe22ab4663025932929c1a2221ac" kind="dir"><name>src/tests/utility</name>
   </compound>
   <compound refid="indexpage" kind="page"><name>index</name>
   </compound>

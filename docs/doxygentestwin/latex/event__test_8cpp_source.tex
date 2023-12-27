@@ -1,46 +1,97 @@
 \doxysection{event\+\_\+test.\+cpp}
-\hypertarget{event__test_8cpp_source}{}\label{event__test_8cpp_source}\index{C:/Users/VÄ±ctus/Desktop/ce103-\/final/ce103-\/final-\/beyza-\/aydin-\/gokcenur-\/haymana-\/cpp/src/tests/event/event\_test.cpp@{C:/Users/VÄ±ctus/Desktop/ce103-\/final/ce103-\/final-\/beyza-\/aydin-\/gokcenur-\/haymana-\/cpp/src/tests/event/event\_test.cpp}}
+\hypertarget{event__test_8cpp_source}{}\label{event__test_8cpp_source}\index{src/tests/event/event\_test.cpp@{src/tests/event/event\_test.cpp}}
 \mbox{\hyperlink{event__test_8cpp}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00001}00001\ }
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00002}00002\ }
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00003}00003\ \textcolor{preprocessor}{\#include\ "{}gtest/gtest.h"{}}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ "{}../../event/header/event.h"{}}\ \ \textcolor{comment}{//\ Adjust\ this\ include\ path\ based\ on\ your\ project\ structure}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00005}00005\ }
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00006}00006\ }
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00007}00007\ \textcolor{comment}{//\ mainMenu'yu\ bir\ dizeye\ yazan\ fonksiyon}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00008}\mbox{\hyperlink{event__test_8cpp_a482c78132635aee78ba873baf6d15091}{00008}}\ std::string\ \mbox{\hyperlink{event__test_8cpp_a482c78132635aee78ba873baf6d15091}{getMenuOutput}}()\ \{}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00009}00009\ \ \ \ \ std::ostringstream\ oss;}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00010}00010\ \ \ \ \ oss\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)nMain\ Menu:\(\backslash\)n"{}}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00011}00011\ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}1.\ User\ Authentication\(\backslash\)n"{}}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00012}00012\ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}2.\ Project\ Setup\(\backslash\)n"{}}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00013}00013\ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}3.\ Task\ Assignment\(\backslash\)n"{}}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00014}00014\ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}4.\ Progress\ Tracking\(\backslash\)n"{}}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00015}00015\ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}5.\ Reporting\(\backslash\)n"{}}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00016}00016\ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}6.\ Exit\(\backslash\)n"{}};}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00017}00017\ \ \ \ \ \textcolor{keywordflow}{return}\ oss.str();}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00018}00018\ \}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00019}00019\ }
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00020}\mbox{\hyperlink{event__test_8cpp_a40b6113e3811b4152e4f6193f88109d1}{00020}}\ \mbox{\hyperlink{event__test_8cpp_a40b6113e3811b4152e4f6193f88109d1}{TEST}}(MainMenuTest,\ OutputCheck)\ \{}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00021}00021\ \ \ \ \ \textcolor{comment}{//\ getMenuOutput\ fonksiyonunu\ çaðýrarak\ beklenen\ çýktýyý al}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00022}00022\ \ \ \ \ std::string\ expectedOutput\ =\ \mbox{\hyperlink{event__test_8cpp_a482c78132635aee78ba873baf6d15091}{getMenuOutput}}();}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00023}00023\ }
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00024}00024\ \ \ \ \ \textcolor{comment}{//\ mainMenu'yu\ çaðýrarak\ gerçek\ çýktýyý al}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00025}00025\ \ \ \ \ std::ostringstream\ realOutput;}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00026}00026\ \ \ \ \ std::streambuf*\ oldCoutBuffer\ =\ std::cout.rdbuf(realOutput.rdbuf());}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00027}00027\ \ \ \ \ mainMenu();}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00028}00028\ \ \ \ \ std::cout.rdbuf(oldCoutBuffer);}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00029}00029\ }
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00030}00030\ \ \ \ \ \textcolor{comment}{//\ Beklenen\ çýktý ile gerçek\ çýktýyý karþýlaþtýr}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00031}00031\ \ \ \ \ EXPECT\_EQ(realOutput.str(),\ expectedOutput);}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00032}00032\ \}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00033}00033\ }
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00034}\mbox{\hyperlink{event__test_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{00034}}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event__test_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main}}(\textcolor{keywordtype}{int}\ argc,\ \textcolor{keywordtype}{char}**\ argv)\ \{}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00035}00035\ \ \ \ \ ::testing::InitGoogleTest(\&argc,\ argv);}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00036}00036\ \ \ \ \ \textcolor{keywordflow}{return}\ RUN\_ALL\_TESTS();}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00037}00037\ \}}
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00038}00038\ }
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ <gtest/gtest.h>}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00002}00002\ \textcolor{preprocessor}{\#include\ "{}../../event/header/event.h"{}}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00003}00003\ \textcolor{preprocessor}{\#include\ "{}../../event/src/event.cpp"{}}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00004}00004\ }
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00005}\mbox{\hyperlink{class_authenticate_login_test}{00005}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_authenticate_login_test}{AuthenticateLoginTest}}\ :\ \textcolor{keyword}{public}\ ::testing::Test\ \{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00006}00006\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00007}\mbox{\hyperlink{class_authenticate_login_test_a653365321ddb36daa2d7c938078bafd4}{00007}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_authenticate_login_test_a653365321ddb36daa2d7c938078bafd4}{SetUp}}()\textcolor{keyword}{\ override\ }\{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00008}00008\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00009}\mbox{\hyperlink{class_authenticate_login_test_a6466f1ce0628b3f7e3c547af92e1f8c1}{00009}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_authenticate_login_test_a6466f1ce0628b3f7e3c547af92e1f8c1}{TearDown}}()\textcolor{keyword}{\ override\ }\{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00010}00010\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00011}00011\ \};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00012}\mbox{\hyperlink{event__test_8cpp_ab3ae7239453c98c658dd3e2088931a11}{00012}}\ \mbox{\hyperlink{event__test_8cpp_ab3ae7239453c98c658dd3e2088931a11}{TEST\_F}}(\mbox{\hyperlink{class_authenticate_login_test}{AuthenticateLoginTest}},\ CorrectPassword)\ \{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00013}00013\ \ \ \ \ login\ user;}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00014}00014\ \ \ \ \ user.password\ =\ \textcolor{stringliteral}{"{}correct\_password"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00015}00015\ \ \ \ \ \textcolor{keywordtype}{string}\ enteredPassword\ =\ \textcolor{stringliteral}{"{}correct\_password"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00017}00017\ \ \ \ \ \textcolor{keywordtype}{bool}\ result\ =\ authenticateLogin(user,\ enteredPassword);}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00019}00019\ \ \ \ \ ASSERT\_TRUE(result)\ <<\ \textcolor{stringliteral}{"{}Authentication\ should\ be\ successful\ for\ correct\ password"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00020}00020\ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00021}00021\ }
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00022}\mbox{\hyperlink{event__test_8cpp_a45ed07d10e08253adf1a7f1ff569151b}{00022}}\ \mbox{\hyperlink{event__test_8cpp_ab3ae7239453c98c658dd3e2088931a11}{TEST\_F}}(\mbox{\hyperlink{class_authenticate_login_test}{AuthenticateLoginTest}},\ IncorrectPassword)\ \{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00023}00023\ \ \ \ \ login\ user;}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00024}00024\ \ \ \ \ user.password\ =\ \textcolor{stringliteral}{"{}correct\_password"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00025}00025\ \ \ \ \ \textcolor{keywordtype}{string}\ enteredPassword\ =\ \textcolor{stringliteral}{"{}incorrect\_password"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00026}00026\ }
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00027}00027\ \ \ \ \ \textcolor{keywordtype}{bool}\ result\ =\ authenticateLogin(user,\ enteredPassword);}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00028}00028\ }
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00029}00029\ \ \ \ \ ASSERT\_FALSE(result)\ <<\ \textcolor{stringliteral}{"{}Authentication\ should\ fail\ for\ incorrect\ password"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00030}00030\ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00032}\mbox{\hyperlink{class_write_user_info_to_file_test}{00032}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_write_user_info_to_file_test}{WriteUserInfoToFileTest}}\ :\ \textcolor{keyword}{public}\ ::testing::Test\ \{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00033}00033\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00034}\mbox{\hyperlink{class_write_user_info_to_file_test_a8cd38d88fe2ecfb68e8f9b70b80c1a05}{00034}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_write_user_info_to_file_test_a8cd38d88fe2ecfb68e8f9b70b80c1a05}{SetUp}}()\textcolor{keyword}{\ override\ }\{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00035}00035\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00036}\mbox{\hyperlink{class_write_user_info_to_file_test_a3659eeaa8793685b21e084f8e9537d8e}{00036}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_write_user_info_to_file_test_a3659eeaa8793685b21e084f8e9537d8e}{TearDown}}()\textcolor{keyword}{\ override\ }\{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00037}00037\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00038}00038\ \};}
 \DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00039}00039\ }
-\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00040}00040\ }
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00040}\mbox{\hyperlink{event__test_8cpp_ae5ff1eaf025a50607f0dc9d11b3c9d84}{00040}}\ \mbox{\hyperlink{event__test_8cpp_ab3ae7239453c98c658dd3e2088931a11}{TEST\_F}}(\mbox{\hyperlink{class_write_user_info_to_file_test}{WriteUserInfoToFileTest}},\ SuccessfulWrite)\ \{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00041}00041\ \ \ \ \ login\ user;}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00042}00042\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ organization\ =\ \textcolor{stringliteral}{"{}event\_organization.bin"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00043}00043\ \ \ \ \ \textcolor{keywordtype}{bool}\ result\ =\ writeUserInfoToFile(user,\ organization);}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00044}00044\ \ \ \ \ ASSERT\_TRUE(result)\ <<\ \textcolor{stringliteral}{"{}Write\ to\ file\ should\ be\ successful"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00045}00045\ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00046}00046\ }
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00047}\mbox{\hyperlink{class_user_record_test}{00047}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_user_record_test}{UserRecordTest}}\ :\ \textcolor{keyword}{public}\ ::testing::Test\ \{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00048}00048\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00049}\mbox{\hyperlink{class_user_record_test_afc43d108fe05ddf9acb32999db04fe8a}{00049}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_user_record_test_afc43d108fe05ddf9acb32999db04fe8a}{SetUp}}()\textcolor{keyword}{\ override\ }\{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00050}00050\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00051}\mbox{\hyperlink{class_user_record_test_af41553f51b4ba7339456fda8dab10376}{00051}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_user_record_test_af41553f51b4ba7339456fda8dab10376}{TearDown}}()\textcolor{keyword}{\ override\ }\{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00052}00052\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00053}00053\ \};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00054}\mbox{\hyperlink{event__test_8cpp_a7fa3ffffd37181ecdd594183f40968ef}{00054}}\ \mbox{\hyperlink{event__test_8cpp_ab3ae7239453c98c658dd3e2088931a11}{TEST\_F}}(\mbox{\hyperlink{class_user_record_test}{UserRecordTest}},\ SuccessfulWrite)\ \{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00055}00055\ \ \ \ \ recording\ store;}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00056}00056\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ organization\ =\ \textcolor{stringliteral}{"{}event\_organization.bin"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00057}00057\ \ \ \ \ \textcolor{keywordtype}{bool}\ result\ =\ userRecord(store,\ organization);}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00058}00058\ \ \ \ \ ASSERT\_TRUE(result)\ <<\ \textcolor{stringliteral}{"{}Write\ to\ file\ should\ be\ successful"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00059}00059\ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00060}\mbox{\hyperlink{class_user_choice_test}{00060}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_user_choice_test}{UserChoiceTest}}\ :\ \textcolor{keyword}{public}\ ::testing::Test\ \{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00061}00061\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00062}\mbox{\hyperlink{class_user_choice_test_a0c3aae9613f00334b2997ce3499b636d}{00062}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_user_choice_test_a0c3aae9613f00334b2997ce3499b636d}{SetUp}}()\textcolor{keyword}{\ override\ }\{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00063}00063\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00064}\mbox{\hyperlink{class_user_choice_test_a116a01cacbaf755d265f9de075faf612}{00064}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_user_choice_test_a116a01cacbaf755d265f9de075faf612}{TearDown}}()\textcolor{keyword}{\ override\ }\{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00065}00065\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00066}00066\ \};\ }
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00067}\mbox{\hyperlink{event__test_8cpp_a397b3a4c567339d938ca8c74d81a53e3}{00067}}\ \mbox{\hyperlink{event__test_8cpp_ab3ae7239453c98c658dd3e2088931a11}{TEST\_F}}(\mbox{\hyperlink{class_user_choice_test}{UserChoiceTest}},\ SuccessfulWrite)\ \{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00068}00068\ \ \ \ \ choose\ create;}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00069}00069\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ organization\ =\ \textcolor{stringliteral}{"{}event\_organization.bin"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00070}00070\ \ \ \ \ \textcolor{keywordtype}{bool}\ result\ =\ userChoice(create,\ organization);}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00071}00071\ \ \ \ \ ASSERT\_TRUE(result)\ <<\ \textcolor{stringliteral}{"{}Write\ to\ file\ should\ be\ successful"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00072}00072\ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00073}\mbox{\hyperlink{classattendees_login_test}{00073}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classattendees_login_test}{attendeesLoginTest}}\ :\ \textcolor{keyword}{public}\ ::testing::Test\ \{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00074}00074\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00075}\mbox{\hyperlink{classattendees_login_test_a0cffdfd22fd6f47966f1a43a8fc35ad0}{00075}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classattendees_login_test_a0cffdfd22fd6f47966f1a43a8fc35ad0}{SetUp}}()\textcolor{keyword}{\ override\ }\{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00076}00076\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00077}\mbox{\hyperlink{classattendees_login_test_a72ff9c52169b4a870c65799d2283fa6e}{00077}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classattendees_login_test_a72ff9c52169b4a870c65799d2283fa6e}{TearDown}}()\textcolor{keyword}{\ override\ }\{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00078}00078\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00079}00079\ \};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00080}\mbox{\hyperlink{event__test_8cpp_a59c39ac3815f9b4b96c1b532345a8066}{00080}}\ \mbox{\hyperlink{event__test_8cpp_ab3ae7239453c98c658dd3e2088931a11}{TEST\_F}}(\mbox{\hyperlink{classattendees_login_test}{attendeesLoginTest}},\ SuccessfulWrite)\ \{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00081}00081\ \ \ \ \ login\ user;}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00082}00082\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ organization\ =\ \textcolor{stringliteral}{"{}event\_organization.bin"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00083}00083\ \ \ \ \ \textcolor{keywordtype}{bool}\ result\ =\ attendeesLogin(user,\ organization);}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00084}00084\ \ \ \ \ ASSERT\_TRUE(result)\ <<\ \textcolor{stringliteral}{"{}Write\ to\ file\ should\ be\ successful"{}};}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00085}00085\ \}}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00086}00086\ }
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00087}00087\ }
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00088}\mbox{\hyperlink{event__test_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{00088}}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event__test_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main}}(\textcolor{keywordtype}{int}\ argc,\ \textcolor{keywordtype}{char}**\ argv)\ \{}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00089}00089\ \ \ \ \ ::testing::InitGoogleTest(\&argc,\ argv);}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00090}00090\ \ \ \ \ \textcolor{keywordflow}{return}\ RUN\_ALL\_TESTS();}
+\DoxyCodeLine{\Hypertarget{event__test_8cpp_source_l00091}00091\ \}}
 
 \end{DoxyCode}

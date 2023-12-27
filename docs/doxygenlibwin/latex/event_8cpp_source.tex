@@ -1,5 +1,5 @@
 \doxysection{event.\+cpp}
-\hypertarget{event_8cpp_source}{}\label{event_8cpp_source}\index{C:/Users/VÄ±ctus/Desktop/ce103-\/final/ce103-\/final-\/beyza-\/aydin-\/gokcenur-\/haymana-\/cpp/src/event/src/event.cpp@{C:/Users/VÄ±ctus/Desktop/ce103-\/final/ce103-\/final-\/beyza-\/aydin-\/gokcenur-\/haymana-\/cpp/src/event/src/event.cpp}}
+\hypertarget{event_8cpp_source}{}\label{event_8cpp_source}\index{src/event/src/event.cpp@{src/event/src/event.cpp}}
 \mbox{\hyperlink{event_8cpp}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
 \DoxyCodeLine{00001\ \textcolor{preprocessor}{\#include\ "{}../header/event.h"{}}}
@@ -10,131 +10,191 @@
 \DoxyCodeLine{00006\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structlogin}{login}}\ \{}
 \DoxyCodeLine{00007\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structlogin_a008365db172dcbb75ecd642146bd7ff6}{username}};}
 \DoxyCodeLine{00008\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structlogin_a7ba1829b1d717663e81508f9730f94d4}{password}};}
-\DoxyCodeLine{00009\ \};}
-\DoxyCodeLine{00010\ }
-\DoxyCodeLine{00011\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structrecording}{recording}}\ \{}
-\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structrecording_a3298c8333d499f38ca2b124d89d4a0e8}{nameSurname}};}
-\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structrecording_a6df46f7263e262079ef73df25e1b8342}{password}};}
-\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structrecording_a9f6d5745f6b6c95b107905024553aeca}{password2}};}
-\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structrecording_a8f294df4b1cb83d4d16f83ee35487cc1}{phoneNumber}};}
-\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structrecording_a2feef762e3f5e77ece900e2dd0d97bc2}{email}};}
-\DoxyCodeLine{00017\ \};}
-\DoxyCodeLine{00018\ }
-\DoxyCodeLine{00019\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structchoose}{choose}}\ \{}
-\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structchoose_a40a6c6e3a60704447208b1bfadaf1b79}{type}};}
-\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structchoose_af4a19f4eda9475c8f6ad8c63cc025d8e}{color}};}
-\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structchoose_ae1fbdfbbceb385c9ccbab481a2226283}{venue}};}
-\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structchoose_a27bc5ed0d2df16a22ba194506ebfda6c}{menu}};}
-\DoxyCodeLine{00024\ \};}
-\DoxyCodeLine{00025\ }
-\DoxyCodeLine{00026\ }
-\DoxyCodeLine{00027\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structtracking}{tracking}}\ \{}
-\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structtracking_aa21aedaefed62fd34a198031b0669096}{timelines}};}
-\DoxyCodeLine{00029\ \};}
-\DoxyCodeLine{00030\ \textcolor{comment}{//\ MAÝN\ MENU}}
-\DoxyCodeLine{00031\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a8396c50bf544009fb2fc4907b00cbad3}{mainMenu}}()\ \{}
-\DoxyCodeLine{00032\ \ \ \ \ cout\ <<\ endl;}
-\DoxyCodeLine{00033\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Main\ Menu:\(\backslash\)n"{}};}
-\DoxyCodeLine{00034\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ User\ Authentication\(\backslash\)n"{}};}
-\DoxyCodeLine{00035\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Project\ Setup\(\backslash\)n"{}};}
-\DoxyCodeLine{00036\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}3.\ Task\ Assignment\(\backslash\)n"{}};}
-\DoxyCodeLine{00037\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}4.\ Progress\ Tracking\(\backslash\)n"{}};}
-\DoxyCodeLine{00038\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}5.\ Reporting\(\backslash\)n"{}};}
-\DoxyCodeLine{00039\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}6.\ Exit\(\backslash\)n"{}};}
-\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{00041\ \}}
-\DoxyCodeLine{00042\ \textcolor{comment}{//\ user\ login\ and\ register}}
-\DoxyCodeLine{00043\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a892642c57b48071fa94b5441913757f7}{userAuthentication}}()\ \{}
-\DoxyCodeLine{00044\ \ \ \ \ cout\ <<\ endl;}
-\DoxyCodeLine{00045\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Login\ \(\backslash\)n"{}};}
-\DoxyCodeLine{00046\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Register\ \(\backslash\)n"{}};}
-\DoxyCodeLine{00047\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}3.\ Guest\ Mode\ \(\backslash\)n"{}};}
-\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{00049\ \}}
-\DoxyCodeLine{00050\ \textcolor{comment}{//\ creat\ the\ project}}
-\DoxyCodeLine{00051\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a1946984079378a7832b7bd12b0db8ab1}{projectSetup}}()\ \{}
-\DoxyCodeLine{00052\ \ \ \ \ cout\ <<\ endl;}
-\DoxyCodeLine{00053\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Create\ Event:\(\backslash\)n"{}};}
-\DoxyCodeLine{00054\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Manage\ Event:\(\backslash\)n"{}};}
-\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{00056\ \}}
-\DoxyCodeLine{00057\ \textcolor{comment}{//\ creat\ the\ organization\ type}}
-\DoxyCodeLine{00058\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_ae3775081dae5d62a47eee5c62fa49995}{type}}()\ \{}
-\DoxyCodeLine{00059\ \ \ \ \ cout\ <<\ endl;}
-\DoxyCodeLine{00060\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1)\ Wedding"{}}\ <<\ endl;}
-\DoxyCodeLine{00061\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2)\ Birthday"{}}\ <<\ endl;}
-\DoxyCodeLine{00062\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}3)\ Bride"{}}\ <<\ endl;}
-\DoxyCodeLine{00063\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}4)\ Circumcision"{}}\ <<\ endl;}
-\DoxyCodeLine{00064\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}5)\ Engagement"{}}\ <<\ endl;}
-\DoxyCodeLine{00065\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}6)\ Baby\ Shower"{}}\ <<\ endl;}
-\DoxyCodeLine{00066\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{00067\ \}}
-\DoxyCodeLine{00068\ \textcolor{comment}{//\ create\ the\ organization\ menu}}
-\DoxyCodeLine{00069\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_ae83fcdbeb2b6757fc741ae953b633ee1}{menu}}()\ \{}
-\DoxyCodeLine{00070\ \ \ \ \ cout\ <<\ endl;}
-\DoxyCodeLine{00071\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Food\ Menu"{}}\ <<\ endl;}
-\DoxyCodeLine{00072\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Cake\ Menu"{}}\ <<\ endl;}
-\DoxyCodeLine{00073\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00009\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structlogin_a79af2a0c4e68da9e8f46fcddb8709f58}{fullname}};}
+\DoxyCodeLine{00010\ \};}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structrecording}{recording}}\ \{}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structrecording_a3298c8333d499f38ca2b124d89d4a0e8}{nameSurname}};}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structrecording_a6df46f7263e262079ef73df25e1b8342}{password}};}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structrecording_a9f6d5745f6b6c95b107905024553aeca}{password2}};}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structrecording_a8f294df4b1cb83d4d16f83ee35487cc1}{phoneNumber}};}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structrecording_a2feef762e3f5e77ece900e2dd0d97bc2}{email}};}
+\DoxyCodeLine{00018\ \};}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structchoose}{choose}}\ \{}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structchoose_a40a6c6e3a60704447208b1bfadaf1b79}{type}};}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structchoose_af4a19f4eda9475c8f6ad8c63cc025d8e}{color}};}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structchoose_ae1fbdfbbceb385c9ccbab481a2226283}{venue}};}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structchoose_a27bc5ed0d2df16a22ba194506ebfda6c}{menu}};}
+\DoxyCodeLine{00025\ \};}
+\DoxyCodeLine{00026\ \textcolor{comment}{//\ check\ the\ user\ login}}
+\DoxyCodeLine{00027\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{event_8h_af8573f3b61a7f8ce742364a647845bc3}{authenticateLogin}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{structlogin}{login}}\&\ user,\ \textcolor{keywordtype}{string}\ password2)\ \{}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordflow}{return}\ user.\mbox{\hyperlink{structlogin_a7ba1829b1d717663e81508f9730f94d4}{password}}\ ==\ password2;}
+\DoxyCodeLine{00029\ \}}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{event_8h_ae4f6d54f9a96c05e10551d90e6c2dc44}{writeUserInfoToFile}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{structlogin}{login}}\&\ user,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ organization)\ \{}
+\DoxyCodeLine{00032\ \ \ \ \ FILE*\ file\ =\ fopen(organization,\ \textcolor{stringliteral}{"{}ab"{}});\ \textcolor{comment}{//\ ab:\ binary}}
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordflow}{if}\ (!file)\ \{}
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ cerr\ <<\ \textcolor{stringliteral}{"{}File\ is\ unopen.\ "{}}\ <<\ organization\ <<endl;}
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};\ }
+\DoxyCodeLine{00036\ \ \ \ \ \}}
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keywordflow}{if}\ (fwrite(\&user,\ \textcolor{keyword}{sizeof}(\mbox{\hyperlink{structlogin}{login}}),\ 1,\ file)\ !=\ 1)\ \{}
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ cerr\ <<\ \textcolor{stringliteral}{"{}Error\ writing\ to\ file."{}}\ <<\ endl;}
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ fclose(file);}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00041\ \ \ \ \ \}}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00043\ \ \ \ \ fclose(file);}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{true};}
+\DoxyCodeLine{00045\ \}}
+\DoxyCodeLine{00046\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{event_8h_aa872ab48346897d59d31274074b71bbf}{userRecord}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{structrecording}{recording}}\&\ store,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*organization)\ \{}
+\DoxyCodeLine{00047\ \ \ \ \ FILE*\ file\ =\ fopen(organization,\ \textcolor{stringliteral}{"{}ab"{}}\ );\ \textcolor{comment}{//\ ab:\ binary}}
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordflow}{if}\ (!file)\ \{}
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ cerr\ <<\ \textcolor{stringliteral}{"{}File\ is\ unopen.\ "{}}\ <<\ organization\ <<\ endl;}
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00051\ \ \ \ \ \}}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordflow}{if}\ (fwrite(\&store,\ \textcolor{keyword}{sizeof}(\mbox{\hyperlink{structrecording}{recording}}),\ 1,\ file)\ !=\ 1)\ \{}
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ cerr\ <<\ \textcolor{stringliteral}{"{}Error\ writing\ to\ file."{}}\ <<\ endl;}
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ fclose(file);}
+\DoxyCodeLine{00055\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00056\ \ \ \ \ \}}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ \ \ \ \ fclose(file);}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{true};}
+\DoxyCodeLine{00060\ \}}
+\DoxyCodeLine{00061\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{event_8h_a479ac431e8a735fdee7f0705c8f1ef6d}{userChoice}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{structchoose}{choose}}\&\ create,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ organization)\ \{}
+\DoxyCodeLine{00062\ \ \ \ \ FILE*\ file\ =\ fopen(organization,\ \textcolor{stringliteral}{"{}ab"{}});\ \textcolor{comment}{//\ ab:\ binary}}
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keywordflow}{if}\ (!file)\ \{}
+\DoxyCodeLine{00064\ \ \ \ \ \ \ \ \ cerr\ <<\ \textcolor{stringliteral}{"{}File\ is\ unopen.\ "{}}\ <<\ organization\ <<\ endl;}
+\DoxyCodeLine{00065\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00066\ \ \ \ \ \}}
+\DoxyCodeLine{00067\ \ \ \ \ \textcolor{keywordflow}{if}\ (fwrite(\&create,\ \textcolor{keyword}{sizeof}(\mbox{\hyperlink{structchoose}{choose}}),\ 1,\ file)\ !=\ 1)\ \{}
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ cerr\ <<\ \textcolor{stringliteral}{"{}Error\ writing\ to\ file."{}}\ <<\ endl;}
+\DoxyCodeLine{00069\ \ \ \ \ \ \ \ \ fclose(file);}
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00071\ \ \ \ \ \}}
+\DoxyCodeLine{00072\ \ \ \ \ fclose(file);}
+\DoxyCodeLine{00073\ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{true};}
 \DoxyCodeLine{00074\ \}}
-\DoxyCodeLine{00075\ \textcolor{comment}{//\ create\ the\ organization\ color\ type}}
-\DoxyCodeLine{00076\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a28ad5e680af333d6c151de38eec62b2f}{color}}()\ \{}
-\DoxyCodeLine{00077\ \ \ \ \ cout\ <<\ endl;}
-\DoxyCodeLine{00078\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Pink\ and\ Blue\(\backslash\)n"{}};}
-\DoxyCodeLine{00079\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Red\ and\ Black\(\backslash\)n"{}};}
-\DoxyCodeLine{00080\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}3.\ Cream\ color\ and\ Brown\(\backslash\)n"{}};}
-\DoxyCodeLine{00081\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}4.\ White\ and\ Black\(\backslash\)n"{}};}
-\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{00083\ \}}
-\DoxyCodeLine{00084\ \textcolor{comment}{//\ create\ the\ organization\ place}}
-\DoxyCodeLine{00085\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_ac5449ac02f64be365bf5c26935f6492c}{venue}}()\ \{}
-\DoxyCodeLine{00086\ \ \ \ \ cout\ <<\ endl;}
-\DoxyCodeLine{00087\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Indoor\ event\ hall\(\backslash\)n"{}};}
-\DoxyCodeLine{00088\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Beach\ Side\(\backslash\)n"{}};}
-\DoxyCodeLine{00089\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}3.\ Countryside\ Organization\(\backslash\)n"{}};}
-\DoxyCodeLine{00090\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{00091\ \}}
-\DoxyCodeLine{00092\ \textcolor{comment}{//\ List\ the\ user's\ choice}}
-\DoxyCodeLine{00093\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_ac243716905eb772dbe20d2d6eea748f3}{userPlan}}()\ \{}
-\DoxyCodeLine{00094\ \ \ \ \ \mbox{\hyperlink{structchoose}{choose}}\ create;}
-\DoxyCodeLine{00095\ \ \ \ \ cout\ <<\ endl;}
-\DoxyCodeLine{00096\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Your\ type:\ "{}}\ <<\ create.\mbox{\hyperlink{structchoose_a40a6c6e3a60704447208b1bfadaf1b79}{type}}\ <<\ endl;}
-\DoxyCodeLine{00097\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Your\ venue:\ "{}}\ <<\ create.\mbox{\hyperlink{structchoose_ae1fbdfbbceb385c9ccbab481a2226283}{venue}}\ <<\ endl;}
-\DoxyCodeLine{00098\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Your\ color\ type:\ "{}}\ <<\ create.\mbox{\hyperlink{structchoose_af4a19f4eda9475c8f6ad8c63cc025d8e}{color}}\ <<\ endl;}
-\DoxyCodeLine{00099\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Your\ menu:\ "{}}\ <<\ create.\mbox{\hyperlink{structchoose_a27bc5ed0d2df16a22ba194506ebfda6c}{menu}}\ <<\ endl;}
-\DoxyCodeLine{00100\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{00101\ \}}
-\DoxyCodeLine{00102\ \textcolor{comment}{//\ planning\ about\ attendees\ }}
-\DoxyCodeLine{00103\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a1f8765795206d43d02d91bde681a0dff}{taskAssignment}}()\ \{}
-\DoxyCodeLine{00104\ \ \ \ \ cout\ <<\ endl;}
-\DoxyCodeLine{00105\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Register\ Attendees:\ \(\backslash\)n"{}};}
-\DoxyCodeLine{00106\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Track\ Attendees:\ \(\backslash\)n"{}};}
-\DoxyCodeLine{00107\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{00108\ \}}
-\DoxyCodeLine{00109\ \textcolor{comment}{//\ organization\ time}}
-\DoxyCodeLine{00110\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a356c9a49b0641afca235a98ca1ba8619}{progressTracking}}()\ \{}
-\DoxyCodeLine{00111\ \ \ \ \ cout\ <<\ endl;}
-\DoxyCodeLine{00112\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Plan\ Timelines\(\backslash\)n"{}};}
-\DoxyCodeLine{00113\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Organize\ Activities\(\backslash\)n"{}};}
-\DoxyCodeLine{00114\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{00115\ \}}
-\DoxyCodeLine{00116\ \textcolor{comment}{//\ plan\ timelines}}
-\DoxyCodeLine{00117\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a576c35a3aa64f49e8f495fe5e33e29e9}{planTimelines}}()\ \{}
-\DoxyCodeLine{00118\ \ \ \ \ cout\ <<\ endl;}
-\DoxyCodeLine{00119\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Morning\ Event\ (09.00-\/13.00)\ "{}}\ <<\ endl;}
-\DoxyCodeLine{00120\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Noon\ Event\ (13.00-\/18.00)\ "{}}\ <<\ endl;}
-\DoxyCodeLine{00121\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}3.\ Evening\ Event\ (18.00-\/22.00)\ "{}}\ <<\ endl;}
-\DoxyCodeLine{00122\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{00123\ \}}
-\DoxyCodeLine{00124\ }
-\DoxyCodeLine{00125\ \textcolor{comment}{//\ make\ a\ feedback}}
-\DoxyCodeLine{00126\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a6181497f68d6cb585303909e9ad34754}{feedback}}()\ \{}
-\DoxyCodeLine{00127\ \ \ \ \ cout\ <<\ endl;}
-\DoxyCodeLine{00128\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Gather\ Feedback"{}}\ <<\ endl;}
-\DoxyCodeLine{00129\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{00130\ \}}
-\DoxyCodeLine{00131\ \textcolor{comment}{//\ check\ the\ user\ login}}
-\DoxyCodeLine{00132\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{event_8cpp_adb11579c4d4b863e7c91c0107178b373}{authenticateLogin}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{structlogin}{login}}\&\ user,\ \textcolor{keywordtype}{string}\ password2)\ \{}
-\DoxyCodeLine{00133\ \ \ \ \ \textcolor{keywordflow}{return}\ user.\mbox{\hyperlink{structlogin_a7ba1829b1d717663e81508f9730f94d4}{password}}\ ==\ password2;}
-\DoxyCodeLine{00134\ \}}
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00076\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{event_8h_ad696758ba3e904ba6cbaef851b688972}{attendeesLogin}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{structlogin}{login}}\&\ user,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ organization)\ \{}
+\DoxyCodeLine{00077\ \ \ \ \ FILE*\ file\ =\ fopen(organization,\ \textcolor{stringliteral}{"{}ab"{}});\ \textcolor{comment}{//\ ab:\ binary}}
+\DoxyCodeLine{00078\ \ \ \ \ \textcolor{keywordflow}{if}\ (!file)\ \{}
+\DoxyCodeLine{00079\ \ \ \ \ \ \ \ \ cerr\ <<\ \textcolor{stringliteral}{"{}File\ is\ unopen.\ "{}}\ <<\ organization\ <<\ endl;}
+\DoxyCodeLine{00080\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00081\ \ \ \ \ \}}
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keywordflow}{if}\ (fwrite(\&user,\ \textcolor{keyword}{sizeof}(\mbox{\hyperlink{structlogin}{login}}),\ 1,\ file)\ !=\ 1)\ \{}
+\DoxyCodeLine{00083\ \ \ \ \ \ \ \ \ cerr\ <<\ \textcolor{stringliteral}{"{}Error\ writing\ to\ file."{}}\ <<\ endl;}
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ fclose(file);}
+\DoxyCodeLine{00085\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00086\ \ \ \ \ \}}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00088\ \ \ \ \ fclose(file);}
+\DoxyCodeLine{00089\ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{true};}
+\DoxyCodeLine{00090\ \}}
+\DoxyCodeLine{00091\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structtracking}{tracking}}\ \{}
+\DoxyCodeLine{00092\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{structtracking_aa21aedaefed62fd34a198031b0669096}{timelines}};}
+\DoxyCodeLine{00093\ \};}
+\DoxyCodeLine{00094\ \textcolor{comment}{//\ MAÝN\ MENU}}
+\DoxyCodeLine{00095\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a8396c50bf544009fb2fc4907b00cbad3}{mainMenu}}()\ \{}
+\DoxyCodeLine{00096\ \ \ \ \ cout\ <<\ endl;}
+\DoxyCodeLine{00097\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Main\ Menu:\(\backslash\)n"{}};}
+\DoxyCodeLine{00098\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ User\ Authentication\(\backslash\)n"{}};}
+\DoxyCodeLine{00099\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Project\ Setup\(\backslash\)n"{}};}
+\DoxyCodeLine{00100\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}3.\ Task\ Assignment\(\backslash\)n"{}};}
+\DoxyCodeLine{00101\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}4.\ Progress\ Tracking\(\backslash\)n"{}};}
+\DoxyCodeLine{00102\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}5.\ Reporting\(\backslash\)n"{}};}
+\DoxyCodeLine{00103\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}6.\ Exit\(\backslash\)n"{}};}
+\DoxyCodeLine{00104\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00105\ \}}
+\DoxyCodeLine{00106\ \textcolor{comment}{//\ user\ login\ and\ register}}
+\DoxyCodeLine{00107\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a892642c57b48071fa94b5441913757f7}{userAuthentication}}()\ \{}
+\DoxyCodeLine{00108\ \ \ \ \ cout\ <<\ endl;}
+\DoxyCodeLine{00109\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Login\ \(\backslash\)n"{}};}
+\DoxyCodeLine{00110\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Register\ \(\backslash\)n"{}};}
+\DoxyCodeLine{00111\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}3.\ Guest\ Mode\ \(\backslash\)n"{}};}
+\DoxyCodeLine{00112\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00113\ \}}
+\DoxyCodeLine{00114\ \textcolor{comment}{//\ creat\ the\ project}}
+\DoxyCodeLine{00115\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a1946984079378a7832b7bd12b0db8ab1}{projectSetup}}()\ \{}
+\DoxyCodeLine{00116\ \ \ \ \ cout\ <<\ endl;}
+\DoxyCodeLine{00117\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Create\ Event:\(\backslash\)n"{}};}
+\DoxyCodeLine{00118\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Manage\ Event:\(\backslash\)n"{}};}
+\DoxyCodeLine{00119\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00120\ \}}
+\DoxyCodeLine{00121\ \textcolor{comment}{//\ creat\ the\ organization\ type}}
+\DoxyCodeLine{00122\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_ae3775081dae5d62a47eee5c62fa49995}{type}}()\ \{}
+\DoxyCodeLine{00123\ \ \ \ \ cout\ <<\ endl;}
+\DoxyCodeLine{00124\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1)\ Wedding"{}}\ <<\ endl;}
+\DoxyCodeLine{00125\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2)\ Birthday"{}}\ <<\ endl;}
+\DoxyCodeLine{00126\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}3)\ Bride"{}}\ <<\ endl;}
+\DoxyCodeLine{00127\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}4)\ Circumcision"{}}\ <<\ endl;}
+\DoxyCodeLine{00128\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}5)\ Engagement"{}}\ <<\ endl;}
+\DoxyCodeLine{00129\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}6)\ Baby\ Shower"{}}\ <<\ endl;}
+\DoxyCodeLine{00130\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00131\ \}}
+\DoxyCodeLine{00132\ \textcolor{comment}{//\ create\ the\ organization\ menu}}
+\DoxyCodeLine{00133\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_ae83fcdbeb2b6757fc741ae953b633ee1}{menu}}()\ \{}
+\DoxyCodeLine{00134\ \ \ \ \ cout\ <<\ endl;}
+\DoxyCodeLine{00135\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Food\ Menu"{}}\ <<\ endl;}
+\DoxyCodeLine{00136\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Cake\ Menu"{}}\ <<\ endl;}
+\DoxyCodeLine{00137\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00138\ \}}
+\DoxyCodeLine{00139\ \textcolor{comment}{//\ create\ the\ organization\ color\ type}}
+\DoxyCodeLine{00140\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a28ad5e680af333d6c151de38eec62b2f}{color}}()\ \{}
+\DoxyCodeLine{00141\ \ \ \ \ cout\ <<\ endl;}
+\DoxyCodeLine{00142\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Pink\ and\ Blue\(\backslash\)n"{}};}
+\DoxyCodeLine{00143\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Red\ and\ Black\(\backslash\)n"{}};}
+\DoxyCodeLine{00144\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}3.\ Cream\ color\ and\ Brown\(\backslash\)n"{}};}
+\DoxyCodeLine{00145\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}4.\ White\ and\ Black\(\backslash\)n"{}};}
+\DoxyCodeLine{00146\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00147\ \}}
+\DoxyCodeLine{00148\ \textcolor{comment}{//\ create\ the\ organization\ place}}
+\DoxyCodeLine{00149\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_ac5449ac02f64be365bf5c26935f6492c}{venue}}()\ \{}
+\DoxyCodeLine{00150\ \ \ \ \ cout\ <<\ endl;}
+\DoxyCodeLine{00151\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Indoor\ event\ hall\(\backslash\)n"{}};}
+\DoxyCodeLine{00152\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Beach\ Side\(\backslash\)n"{}};}
+\DoxyCodeLine{00153\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}3.\ Countryside\ Organization\(\backslash\)n"{}};}
+\DoxyCodeLine{00154\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00155\ \}}
+\DoxyCodeLine{00156\ \textcolor{comment}{//\ List\ the\ user's\ choice}}
+\DoxyCodeLine{00157\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_ac243716905eb772dbe20d2d6eea748f3}{userPlan}}()\ \{}
+\DoxyCodeLine{00158\ \ \ \ \ \mbox{\hyperlink{structchoose}{choose}}\ create;}
+\DoxyCodeLine{00159\ \ \ \ \ cout\ <<\ endl;}
+\DoxyCodeLine{00160\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Your\ type:\ "{}}\ <<\ create.\mbox{\hyperlink{structchoose_a40a6c6e3a60704447208b1bfadaf1b79}{type}}\ <<\ endl;}
+\DoxyCodeLine{00161\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Your\ venue:\ "{}}\ <<\ create.\mbox{\hyperlink{structchoose_ae1fbdfbbceb385c9ccbab481a2226283}{venue}}\ <<\ endl;}
+\DoxyCodeLine{00162\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Your\ color\ type:\ "{}}\ <<\ create.\mbox{\hyperlink{structchoose_af4a19f4eda9475c8f6ad8c63cc025d8e}{color}}\ <<\ endl;}
+\DoxyCodeLine{00163\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Your\ menu:\ "{}}\ <<\ create.\mbox{\hyperlink{structchoose_a27bc5ed0d2df16a22ba194506ebfda6c}{menu}}\ <<\ endl;}
+\DoxyCodeLine{00164\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00165\ \}}
+\DoxyCodeLine{00166\ \textcolor{comment}{//\ planning\ about\ attendees\ }}
+\DoxyCodeLine{00167\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a1f8765795206d43d02d91bde681a0dff}{taskAssignment}}()\ \{}
+\DoxyCodeLine{00168\ \ \ \ \ cout\ <<\ endl;}
+\DoxyCodeLine{00169\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Register\ Attendees:\ \(\backslash\)n"{}};}
+\DoxyCodeLine{00170\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Track\ Attendees:\ \(\backslash\)n"{}};}
+\DoxyCodeLine{00171\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00172\ \}}
+\DoxyCodeLine{00173\ \textcolor{comment}{//\ organization\ time}}
+\DoxyCodeLine{00174\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a356c9a49b0641afca235a98ca1ba8619}{progressTracking}}()\ \{}
+\DoxyCodeLine{00175\ \ \ \ \ cout\ <<\ endl;}
+\DoxyCodeLine{00176\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Plan\ Timelines\(\backslash\)n"{}};}
+\DoxyCodeLine{00177\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Organize\ Activities\(\backslash\)n"{}};}
+\DoxyCodeLine{00178\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00179\ \}}
+\DoxyCodeLine{00180\ \textcolor{comment}{//\ plan\ timelines}}
+\DoxyCodeLine{00181\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a576c35a3aa64f49e8f495fe5e33e29e9}{planTimelines}}()\ \{}
+\DoxyCodeLine{00182\ \ \ \ \ cout\ <<\ endl;}
+\DoxyCodeLine{00183\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}1.\ Morning\ Event\ (09.00-\/13.00)\ "{}}\ <<\ endl;}
+\DoxyCodeLine{00184\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}2.\ Noon\ Event\ (13.00-\/18.00)\ "{}}\ <<\ endl;}
+\DoxyCodeLine{00185\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}3.\ Evening\ Event\ (18.00-\/22.00)\ "{}}\ <<\ endl;}
+\DoxyCodeLine{00186\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00187\ \}}
+\DoxyCodeLine{00188\ }
+\DoxyCodeLine{00189\ \textcolor{comment}{//\ make\ a\ feedback}}
+\DoxyCodeLine{00190\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{event_8cpp_a6181497f68d6cb585303909e9ad34754}{feedback}}()\ \{}
+\DoxyCodeLine{00191\ \ \ \ \ cout\ <<\ endl;}
+\DoxyCodeLine{00192\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Gather\ Feedback"{}}\ <<\ endl;}
+\DoxyCodeLine{00193\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00194\ \}}
 
 \end{DoxyCode}

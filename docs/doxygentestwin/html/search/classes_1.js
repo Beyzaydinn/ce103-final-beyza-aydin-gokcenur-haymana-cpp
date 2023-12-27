@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['mathutilitytest_0',['MathUtilityTest',['../class_math_utility_test.html',1,'']]]
+  ['userchoicetest_0',['UserChoiceTest',['../class_user_choice_test.html',1,'']]],
+  ['userrecordtest_1',['UserRecordTest',['../class_user_record_test.html',1,'']]]
 ];

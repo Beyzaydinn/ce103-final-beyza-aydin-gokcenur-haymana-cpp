@@ -29,7 +29,7 @@
   <option  id='INLINE_INHERITED_MEMB' default='yes' type='bool'><value>NO</value></option>
   <option  id='FULL_PATH_NAMES' default='yes' type='bool'><value>YES</value></option>
   <option  id='STRIP_FROM_PATH' default='no' type='stringlist'>
-    <value><![CDATA[C:\Users\Výctus\Desktop\ce103-final\ce103-final-beyza-aydin-gokcenur-haymana-cpp]]></value>
+    <value><![CDATA[C:\Users\Useres\Desktop\ce103-final-beyza-aydin-gokcenur-haymana-cpp]]></value>
   </option>
   <option  id='STRIP_FROM_INC_PATH' default='yes' type='stringlist'>
   </option>

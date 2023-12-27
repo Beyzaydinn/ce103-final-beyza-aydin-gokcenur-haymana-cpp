@@ -5,7 +5,7 @@
     <includes refid="event_8h" local="yes">../header/event.h</includes>
     <includes local="no">stdexcept</includes>
     <includes local="no">iostream</includes>
-    <includedby refid="eventapp_8cpp" local="yes">C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/eventapp/src/eventapp.cpp</includedby>
+    <includedby refid="eventapp_8cpp" local="yes">src/eventapp/src/eventapp.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>../header/event.h</label>
@@ -14,7 +14,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp</label>
+        <label>src/event/src/event.cpp</label>
         <link refid="event_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -38,13 +38,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp</label>
+        <label>src/event/src/event.cpp</label>
         <link refid="event_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/eventapp/src/eventapp.cpp</label>
+        <label>src/eventapp/src/eventapp.cpp</label>
         <link refid="eventapp_8cpp"/>
       </node>
     </invincdepgraph>
@@ -54,162 +54,6 @@
     <innerclass refid="structtracking" prot="public">tracking</innerclass>
     <innernamespace refid="namespacestd">std</innernamespace>
       <sectiondef kind="func">
-      <memberdef kind="function" id="event_8cpp_1a8396c50bf544009fb2fc4907b00cbad3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int mainMenu</definition>
-        <argsstring>()</argsstring>
-        <name>mainMenu</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="31" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="31" bodyend="41"/>
-      </memberdef>
-      <memberdef kind="function" id="event_8cpp_1a892642c57b48071fa94b5441913757f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int userAuthentication</definition>
-        <argsstring>()</argsstring>
-        <name>userAuthentication</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="43" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="43" bodyend="49"/>
-      </memberdef>
-      <memberdef kind="function" id="event_8cpp_1a1946984079378a7832b7bd12b0db8ab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int projectSetup</definition>
-        <argsstring>()</argsstring>
-        <name>projectSetup</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="51" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="51" bodyend="56"/>
-      </memberdef>
-      <memberdef kind="function" id="event_8cpp_1ae3775081dae5d62a47eee5c62fa49995" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int type</definition>
-        <argsstring>()</argsstring>
-        <name>type</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="58" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="58" bodyend="67"/>
-      </memberdef>
-      <memberdef kind="function" id="event_8cpp_1ae83fcdbeb2b6757fc741ae953b633ee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int menu</definition>
-        <argsstring>()</argsstring>
-        <name>menu</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="69" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="69" bodyend="74"/>
-      </memberdef>
-      <memberdef kind="function" id="event_8cpp_1a28ad5e680af333d6c151de38eec62b2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int color</definition>
-        <argsstring>()</argsstring>
-        <name>color</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="76" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="76" bodyend="83"/>
-      </memberdef>
-      <memberdef kind="function" id="event_8cpp_1ac5449ac02f64be365bf5c26935f6492c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int venue</definition>
-        <argsstring>()</argsstring>
-        <name>venue</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="85" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="85" bodyend="91"/>
-      </memberdef>
-      <memberdef kind="function" id="event_8cpp_1ac243716905eb772dbe20d2d6eea748f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int userPlan</definition>
-        <argsstring>()</argsstring>
-        <name>userPlan</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="93" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="93" bodyend="101"/>
-      </memberdef>
-      <memberdef kind="function" id="event_8cpp_1a1f8765795206d43d02d91bde681a0dff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int taskAssignment</definition>
-        <argsstring>()</argsstring>
-        <name>taskAssignment</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="103" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="103" bodyend="108"/>
-      </memberdef>
-      <memberdef kind="function" id="event_8cpp_1a356c9a49b0641afca235a98ca1ba8619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int progressTracking</definition>
-        <argsstring>()</argsstring>
-        <name>progressTracking</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="110" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="110" bodyend="115"/>
-      </memberdef>
-      <memberdef kind="function" id="event_8cpp_1a576c35a3aa64f49e8f495fe5e33e29e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int planTimelines</definition>
-        <argsstring>()</argsstring>
-        <name>planTimelines</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="117" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="117" bodyend="123"/>
-      </memberdef>
-      <memberdef kind="function" id="event_8cpp_1a6181497f68d6cb585303909e9ad34754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int feedback</definition>
-        <argsstring>()</argsstring>
-        <name>feedback</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="126" column="5" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="126" bodyend="130"/>
-      </memberdef>
       <memberdef kind="function" id="event_8cpp_1adb11579c4d4b863e7c91c0107178b373" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool authenticateLogin</definition>
@@ -229,7 +73,247 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" line="132" column="6" bodyfile="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp" bodystart="132" bodyend="134"/>
+        <location file="src/event/src/event.cpp" line="27" column="6" bodyfile="src/event/src/event.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1ab930432ec2923478ccdb63cc16f7bdfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool writeUserInfoToFile</definition>
+        <argsstring>(const login &amp;user, const char *organization)</argsstring>
+        <name>writeUserInfoToFile</name>
+        <param>
+          <type>const <ref refid="structlogin" kindref="compound">login</ref> &amp;</type>
+          <declname>user</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>organization</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="31" column="6" bodyfile="src/event/src/event.cpp" bodystart="31" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1a6d3d0baab04ab26d39b48a264333f7c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool userRecord</definition>
+        <argsstring>(const recording &amp;store, const char *organization)</argsstring>
+        <name>userRecord</name>
+        <param>
+          <type>const <ref refid="structrecording" kindref="compound">recording</ref> &amp;</type>
+          <declname>store</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>organization</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="46" column="6" bodyfile="src/event/src/event.cpp" bodystart="46" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1ae13d609b0ce999c93b7cf3758af20a43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool userChoice</definition>
+        <argsstring>(const choose &amp;create, const char *organization)</argsstring>
+        <name>userChoice</name>
+        <param>
+          <type>const <ref refid="structchoose" kindref="compound">choose</ref> &amp;</type>
+          <declname>create</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>organization</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="61" column="6" bodyfile="src/event/src/event.cpp" bodystart="61" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1ae078e80a10cedb1ec10617ba3fcbdfbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool attendeesLogin</definition>
+        <argsstring>(const login &amp;user, const char *organization)</argsstring>
+        <name>attendeesLogin</name>
+        <param>
+          <type>const <ref refid="structlogin" kindref="compound">login</ref> &amp;</type>
+          <declname>user</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>organization</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="76" column="6" bodyfile="src/event/src/event.cpp" bodystart="76" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1a8396c50bf544009fb2fc4907b00cbad3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mainMenu</definition>
+        <argsstring>()</argsstring>
+        <name>mainMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="95" column="5" bodyfile="src/event/src/event.cpp" bodystart="95" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1a892642c57b48071fa94b5441913757f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int userAuthentication</definition>
+        <argsstring>()</argsstring>
+        <name>userAuthentication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="107" column="5" bodyfile="src/event/src/event.cpp" bodystart="107" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1a1946984079378a7832b7bd12b0db8ab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int projectSetup</definition>
+        <argsstring>()</argsstring>
+        <name>projectSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="115" column="5" bodyfile="src/event/src/event.cpp" bodystart="115" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1ae3775081dae5d62a47eee5c62fa49995" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int type</definition>
+        <argsstring>()</argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="122" column="5" bodyfile="src/event/src/event.cpp" bodystart="122" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1ae83fcdbeb2b6757fc741ae953b633ee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int menu</definition>
+        <argsstring>()</argsstring>
+        <name>menu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="133" column="5" bodyfile="src/event/src/event.cpp" bodystart="133" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1a28ad5e680af333d6c151de38eec62b2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int color</definition>
+        <argsstring>()</argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="140" column="5" bodyfile="src/event/src/event.cpp" bodystart="140" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1ac5449ac02f64be365bf5c26935f6492c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int venue</definition>
+        <argsstring>()</argsstring>
+        <name>venue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="149" column="5" bodyfile="src/event/src/event.cpp" bodystart="149" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1ac243716905eb772dbe20d2d6eea748f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int userPlan</definition>
+        <argsstring>()</argsstring>
+        <name>userPlan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="157" column="5" bodyfile="src/event/src/event.cpp" bodystart="157" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1a1f8765795206d43d02d91bde681a0dff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int taskAssignment</definition>
+        <argsstring>()</argsstring>
+        <name>taskAssignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="167" column="5" bodyfile="src/event/src/event.cpp" bodystart="167" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1a356c9a49b0641afca235a98ca1ba8619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int progressTracking</definition>
+        <argsstring>()</argsstring>
+        <name>progressTracking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="174" column="5" bodyfile="src/event/src/event.cpp" bodystart="174" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1a576c35a3aa64f49e8f495fe5e33e29e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int planTimelines</definition>
+        <argsstring>()</argsstring>
+        <name>planTimelines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="181" column="5" bodyfile="src/event/src/event.cpp" bodystart="181" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="event_8cpp_1a6181497f68d6cb585303909e9ad34754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int feedback</definition>
+        <argsstring>()</argsstring>
+        <name>feedback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/event/src/event.cpp" line="190" column="5" bodyfile="src/event/src/event.cpp" bodystart="190" bodyend="194"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -245,133 +329,193 @@
 <codeline lineno="6" refid="structlogin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structlogin" kindref="compound">login</ref><sp/>{</highlight></codeline>
 <codeline lineno="7" refid="structlogin_1a008365db172dcbb75ecd642146bd7ff6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structlogin_1a008365db172dcbb75ecd642146bd7ff6" kindref="member">username</ref>;</highlight></codeline>
 <codeline lineno="8" refid="structlogin_1a7ba1829b1d717663e81508f9730f94d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structlogin_1a7ba1829b1d717663e81508f9730f94d4" kindref="member">password</ref>;</highlight></codeline>
-<codeline lineno="9"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="structrecording" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structrecording" kindref="compound">recording</ref><sp/>{</highlight></codeline>
-<codeline lineno="12" refid="structrecording_1a3298c8333d499f38ca2b124d89d4a0e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structrecording_1a3298c8333d499f38ca2b124d89d4a0e8" kindref="member">nameSurname</ref>;</highlight></codeline>
-<codeline lineno="13" refid="structrecording_1a6df46f7263e262079ef73df25e1b8342" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structrecording_1a6df46f7263e262079ef73df25e1b8342" kindref="member">password</ref>;</highlight></codeline>
-<codeline lineno="14" refid="structrecording_1a9f6d5745f6b6c95b107905024553aeca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structrecording_1a9f6d5745f6b6c95b107905024553aeca" kindref="member">password2</ref>;</highlight></codeline>
-<codeline lineno="15" refid="structrecording_1a8f294df4b1cb83d4d16f83ee35487cc1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structrecording_1a8f294df4b1cb83d4d16f83ee35487cc1" kindref="member">phoneNumber</ref>;</highlight></codeline>
-<codeline lineno="16" refid="structrecording_1a2feef762e3f5e77ece900e2dd0d97bc2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structrecording_1a2feef762e3f5e77ece900e2dd0d97bc2" kindref="member">email</ref>;</highlight></codeline>
-<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="structchoose" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structchoose" kindref="compound">choose</ref><sp/>{</highlight></codeline>
-<codeline lineno="20" refid="structchoose_1a40a6c6e3a60704447208b1bfadaf1b79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structchoose_1a40a6c6e3a60704447208b1bfadaf1b79" kindref="member">type</ref>;</highlight></codeline>
-<codeline lineno="21" refid="structchoose_1af4a19f4eda9475c8f6ad8c63cc025d8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structchoose_1af4a19f4eda9475c8f6ad8c63cc025d8e" kindref="member">color</ref>;</highlight></codeline>
-<codeline lineno="22" refid="structchoose_1ae1fbdfbbceb385c9ccbab481a2226283" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structchoose_1ae1fbdfbbceb385c9ccbab481a2226283" kindref="member">venue</ref>;</highlight></codeline>
-<codeline lineno="23" refid="structchoose_1a27bc5ed0d2df16a22ba194506ebfda6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structchoose_1a27bc5ed0d2df16a22ba194506ebfda6c" kindref="member">menu</ref>;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="structtracking" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtracking" kindref="compound">tracking</ref><sp/>{</highlight></codeline>
-<codeline lineno="28" refid="structtracking_1aa21aedaefed62fd34a198031b0669096" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structtracking_1aa21aedaefed62fd34a198031b0669096" kindref="member">timelines</ref>;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MA�N<sp/>MENU</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="event_8h_1a8396c50bf544009fb2fc4907b00cbad3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a8396c50bf544009fb2fc4907b00cbad3" kindref="member">mainMenu</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Main<sp/>Menu:\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>User<sp/>Authentication\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Project<sp/>Setup\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;3.<sp/>Task<sp/>Assignment\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;4.<sp/>Progress<sp/>Tracking\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;5.<sp/>Reporting\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;6.<sp/>Exit\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//<sp/>user<sp/>login<sp/>and<sp/>register</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="event_8h_1a892642c57b48071fa94b5441913757f7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a892642c57b48071fa94b5441913757f7" kindref="member">userAuthentication</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Login<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Register<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;3.<sp/>Guest<sp/>Mode<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/>creat<sp/>the<sp/>project</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="event_8h_1a1946984079378a7832b7bd12b0db8ab1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a1946984079378a7832b7bd12b0db8ab1" kindref="member">projectSetup</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Create<sp/>Event:\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Manage<sp/>Event:\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//<sp/>creat<sp/>the<sp/>organization<sp/>type</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="event_8h_1ae3775081dae5d62a47eee5c62fa49995" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1ae3775081dae5d62a47eee5c62fa49995" kindref="member">type</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1)<sp/>Wedding&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2)<sp/>Birthday&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;3)<sp/>Bride&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;4)<sp/>Circumcision&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;5)<sp/>Engagement&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;6)<sp/>Baby<sp/>Shower&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/>create<sp/>the<sp/>organization<sp/>menu</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="event_8h_1ae83fcdbeb2b6757fc741ae953b633ee1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1ae83fcdbeb2b6757fc741ae953b633ee1" kindref="member">menu</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Food<sp/>Menu&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Cake<sp/>Menu&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="9" refid="structlogin_1a79af2a0c4e68da9e8f46fcddb8709f58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structlogin_1a79af2a0c4e68da9e8f46fcddb8709f58" kindref="member">fullname</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="structrecording" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structrecording" kindref="compound">recording</ref><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="structrecording_1a3298c8333d499f38ca2b124d89d4a0e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structrecording_1a3298c8333d499f38ca2b124d89d4a0e8" kindref="member">nameSurname</ref>;</highlight></codeline>
+<codeline lineno="14" refid="structrecording_1a6df46f7263e262079ef73df25e1b8342" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structrecording_1a6df46f7263e262079ef73df25e1b8342" kindref="member">password</ref>;</highlight></codeline>
+<codeline lineno="15" refid="structrecording_1a9f6d5745f6b6c95b107905024553aeca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structrecording_1a9f6d5745f6b6c95b107905024553aeca" kindref="member">password2</ref>;</highlight></codeline>
+<codeline lineno="16" refid="structrecording_1a8f294df4b1cb83d4d16f83ee35487cc1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structrecording_1a8f294df4b1cb83d4d16f83ee35487cc1" kindref="member">phoneNumber</ref>;</highlight></codeline>
+<codeline lineno="17" refid="structrecording_1a2feef762e3f5e77ece900e2dd0d97bc2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structrecording_1a2feef762e3f5e77ece900e2dd0d97bc2" kindref="member">email</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="structchoose" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structchoose" kindref="compound">choose</ref><sp/>{</highlight></codeline>
+<codeline lineno="21" refid="structchoose_1a40a6c6e3a60704447208b1bfadaf1b79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structchoose_1a40a6c6e3a60704447208b1bfadaf1b79" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="22" refid="structchoose_1af4a19f4eda9475c8f6ad8c63cc025d8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structchoose_1af4a19f4eda9475c8f6ad8c63cc025d8e" kindref="member">color</ref>;</highlight></codeline>
+<codeline lineno="23" refid="structchoose_1ae1fbdfbbceb385c9ccbab481a2226283" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structchoose_1ae1fbdfbbceb385c9ccbab481a2226283" kindref="member">venue</ref>;</highlight></codeline>
+<codeline lineno="24" refid="structchoose_1a27bc5ed0d2df16a22ba194506ebfda6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structchoose_1a27bc5ed0d2df16a22ba194506ebfda6c" kindref="member">menu</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>check<sp/>the<sp/>user<sp/>login</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="event_8cpp_1adb11579c4d4b863e7c91c0107178b373" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="event_8h_1af8573f3b61a7f8ce742364a647845bc3" kindref="member">authenticateLogin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structlogin" kindref="compound">login</ref>&amp;<sp/>user,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>password2)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>user.<ref refid="structlogin_1a7ba1829b1d717663e81508f9730f94d4" kindref="member">password</ref><sp/>==<sp/>password2;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="event_8cpp_1ab930432ec2923478ccdb63cc16f7bdfa" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="event_8h_1ae4f6d54f9a96c05e10551d90e6c2dc44" kindref="member">writeUserInfoToFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structlogin" kindref="compound">login</ref>&amp;<sp/>user,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>organization)<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE*<sp/>file<sp/>=<sp/>fopen(organization,<sp/></highlight><highlight class="stringliteral">&quot;ab&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>ab:<sp/>binary</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!file)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;File<sp/>is<sp/>unopen.<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>organization<sp/>&lt;&lt;endl;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fwrite(&amp;user,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="structlogin" kindref="compound">login</ref>),<sp/>1,<sp/>file)<sp/>!=<sp/>1)<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>writing<sp/>to<sp/>file.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose(file);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(file);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46" refid="event_8cpp_1a6d3d0baab04ab26d39b48a264333f7c2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="event_8h_1aa872ab48346897d59d31274074b71bbf" kindref="member">userRecord</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structrecording" kindref="compound">recording</ref>&amp;<sp/>store,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*organization)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE*<sp/>file<sp/>=<sp/>fopen(organization,<sp/></highlight><highlight class="stringliteral">&quot;ab&quot;</highlight><highlight class="normal"><sp/>);<sp/></highlight><highlight class="comment">//<sp/>ab:<sp/>binary</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!file)<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;File<sp/>is<sp/>unopen.<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>organization<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fwrite(&amp;store,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="structrecording" kindref="compound">recording</ref>),<sp/>1,<sp/>file)<sp/>!=<sp/>1)<sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>writing<sp/>to<sp/>file.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose(file);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(file);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61" refid="event_8cpp_1ae13d609b0ce999c93b7cf3758af20a43" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="event_8h_1a479ac431e8a735fdee7f0705c8f1ef6d" kindref="member">userChoice</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structchoose" kindref="compound">choose</ref>&amp;<sp/>create,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>organization)<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE*<sp/>file<sp/>=<sp/>fopen(organization,<sp/></highlight><highlight class="stringliteral">&quot;ab&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>ab:<sp/>binary</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!file)<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;File<sp/>is<sp/>unopen.<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>organization<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fwrite(&amp;create,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="structchoose" kindref="compound">choose</ref>),<sp/>1,<sp/>file)<sp/>!=<sp/>1)<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>writing<sp/>to<sp/>file.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose(file);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(file);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="74"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>create<sp/>the<sp/>organization<sp/>color<sp/>type</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="event_8h_1a28ad5e680af333d6c151de38eec62b2f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a28ad5e680af333d6c151de38eec62b2f" kindref="member">color</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Pink<sp/>and<sp/>Blue\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Red<sp/>and<sp/>Black\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;3.<sp/>Cream<sp/>color<sp/>and<sp/>Brown\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;4.<sp/>White<sp/>and<sp/>Black\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>create<sp/>the<sp/>organization<sp/>place</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="event_8h_1ac5449ac02f64be365bf5c26935f6492c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1ac5449ac02f64be365bf5c26935f6492c" kindref="member">venue</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Indoor<sp/>event<sp/>hall\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Beach<sp/>Side\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;3.<sp/>Countryside<sp/>Organization\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>List<sp/>the<sp/>user&apos;s<sp/>choice</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="event_8h_1ac243716905eb772dbe20d2d6eea748f3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1ac243716905eb772dbe20d2d6eea748f3" kindref="member">userPlan</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structchoose" kindref="compound">choose</ref><sp/>create;</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Your<sp/>type:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>create.<ref refid="structchoose_1a40a6c6e3a60704447208b1bfadaf1b79" kindref="member">type</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Your<sp/>venue:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>create.<ref refid="structchoose_1ae1fbdfbbceb385c9ccbab481a2226283" kindref="member">venue</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Your<sp/>color<sp/>type:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>create.<ref refid="structchoose_1af4a19f4eda9475c8f6ad8c63cc025d8e" kindref="member">color</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Your<sp/>menu:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>create.<ref refid="structchoose_1a27bc5ed0d2df16a22ba194506ebfda6c" kindref="member">menu</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight><highlight class="comment">//<sp/>planning<sp/>about<sp/>attendees<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="event_8h_1a1f8765795206d43d02d91bde681a0dff" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a1f8765795206d43d02d91bde681a0dff" kindref="member">taskAssignment</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Register<sp/>Attendees:<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Track<sp/>Attendees:<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">//<sp/>organization<sp/>time</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="event_8h_1a356c9a49b0641afca235a98ca1ba8619" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a356c9a49b0641afca235a98ca1ba8619" kindref="member">progressTracking</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Plan<sp/>Timelines\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Organize<sp/>Activities\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">//<sp/>plan<sp/>timelines</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="event_8h_1a576c35a3aa64f49e8f495fe5e33e29e9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a576c35a3aa64f49e8f495fe5e33e29e9" kindref="member">planTimelines</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Morning<sp/>Event<sp/>(09.00-13.00)<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Noon<sp/>Event<sp/>(13.00-18.00)<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;3.<sp/>Evening<sp/>Event<sp/>(18.00-22.00)<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight><highlight class="comment">//<sp/>make<sp/>a<sp/>feedback</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="event_8h_1a6181497f68d6cb585303909e9ad34754" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a6181497f68d6cb585303909e9ad34754" kindref="member">feedback</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Gather<sp/>Feedback&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="130"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment">//<sp/>check<sp/>the<sp/>user<sp/>login</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="132" refid="event_8cpp_1adb11579c4d4b863e7c91c0107178b373" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1adb11579c4d4b863e7c91c0107178b373" kindref="member">authenticateLogin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structlogin" kindref="compound">login</ref>&amp;<sp/>user,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>password2)<sp/>{</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>user.<ref refid="structlogin_1a7ba1829b1d717663e81508f9730f94d4" kindref="member">password</ref><sp/>==<sp/>password2;</highlight></codeline>
-<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="event_8cpp_1ae078e80a10cedb1ec10617ba3fcbdfbe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="event_8h_1ad696758ba3e904ba6cbaef851b688972" kindref="member">attendeesLogin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structlogin" kindref="compound">login</ref>&amp;<sp/>user,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>organization)<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE*<sp/>file<sp/>=<sp/>fopen(organization,<sp/></highlight><highlight class="stringliteral">&quot;ab&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>ab:<sp/>binary</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!file)<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;File<sp/>is<sp/>unopen.<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>organization<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fwrite(&amp;user,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="structlogin" kindref="compound">login</ref>),<sp/>1,<sp/>file)<sp/>!=<sp/>1)<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>writing<sp/>to<sp/>file.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose(file);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(file);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91" refid="structtracking" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtracking" kindref="compound">tracking</ref><sp/>{</highlight></codeline>
+<codeline lineno="92" refid="structtracking_1aa21aedaefed62fd34a198031b0669096" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structtracking_1aa21aedaefed62fd34a198031b0669096" kindref="member">timelines</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MA�N<sp/>MENU</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="event_8h_1a8396c50bf544009fb2fc4907b00cbad3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a8396c50bf544009fb2fc4907b00cbad3" kindref="member">mainMenu</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Main<sp/>Menu:\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>User<sp/>Authentication\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Project<sp/>Setup\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;3.<sp/>Task<sp/>Assignment\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;4.<sp/>Progress<sp/>Tracking\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;5.<sp/>Reporting\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;6.<sp/>Exit\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">//<sp/>user<sp/>login<sp/>and<sp/>register</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="event_8h_1a892642c57b48071fa94b5441913757f7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a892642c57b48071fa94b5441913757f7" kindref="member">userAuthentication</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Login<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Register<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;3.<sp/>Guest<sp/>Mode<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//<sp/>creat<sp/>the<sp/>project</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="event_8h_1a1946984079378a7832b7bd12b0db8ab1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a1946984079378a7832b7bd12b0db8ab1" kindref="member">projectSetup</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Create<sp/>Event:\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Manage<sp/>Event:\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment">//<sp/>creat<sp/>the<sp/>organization<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="event_8h_1ae3775081dae5d62a47eee5c62fa49995" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1ae3775081dae5d62a47eee5c62fa49995" kindref="member">type</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1)<sp/>Wedding&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2)<sp/>Birthday&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;3)<sp/>Bride&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;4)<sp/>Circumcision&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;5)<sp/>Engagement&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;6)<sp/>Baby<sp/>Shower&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="comment">//<sp/>create<sp/>the<sp/>organization<sp/>menu</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="event_8h_1ae83fcdbeb2b6757fc741ae953b633ee1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1ae83fcdbeb2b6757fc741ae953b633ee1" kindref="member">menu</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Food<sp/>Menu&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Cake<sp/>Menu&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//<sp/>create<sp/>the<sp/>organization<sp/>color<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="event_8h_1a28ad5e680af333d6c151de38eec62b2f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a28ad5e680af333d6c151de38eec62b2f" kindref="member">color</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Pink<sp/>and<sp/>Blue\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Red<sp/>and<sp/>Black\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;3.<sp/>Cream<sp/>color<sp/>and<sp/>Brown\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;4.<sp/>White<sp/>and<sp/>Black\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="comment">//<sp/>create<sp/>the<sp/>organization<sp/>place</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="event_8h_1ac5449ac02f64be365bf5c26935f6492c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1ac5449ac02f64be365bf5c26935f6492c" kindref="member">venue</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Indoor<sp/>event<sp/>hall\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Beach<sp/>Side\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;3.<sp/>Countryside<sp/>Organization\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="comment">//<sp/>List<sp/>the<sp/>user&apos;s<sp/>choice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="event_8h_1ac243716905eb772dbe20d2d6eea748f3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1ac243716905eb772dbe20d2d6eea748f3" kindref="member">userPlan</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structchoose" kindref="compound">choose</ref><sp/>create;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Your<sp/>type:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>create.<ref refid="structchoose_1a40a6c6e3a60704447208b1bfadaf1b79" kindref="member">type</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Your<sp/>venue:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>create.<ref refid="structchoose_1ae1fbdfbbceb385c9ccbab481a2226283" kindref="member">venue</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Your<sp/>color<sp/>type:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>create.<ref refid="structchoose_1af4a19f4eda9475c8f6ad8c63cc025d8e" kindref="member">color</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Your<sp/>menu:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>create.<ref refid="structchoose_1a27bc5ed0d2df16a22ba194506ebfda6c" kindref="member">menu</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="comment">//<sp/>planning<sp/>about<sp/>attendees<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="event_8h_1a1f8765795206d43d02d91bde681a0dff" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a1f8765795206d43d02d91bde681a0dff" kindref="member">taskAssignment</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Register<sp/>Attendees:<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Track<sp/>Attendees:<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="comment">//<sp/>organization<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="event_8h_1a356c9a49b0641afca235a98ca1ba8619" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a356c9a49b0641afca235a98ca1ba8619" kindref="member">progressTracking</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Plan<sp/>Timelines\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Organize<sp/>Activities\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="comment">//<sp/>plan<sp/>timelines</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="event_8h_1a576c35a3aa64f49e8f495fe5e33e29e9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a576c35a3aa64f49e8f495fe5e33e29e9" kindref="member">planTimelines</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>Morning<sp/>Event<sp/>(09.00-13.00)<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Noon<sp/>Event<sp/>(13.00-18.00)<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;3.<sp/>Evening<sp/>Event<sp/>(18.00-22.00)<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="comment">//<sp/>make<sp/>a<sp/>feedback</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="event_8h_1a6181497f68d6cb585303909e9ad34754" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event_8cpp_1a6181497f68d6cb585303909e9ad34754" kindref="member">feedback</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Gather<sp/>Feedback&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="C:/Users/Vıctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/event/src/event.cpp"/>
+    <location file="src/event/src/event.cpp"/>
   </compounddef>
 </doxygen>

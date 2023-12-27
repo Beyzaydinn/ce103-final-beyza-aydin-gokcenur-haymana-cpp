@@ -2,48 +2,46 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
   <compounddef id="event__test_8cpp" kind="file" language="C++">
     <compoundname>event_test.cpp</compoundname>
-    <includes local="yes">gtest/gtest.h</includes>
+    <includes local="no">gtest/gtest.h</includes>
     <includes local="yes">../../event/header/event.h</includes>
+    <includes local="yes">../../event/src/event.cpp</includes>
     <incdepgraph>
       <node id="3">
         <label>../../event/header/event.h</label>
       </node>
+      <node id="4">
+        <label>../../event/src/event.cpp</label>
+      </node>
       <node id="1">
-        <label>C:/Users/VÄ±ctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp</label>
+        <label>src/tests/event/event_test.cpp</label>
         <link refid="event__test_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>gtest/gtest.h</label>
       </node>
     </incdepgraph>
+    <innerclass refid="class_authenticate_login_test" prot="public">AuthenticateLoginTest</innerclass>
+    <innerclass refid="class_write_user_info_to_file_test" prot="public">WriteUserInfoToFileTest</innerclass>
+    <innerclass refid="class_user_record_test" prot="public">UserRecordTest</innerclass>
+    <innerclass refid="class_user_choice_test" prot="public">UserChoiceTest</innerclass>
+    <innerclass refid="classattendees_login_test" prot="public">attendeesLoginTest</innerclass>
       <sectiondef kind="func">
-      <memberdef kind="function" id="event__test_8cpp_1a482c78132635aee78ba873baf6d15091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::string</type>
-        <definition>std::string getMenuOutput</definition>
-        <argsstring>()</argsstring>
-        <name>getMenuOutput</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/VÄ±ctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="8" column="13" bodyfile="C:/Users/VÄ±ctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="8" bodyend="18"/>
-      </memberdef>
-      <memberdef kind="function" id="event__test_8cpp_1a40b6113e3811b4152e4f6193f88109d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="event__test_8cpp_1ab3ae7239453c98c658dd3e2088931a11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
-        <definition>TEST</definition>
-        <argsstring>(MainMenuTest, OutputCheck)</argsstring>
-        <name>TEST</name>
+        <definition>TEST_F</definition>
+        <argsstring>(AuthenticateLoginTest, CorrectPassword)</argsstring>
+        <name>TEST_F</name>
         <param>
-          <type>MainMenuTest</type>
+          <type><ref refid="class_authenticate_login_test" kindref="compound">AuthenticateLoginTest</ref></type>
         </param>
         <param>
-          <type>OutputCheck</type>
+          <type>CorrectPassword</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -51,7 +49,102 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/VÄ±ctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="20" column="1" bodyfile="C:/Users/VÄ±ctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="20" bodyend="32"/>
+        <location file="src/tests/event/event_test.cpp" line="12" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="12" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a45ed07d10e08253adf1a7f1ff569151b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_F</definition>
+        <argsstring>(AuthenticateLoginTest, IncorrectPassword)</argsstring>
+        <name>TEST_F</name>
+        <param>
+          <type><ref refid="class_authenticate_login_test" kindref="compound">AuthenticateLoginTest</ref></type>
+        </param>
+        <param>
+          <type>IncorrectPassword</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="22" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="22" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1ae5ff1eaf025a50607f0dc9d11b3c9d84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_F</definition>
+        <argsstring>(WriteUserInfoToFileTest, SuccessfulWrite)</argsstring>
+        <name>TEST_F</name>
+        <param>
+          <type><ref refid="class_write_user_info_to_file_test" kindref="compound">WriteUserInfoToFileTest</ref></type>
+        </param>
+        <param>
+          <type>SuccessfulWrite</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="40" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a7fa3ffffd37181ecdd594183f40968ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_F</definition>
+        <argsstring>(UserRecordTest, SuccessfulWrite)</argsstring>
+        <name>TEST_F</name>
+        <param>
+          <type><ref refid="class_user_record_test" kindref="compound">UserRecordTest</ref></type>
+        </param>
+        <param>
+          <type>SuccessfulWrite</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="54" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a397b3a4c567339d938ca8c74d81a53e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_F</definition>
+        <argsstring>(UserChoiceTest, SuccessfulWrite)</argsstring>
+        <name>TEST_F</name>
+        <param>
+          <type><ref refid="class_user_choice_test" kindref="compound">UserChoiceTest</ref></type>
+        </param>
+        <param>
+          <type>SuccessfulWrite</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="67" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="event__test_8cpp_1a59c39ac3815f9b4b96c1b532345a8066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_F</definition>
+        <argsstring>(attendeesLoginTest, SuccessfulWrite)</argsstring>
+        <name>TEST_F</name>
+        <param>
+          <type><ref refid="classattendees_login_test" kindref="compound">attendeesLoginTest</ref></type>
+        </param>
+        <param>
+          <type>SuccessfulWrite</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/event/event_test.cpp" line="80" column="1" bodyfile="src/tests/event/event_test.cpp" bodystart="80" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -72,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/VÄ±ctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" line="34" column="5" bodyfile="C:/Users/VÄ±ctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp" bodystart="34" bodyend="37"/>
+        <location file="src/tests/event/event_test.cpp" line="88" column="5" bodyfile="src/tests/event/event_test.cpp" bodystart="88" bodyend="91"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -80,47 +173,98 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gtest/gtest.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../../event/header/event.h&quot;</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Adjust<sp/>this<sp/>include<sp/>path<sp/>based<sp/>on<sp/>your<sp/>project<sp/>structure</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mainMenu&apos;yu<sp/>bir<sp/>dizeye<sp/>yazan<sp/>fonksiyon</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8" refid="event__test_8cpp_1a482c78132635aee78ba873baf6d15091" refkind="member"><highlight class="normal">std::string<sp/><ref refid="event__test_8cpp_1a482c78132635aee78ba873baf6d15091" kindref="member">getMenuOutput</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ostringstream<sp/>oss;</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\nMain<sp/>Menu:\n&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;1.<sp/>User<sp/>Authentication\n&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;2.<sp/>Project<sp/>Setup\n&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;3.<sp/>Task<sp/>Assignment\n&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;4.<sp/>Progress<sp/>Tracking\n&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;5.<sp/>Reporting\n&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;6.<sp/>Exit\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>oss.str();</highlight></codeline>
-<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="event__test_8cpp_1a40b6113e3811b4152e4f6193f88109d1" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1a40b6113e3811b4152e4f6193f88109d1" kindref="member">TEST</ref>(MainMenuTest,<sp/>OutputCheck)<sp/>{</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>getMenuOutput<sp/>fonksiyonunu<sp/>çaðýrarak<sp/>beklenen<sp/>çýktýyý al</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>expectedOutput<sp/>=<sp/><ref refid="event__test_8cpp_1a482c78132635aee78ba873baf6d15091" kindref="member">getMenuOutput</ref>();</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>mainMenu&apos;yu<sp/>çaðýrarak<sp/>gerçek<sp/>çýktýyý al</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ostringstream<sp/>realOutput;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>std::streambuf*<sp/>oldCoutBuffer<sp/>=<sp/>std::cout.rdbuf(realOutput.rdbuf());</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>mainMenu();</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout.rdbuf(oldCoutBuffer);</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Beklenen<sp/>çýktý ile gerçek<sp/>çýktýyý karþýlaþtýr</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(realOutput.str(),<sp/>expectedOutput);</highlight></codeline>
-<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>argv)<sp/>{</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>::testing::InitGoogleTest(&amp;argc,<sp/>argv);</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RUN_ALL_TESTS();</highlight></codeline>
-<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;gtest/gtest.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../../event/header/event.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../../event/src/event.cpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_authenticate_login_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_authenticate_login_test" kindref="compound">AuthenticateLoginTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="7" refid="class_authenticate_login_test_1a653365321ddb36daa2d7c938078bafd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_authenticate_login_test_1a653365321ddb36daa2d7c938078bafd4" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9" refid="class_authenticate_login_test_1a6466f1ce0628b3f7e3c547af92e1f8c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_authenticate_login_test_1a6466f1ce0628b3f7e3c547af92e1f8c1" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="12" refid="event__test_8cpp_1ab3ae7239453c98c658dd3e2088931a11" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1ab3ae7239453c98c658dd3e2088931a11" kindref="member">TEST_F</ref>(<ref refid="class_authenticate_login_test" kindref="compound">AuthenticateLoginTest</ref>,<sp/>CorrectPassword)<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>login<sp/>user;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>user.password<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;correct_password&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>enteredPassword<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;correct_password&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>result<sp/>=<sp/>authenticateLogin(user,<sp/>enteredPassword);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_TRUE(result)<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Authentication<sp/>should<sp/>be<sp/>successful<sp/>for<sp/>correct<sp/>password&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="event__test_8cpp_1a45ed07d10e08253adf1a7f1ff569151b" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1ab3ae7239453c98c658dd3e2088931a11" kindref="member">TEST_F</ref>(<ref refid="class_authenticate_login_test" kindref="compound">AuthenticateLoginTest</ref>,<sp/>IncorrectPassword)<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>login<sp/>user;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>user.password<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;correct_password&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>enteredPassword<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;incorrect_password&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>result<sp/>=<sp/>authenticateLogin(user,<sp/>enteredPassword);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_FALSE(result)<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Authentication<sp/>should<sp/>fail<sp/>for<sp/>incorrect<sp/>password&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_write_user_info_to_file_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_write_user_info_to_file_test" kindref="compound">WriteUserInfoToFileTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34" refid="class_write_user_info_to_file_test_1a8cd38d88fe2ecfb68e8f9b70b80c1a05" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_write_user_info_to_file_test_1a8cd38d88fe2ecfb68e8f9b70b80c1a05" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36" refid="class_write_user_info_to_file_test_1a3659eeaa8793685b21e084f8e9537d8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_write_user_info_to_file_test_1a3659eeaa8793685b21e084f8e9537d8e" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="event__test_8cpp_1ae5ff1eaf025a50607f0dc9d11b3c9d84" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1ab3ae7239453c98c658dd3e2088931a11" kindref="member">TEST_F</ref>(<ref refid="class_write_user_info_to_file_test" kindref="compound">WriteUserInfoToFileTest</ref>,<sp/>SuccessfulWrite)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>login<sp/>user;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>organization<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;event_organization.bin&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>result<sp/>=<sp/>writeUserInfoToFile(user,<sp/>organization);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_TRUE(result)<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Write<sp/>to<sp/>file<sp/>should<sp/>be<sp/>successful&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_user_record_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_user_record_test" kindref="compound">UserRecordTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49" refid="class_user_record_test_1afc43d108fe05ddf9acb32999db04fe8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_record_test_1afc43d108fe05ddf9acb32999db04fe8a" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51" refid="class_user_record_test_1af41553f51b4ba7339456fda8dab10376" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_record_test_1af41553f51b4ba7339456fda8dab10376" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="54" refid="event__test_8cpp_1a7fa3ffffd37181ecdd594183f40968ef" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1ab3ae7239453c98c658dd3e2088931a11" kindref="member">TEST_F</ref>(<ref refid="class_user_record_test" kindref="compound">UserRecordTest</ref>,<sp/>SuccessfulWrite)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>recording<sp/>store;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>organization<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;event_organization.bin&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>result<sp/>=<sp/>userRecord(store,<sp/>organization);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_TRUE(result)<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Write<sp/>to<sp/>file<sp/>should<sp/>be<sp/>successful&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60" refid="class_user_choice_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_user_choice_test" kindref="compound">UserChoiceTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="62" refid="class_user_choice_test_1a0c3aae9613f00334b2997ce3499b636d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_choice_test_1a0c3aae9613f00334b2997ce3499b636d" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64" refid="class_user_choice_test_1a116a01cacbaf755d265f9de075faf612" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_choice_test_1a116a01cacbaf755d265f9de075faf612" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">};<sp/></highlight></codeline>
+<codeline lineno="67" refid="event__test_8cpp_1a397b3a4c567339d938ca8c74d81a53e3" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1ab3ae7239453c98c658dd3e2088931a11" kindref="member">TEST_F</ref>(<ref refid="class_user_choice_test" kindref="compound">UserChoiceTest</ref>,<sp/>SuccessfulWrite)<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>choose<sp/>create;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>organization<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;event_organization.bin&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>result<sp/>=<sp/>userChoice(create,<sp/>organization);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_TRUE(result)<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Write<sp/>to<sp/>file<sp/>should<sp/>be<sp/>successful&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73" refid="classattendees_login_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classattendees_login_test" kindref="compound">attendeesLoginTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::testing::Test<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="75" refid="classattendees_login_test_1a0cffdfd22fd6f47966f1a43a8fc35ad0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classattendees_login_test_1a0cffdfd22fd6f47966f1a43a8fc35ad0" kindref="member">SetUp</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77" refid="classattendees_login_test_1a72ff9c52169b4a870c65799d2283fa6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classattendees_login_test_1a72ff9c52169b4a870c65799d2283fa6e" kindref="member">TearDown</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="80" refid="event__test_8cpp_1a59c39ac3815f9b4b96c1b532345a8066" refkind="member"><highlight class="normal"><ref refid="event__test_8cpp_1ab3ae7239453c98c658dd3e2088931a11" kindref="member">TEST_F</ref>(<ref refid="classattendees_login_test" kindref="compound">attendeesLoginTest</ref>,<sp/>SuccessfulWrite)<sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>login<sp/>user;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>organization<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;event_organization.bin&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>result<sp/>=<sp/>attendeesLogin(user,<sp/>organization);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT_TRUE(result)<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Write<sp/>to<sp/>file<sp/>should<sp/>be<sp/>successful&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="event__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>argv)<sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>::testing::InitGoogleTest(&amp;argc,<sp/>argv);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RUN_ALL_TESTS();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="C:/Users/VÄ±ctus/Desktop/ce103-final/ce103-final-beyza-aydin-gokcenur-haymana-cpp/src/tests/event/event_test.cpp"/>
+    <location file="src/tests/event/event_test.cpp"/>
   </compounddef>
 </doxygen>

@@ -8,6 +8,11 @@
 #define EVENT_H
 
 #include "../../utility/header/commonTypes.h"
+bool authenticateLogin();
+bool writeUserInfoToFile();
+bool userRecord();
+bool userChoice();
+bool attendeesLogin();
 int mainMenu();
 int userAuthentication();
 int projectSetup();

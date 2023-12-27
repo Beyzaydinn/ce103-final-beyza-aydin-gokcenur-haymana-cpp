@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['menu_0',['menu',['../structchoose.html#a27bc5ed0d2df16a22ba194506ebfda6c',1,'choose']]]
+  ['fullname_0',['fullname',['../structlogin.html#a79af2a0c4e68da9e8f46fcddb8709f58',1,'login']]]
 ];
